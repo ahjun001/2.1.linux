@@ -1,0 +1,12 @@
+removed '/home/perubu/Desktop/test/test/testing_2_dir/file2.txt'
+removed '/home/perubu/Desktop/test/test/testing_2_dir/file1.txt'
+
+
+removed '/home/perubu/Desktop/test/test/testing_0_dir/file2.txt'
+removed '/home/perubu/Desktop/test/test/testing_0_dir/file1.txt'
+
+
+removed '/home/perubu/Desktop/test/test/testing_1_dir/file2.txt'
+removed '/home/perubu/Desktop/test/test/testing_1_dir/file1.txt'
+/home/perubu/Desktop/test/test/testing_dir/file.txt
+

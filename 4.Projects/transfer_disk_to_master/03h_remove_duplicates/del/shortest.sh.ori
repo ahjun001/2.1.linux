@@ -1,0 +1,37 @@
+#!/bin/bash
+
+: '
+This script reads input from  stdin  and processes each line to keep the file in each group with the shortest path.
+It uses the  cut  command to extract the path from each line and compares the length of each path to find the shortest one in each group.
+Finally, it prints the shortest path for each group. You can use this script with the  fdupes  command like this:
+fdupes -r /path/to/directory | ./shortest_path.sh
+This will output the shortest path for each group of duplicate files found by  fdupes .
+'
+# Read input from stdin
+while read -r line; do
+    # Skip blank lines
+    if [[ -z "$line" ]]; then
+        continue
+    fi
+    # Get the path of the file
+    path=$(echo "$line" | cut -d " " -f 2-)
+    # Check if this is a new group
+    if [[ "$path" != "$prev_path" ]]; then
+        # If this is a new group, print the shortest path from the previous group
+        if [[ -n "$shortest_path" ]]; then
+            echo "$shortest_path"
+        fi
+        # Reset variables for the new group
+        shortest_path="$path"
+        prev_path="$path"
+    else
+        # If this is not a new group, update the shortest path if necessary
+        if ((${#path} < ${#shortest_path})); then
+            shortest_path="$path"
+        fi
+    fi
+done
+# Print the shortest path for the last group
+if [[ -n "$shortest_path" ]]; then
+    echo "$shortest_path"
+fi

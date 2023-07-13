@@ -1,0 +1,8 @@
+[Desktop Entry]
+Name=jupyter notebook MOOC Python3
+Exec=/home/perubu/Documents/Github/3.a.1-linux/Linux\\ Mint\\ 20/jupy_pj.sh
+Comment=jupyter nb
+Terminal=true
+Icon=/home/perubu/Documents/Github/3.a.1-linux/Linux Mint 20/LinuxMint: pj's environment/jupyter.png
+Type=Application
+Name[en_US]=jupyter notebook MOOC Python3.desktop

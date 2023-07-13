@@ -1,0 +1,38 @@
+= Linux
+:backend: asciidoctor
+:github-flavored:  // enables GitHub-specific features like tables, task lists, and fenced code blocks
+ifndef::env-github[:icons: font]
+ifdef::env-github[]
+ // Naughty Waco Temps
+:note-caption: :paperclip:
+:tip-caption: :bulb:
+:warning-caption: :warning:
+:caution-caption: :fire:
+:important-caption: :exclamation:
+endif::[]
+:toc: // gets a ToC after the title
+:toclevels: 1
+// :sectnums: // gets ToC sections to be numbered
+:sectnumlevels: 3 // max # of numbering levels
+
+== Discover
+
+=== Systems
+- Linux Mint is the most user friendly one
+- Fedora, Centos: one day
+- gparted: has a superb selection of software, all running in RAM in a ZFS partition
+- rescuezilla: to make complete machine backups
+- Windows 10, windows 7: one day might be needed
+== Learn
+
+== Cultivate
+
+== Develop & deploy
+
+== Todo
+
+* check if ressource files in Install _ressources should be there, or installed ad-hoc with their corresponding app
+* 02_update_repos.sh needs to be re-written
+* is freemind list necessary?
+* what to do with insert_lines_in_files.sh?
+* what to do with wip_a_post_install_system.sh (2 files)?

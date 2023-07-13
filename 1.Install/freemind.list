@@ -1,0 +1,2 @@
+deb http://eric.lavar.de/comp/linux/debian/ testing/
+deb-src http://eric.lavar.de/comp/linux/debian/ testing/

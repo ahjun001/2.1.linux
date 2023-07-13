@@ -1,0 +1,8 @@
+[Desktop Entry]
+Name=WeChat_new
+Exec=/home/perubu/Documents/Github/3.a.1-linux/Linux\\ Mint\\ 20/wechat.sh
+Comment=WeChat_new
+Terminal=false
+Icon=/home/perubu/Documents/Github/3.a.1-linux/Linux Mint 20/LinuxMint: pj's environment/wechat.png
+Type=Application
+Name[en_US]=WeChat.desktop

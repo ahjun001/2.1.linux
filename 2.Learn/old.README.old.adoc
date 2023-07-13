@@ -1,0 +1,22 @@
+# 3.c-install-n-utils
+All scripts in this repo are meant to:
+
+(i) automate post-install Fedora KDE and Kubuntu distribution
+All files are prefixed with double digit_
+0n_ prefix are for immediate tasks to install VPN, tune and update distro, and immediately needed apps such as git, vim, nvim, and vscode.
+99_ prefixed scripts will install, un-install, and reinstall other applications.
+Scripts are meant to work both for Fedora KDE and Kubuntu, and should work independantly of others.  Therefore all should first check for environment.
+Scripts are meant to be re-used for new version of distribution.  So applications that are more challenging to install such as the ones that necessitates Wine, should be installed first.
+80_ prefixed scripts are meant to install applications under Wine.
+
+(ii) provide utils to complement desktop environment for daily tasks
+those are prefixed with a comma ',', they all lead to a link in /etc/local/sbin
+Examples are as follows:
+- re-activate wifi networks when broken by VPN
+- reduce picture files used by Anki application
+
+(iii) ease administration & maintenance tasks, such as:
+- backup volumes
+- classify, file, and store documents
+
+This repo, along with the ./_resources directory should be self-sufficient, that is should not call scripts from other repos
