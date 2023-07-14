@@ -13,10 +13,11 @@ export VERSION_CODENAME
 SOURCE_DIR=$(pwd)
 export SOURCE_DIR
 
-STENV_CONF=/usr/local/sbin/01_set_env_variables.conf
-[[ -L $STENV_CONF ]] && STENV_CONF=/home/perubu/Documents/Github/3.c-install-n-utils/01_set_env_variables.conf
+SET_ENV_CONF=/usr/local/sbin/01_set_env_variables.conf
+[[ -L $SET_ENV_CONF ]] && SET_ENV_CONF=/home/perubu/Documents/Github/3.c-install-n-utils/01_set_env_variables.conf
 
-# unlocking exit on error so as to keep comment lines in 01_set_env_variables.conf
+# unlocking exit on error so as to keep comment lines in 01_set_env_variables.conf.
+# Otherwise these lines would trigger errors and the script would exit
 set +e
 # all others, as defined in conf file
 while read -r LINE; do
