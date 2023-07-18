@@ -13,4 +13,8 @@ if command -v yt-dlp >>"$INSTALL_LOG"; then
     if [[ "$0" == "${BASH_SOURCE[0]}" ]]; then exit 0; else return 0; fi
 fi
 
-pipx install yt-dlp >"$INSTALL_LOG" 2>&1
+
+# pipx install yt-dlp >"$INSTALL_LOG" 2>&1
+
+sudo wget https://github.com/yt-dlp/yt-dlp/releases/latest/download/yt-dlp -O /usr/local/bin/yt-dlp
+sudo chmod a+rx /usr/local/bin/yt-dlp  # Make executable
