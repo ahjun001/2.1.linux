@@ -4,7 +4,7 @@
 # update repositories, possibly on data partition
 
 set -euo pipefail
-IFS=$'\n\t'
+
 # shellcheck source=/dev/null
 . ./01_set_env_variables.sh
 

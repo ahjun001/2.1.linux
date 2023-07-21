@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
+# shellcheck disable=
 
 # post install script to install favorite environment, apps, and settings
 
@@ -80,5 +81,5 @@ bash ./02_httrack.sh
 
 # install printer driver
 bash ./02_install_printer_driver.sh
-
+ 
 cat "$INSTALL_LOG"
