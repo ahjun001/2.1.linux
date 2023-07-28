@@ -26,13 +26,13 @@ G_MODIFIED=false
 # GRUB_SAVEDEFAULT=true is not in /etc/default/grub at install
 if grep 'GRUB_SAVEDEFAULT=true' "$G_FILE"; then
     case $ACT in
-    x) [ "$MY_TRACE" = true ] && echo "GRUB_SAVEDEFAULT=true already in $G_FILE : nothing to do" ;;
+    x) $DBG "GRUB_SAVEDEFAULT=true already in $G_FILE : nothing to do" ;;
     u) sudo sed -i '/GRUB_SAVEDEFAULT/d' $G_FILE && echo "GRUB_SAVEDEFAULT line deleted in $G_FILE" && G_MODIFIED=true ;;
     *) echo "Should never happen" && exit 1 ;;
     esac
 else
     case $ACT in
-    x) echo GRUB_SAVEDEFAULT=true | sudo tee -a "$G_FILE" && [ "$MY_TRACE" = true ] && echo "GRUB_SAVEDEFAULT=true added to $G_FILE" && G_MODIFIED=true ;;
+    x) echo GRUB_SAVEDEFAULT=true | sudo tee -a "$G_FILE" && $DBG "GRUB_SAVEDEFAULT=true added to $G_FILE" && G_MODIFIED=true ;;
     u) echo "GRUB_SAVEDEFAULT was not found in $G_FILE : nothing to do" ;;
     *) echo "Should never happen" && exit 1 ;;
     esac
@@ -42,12 +42,12 @@ fi
 if grep '^GRUB_TERMINAL_OUTPUT' "$G_FILE"; then
     case $ACT in
     x) sudo sed -i '/^GRUB_TERMINAL_OUTPUT/s/^/# /' "$G_FILE" && echo "GRUB_TERMINAL_OUTPUT commented out in $G_FILE" && G_MODIFIED=true ;;
-    u) [ "$MY_TRACE" = true ] && echo "GRUB_TERMINAL_OUTPUT is already active in $G_FILE : nothing to do" ;;
+    u) $DBG "GRUB_TERMINAL_OUTPUT is already active in $G_FILE : nothing to do" ;;
     *) echo "Should never happen" && exit 1 ;;
     esac
 else
     case $ACT in
-    x) [ "$MY_TRACE" = true ] && echo "GRUB_TERMINAL_OUTPUT is not active in $G_FILE : nothing to do" ;;
+    x) $DBG "GRUB_TERMINAL_OUTPUT is not active in $G_FILE : nothing to do" ;;
     u) sudo sed -i '/# GRUB_TERMINAL_OUTPUT/s/# //' "$G_FILE" && echo "GRUB_TERMINAL_OUTPUT line activated in $G_FILE" && G_MODIFIED=true ;;
     *) echo "Should never happen" && exit 1 ;;
     esac
@@ -59,26 +59,26 @@ MY_TH_DIR=grub2-theme-breeze
 case $ACT in
 x)
     if [ -d "$THEME_DIRS" ]; then
-        [ "$MY_TRACE" = true ] && echo "$THEME_DIRS exists already ; nothing to do"
+        $DBG "$THEME_DIRS exists already ; nothing to do"
     else
         sudo mkdir -v "$THEME_DIRS"
     fi
     if [ -d "$THEME_DIRS$MY_TH_DIR" ]; then
-        [ "$MY_TRACE" = true ] && echo "$THEME_DIRS$MY_TH_DIR exists already ; nothing to do"
+        $DBG "$THEME_DIRS$MY_TH_DIR exists already ; nothing to do"
     else
-        sudo cp -r "$SOURCE_DIR"'Local resources TBU/themes/'"$MY_TH_DIR" "$THEME_DIRS" && [ "$MY_TRACE" = true ] && echo "$THEME_DIRS$MY_TH_DIR was copied in $THEME_DIRS"
+        sudo cp -r "$SOURCE_DIR"'Local resources TBU/themes/'"$MY_TH_DIR" "$THEME_DIRS" && $DBG "$THEME_DIRS$MY_TH_DIR was copied in $THEME_DIRS"
     fi
     ;;
 u)
     if [ -d "$THEME_DIRS$MY_TH_DIR" ]; then
         sudo rm -rv "$THEME_DIRS$MY_TH_DIR"
     else
-        [ "$MY_TRACE" = true ] && echo "$THEME_DIRS$MY_TH_DIR does not exist ; nothing to do"
+        $DBG "$THEME_DIRS$MY_TH_DIR does not exist ; nothing to do"
     fi
     if [ -d "$THEME_DIRS" ]; then
         sudo rmdir -v --ignore-fail-on-non-empty "$THEME_DIRS"
     else
-        [ "$MY_TRACE" = true ] && echo "$THEME_DIRS does not exist ; nothing to do"
+        $DBG "$THEME_DIRS does not exist ; nothing to do"
     fi
     ;;
 *) echo "Should never happen" && exit 1 ;;
@@ -87,13 +87,13 @@ esac
 # GRUB_THEME is not in /etc/default/grub at install
 if grep 'GRUB_THEME' "$G_FILE"; then
     case $ACT in
-    x) [ "$MY_TRACE" = true ] && echo "GRUB_THEME already in $G_FILE : nothing to do" ;;
+    x) $DBG "GRUB_THEME already in $G_FILE : nothing to do" ;;
     u) sudo sed -i '/GRUB_THEME/d' $G_FILE && echo "GRUB_THEME line deleted in $G_FILE" && G_MODIFIED=true ;;
     *) echo "Should never happen" && exit 1 ;;
     esac
 else
     case $ACT in
-    x) echo GRUB_THEME="/usr/share/grub/themes/$MY_TH_DIR/breeze/theme.txt" | sudo tee -a "$G_FILE" && [ "$MY_TRACE" = true ] && echo "GRUB_THEME added to $G_FILE" && G_MODIFIED=true ;;
+    x) echo GRUB_THEME="/usr/share/grub/themes/$MY_TH_DIR/breeze/theme.txt" | sudo tee -a "$G_FILE" && $DBG "GRUB_THEME added to $G_FILE" && G_MODIFIED=true ;;
     u) echo "GRUB_THEME was not found in $G_FILE : nothing to do" ;;
     *) echo "Should never happen" && exit 1 ;;
     esac

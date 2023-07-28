@@ -21,27 +21,26 @@ fedora)
         if grep -q "$line" /etc/dnf/dnf.conf; then
             if [ "$ACT" = 'u' ]; then
                 sudo sed -i "/$line/d" /etc/dnf/dnf.conf
-                [ "$MY_TRACE" = true ] && echo "deleted line $line"
+                $DBG "deleted line $line"
             else
-                [ "$MY_TRACE" = true ] && echo "$line already in file, nothing done"
+                $DBG "$line already in file, nothing done"
             fi
         else
             if [ "$ACT" = 'u' ]; then
-                [ "$MY_TRACE" = true ] && echo "$line not found, nothing to be deleted"
+                $DBG "$line not found, nothing to be deleted"
             else
                 echo "$line" | sudo tee -a /etc/dnf/dnf.conf
-                [ "$MY_TRACE" = true ] && echo "added line $line"
+                $DBG "added line $line"
             fi
         fi
     done
     [ "$LAUNCH_APP" = true ] && less /etc/dnf/dnf.conf
     ;;
 linuxmint | ubuntu)
-    echo "$0 not implemented in $ID"
-    # exit 1
+    $DBG -e "\n$0 not implemented in $ID\n"
     ;;
 *)
-    echo "Distribution $ID not recognized, exiting ..."
+    echo -e "Distribution $ID not recognized, exiting ...\n"
     exit 1
     ;;
 esac

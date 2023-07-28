@@ -15,7 +15,7 @@ fi
 
 case $ID in
 fedora)
-    echo "$0 not implemented in $ID"
+    echo "\n$0 not implemented in $ID\n"
     ;;
 linuxmint | ubuntu)
     sudo apt install fcitx fcitx-sunpinyin

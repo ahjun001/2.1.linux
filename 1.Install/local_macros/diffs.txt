@@ -1,0 +1,8 @@
+sending incremental file list
+deleting new_dump/
+deleting used from 2023-07-27-on
+deleting new_dump.txt
+used from 2023-07-01-on
+
+sent 79,144 bytes  received 683 bytes  159,654.00 bytes/sec
+total size is 20,571,495,957  speedup is 257,700.98 (DRY RUN)

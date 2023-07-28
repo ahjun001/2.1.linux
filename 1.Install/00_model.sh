@@ -15,10 +15,10 @@ if command -v $PROGRAM >>"$INSTALL_LOG"; then exit 0; fi
 
 case $ID in
 fedora)
-    echo "$PROGRAM not implemented in $ID"
+    $DBG -e "\n$PROGRAM not implemented in $ID\n"
     ;;
 linuxmint | ubuntu)
-    echo "$PROGRAM not implemented in $ID"
+    $DBG -e "\n$PROGRAM not implemented in $ID\n"
     ;;
 *)
     echo "Distribution $ID not recognized, exiting ..."

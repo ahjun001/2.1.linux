@@ -1,27 +1,22 @@
 #!/usr/bin/env bash
+# shellcheck disable=SC2034
 
 set -euo pipefail
 
 # export set environment, mainly ID = linuxmint / ubuntu / fedora
 # shellcheck source=/dev/null
 . /etc/os-release >/dev/null
-export ID
-export VERSION_CODENAME
+
+export ID               #  linuxmint
+export VERSION_CODENAME # vera
 
 # scripts & resources root directory, taken as reference when calling sub-scripts
 # careful if script not in root (as for vim, nvim, code)
 SOURCE_DIR=$(pwd)
 export SOURCE_DIR
 
-SET_ENV_CONF=/usr/local/sbin/01_set_env_variables.conf
-[[ -L $SET_ENV_CONF ]] && SET_ENV_CONF=/home/perubu/Documents/Github/3.c-install-n-utils/01_set_env_variables.conf
+# info verbose debug trace
+DBG='echo' # 'echo' :
 
-# unlocking exit on error so as to keep comment lines in 01_set_env_variables.conf.
-# Otherwise these lines would trigger errors and the script would exit
-set +e
-# all others, as defined in conf file
-while read -r LINE; do
-    declare "$LINE" 2>/dev/null
-    export "${LINE%=*}" 2>/dev/null
-done </usr/local/sbin/01_set_env_variables.conf
-set -e
+# lauch apps after install
+LAUNCH_APP=true

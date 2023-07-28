@@ -38,15 +38,6 @@ my_orig='/home/perubu/Documents/Github/3.c-install-n-utils/02_zsh/.zshrc'
 my_link=/home/perubu/"$(basename "$my_orig")"
 make_a_link
 
-# link to Github 01_post_install.sh so that google chrome could be updated from any directory
-# and keep the consistency of reporting at install / re-install time
-my_orig='/home/perubu/Documents/Github/3.c-install-n-utils/01_set_env_variables.sh'
-my_link=/usr/local/sbin/
-make_a_link
-my_orig='/home/perubu/Documents/Github/3.c-install-n-utils/01_set_env_variables.conf'
-my_link=/usr/local/sbin/
-make_a_link
-
 # link to all Github bash scripts whose filename starts with ,
 if ! find /home/perubu/Documents/Github/3.c-install-n-utils/ \
    -type f -name ',*.sh' \
