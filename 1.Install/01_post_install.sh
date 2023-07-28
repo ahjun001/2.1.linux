@@ -4,7 +4,7 @@
 # post install script to install favorite environment, apps, and settings
 
 set -euo pipefail
-set -x
+
 
 . ~/Documents/Github/2.1.Linux/1.Install/01_set_env_variables.sh
 
