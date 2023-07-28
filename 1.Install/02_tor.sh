@@ -6,12 +6,12 @@
 set -euo pipefail
 
 # shellcheck source=/dev/null
-. ./01_set_env_variables.sh # to get VERSION_CODENAME
+. ~/Documents/Github/2.1.Linux/1.Install/01_set_env_variables.sh # to get VERSION_CODENAME
 
 packageNeeded=torbrowser
 # Exit if command is already installed
 if command -v "$packageNeeded" >>"$INSTALL_LOG"; then
-    if [[ "$0" == "${BASH_SOURCE[0]}" ]]; then exit 0; else return 0; fi
+    if [[ "$0" == "${BASH_SOURCE[0]}" ]]; then [[ "$0" == "${BASH_SOURCE[0]}" ]] && exit 0 || return 0; else return 0; fi
 fi
 
 case $ID in

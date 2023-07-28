@@ -6,16 +6,16 @@
 set -euo pipefail
 
 # shellcheck source=/dev/null
-. ./01_set_env_variables.sh
+. ~/Documents/Github/2.1.Linux/1.Install/01_set_env_variables.sh
 
 # Exit if command is already installed
 if command -v fcitx >>"$INSTALL_LOG"; then
-    if [[ "$0" == "${BASH_SOURCE[0]}" ]]; then exit 0; else return 0; fi
+    if [[ "$0" == "${BASH_SOURCE[0]}" ]]; then [[ "$0" == "${BASH_SOURCE[0]}" ]] && exit 0 || return 0; else return 0; fi
 fi
 
 case $ID in
 fedora)
-    echo "\n$0 not implemented in $ID\n"
+    echo -e "\n$0 not implemented in $ID\n"
     ;;
 linuxmint | ubuntu)
     sudo apt install fcitx fcitx-sunpinyin

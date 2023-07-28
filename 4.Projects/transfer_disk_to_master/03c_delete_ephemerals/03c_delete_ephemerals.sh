@@ -65,10 +65,10 @@ for dir in "${dirs[@]}"; do
         \))
 done
 
-[[ ${#trash_l[@]} == 0 ]] && exit 0
+[[ ${#trash_l[@]} == 0 ]] && [[ "$0" == "${BASH_SOURCE[0]}" ]] && exit 0 || return 0
 
 for f in "${trash_l[@]}"; do gio trash "$f"; done
 
 Clean_trash
 
-exit 0
+[[ "$0" == "${BASH_SOURCE[0]}" ]] && exit 0 || return 0

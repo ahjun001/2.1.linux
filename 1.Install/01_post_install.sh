@@ -1,24 +1,27 @@
 #!/usr/bin/env bash
-# shellcheck disable=SC1091
+# shellcheck disable=SC1090,SC1091
 
 # post install script to install favorite environment, apps, and settings
 
 set -euo pipefail
+set -x
 
-. ./01_set_env_variables.sh
+. ~/Documents/Github/2.1.Linux/1.Install/01_set_env_variables.sh
 
 # speed up Linux Package Manager
 . ./02_speed_up_dnf_n_apt.sh
 
 # install vim
 PKG_DIR=~/Documents/Github/2.1.Vim 
-[[ -d $PKG_DIR ]] || git clone https://github.com/ahjun001/2.1.Vim $PKG_DIR && exit
-. ./02_vim/02_vim.sh
-
-: && exit
+[[ -d $PKG_DIR ]] || git clone https://github.com/ahjun001/2.1.Vim $PKG_DIR
+. "$PKG_DIR"/1.Install/install_pj.sh
 
 # install nvim
-. ./02_vim/02_nvim.sh
+PKG_DIR=~/Documents/Github/2.2.Nvim 
+[[ -d $PKG_DIR ]] || git clone https://github.com/ahjun001/2.2.Nvim $PKG_DIR
+. "$PKG_DIR"/1.Install/install_pj.sh
+
+: && exit
 
 # install vscode
 . ./02_code/02_code.sh

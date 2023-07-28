@@ -6,7 +6,7 @@
 set -euo pipefail
 
 # shellcheck source=/dev/null
-. ./01_set_env_variables.sh
+. ~/Documents/Github/2.1.Linux/1.Install/01_set_env_variables.sh
 
 # make directories that will contain repositories files (not links to files)
 case $ID in

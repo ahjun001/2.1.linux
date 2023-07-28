@@ -6,7 +6,7 @@
 set -euo pipefail
 
 # shellcheck source=/dev/null
-. ./01_set_env_variables.sh
+. ~/Documents/Github/2.1.Linux/1.Install/01_set_env_variables.sh
 
 # run with arg x to perform, u  to undo; argument is required to comply with set -u
 case $# in

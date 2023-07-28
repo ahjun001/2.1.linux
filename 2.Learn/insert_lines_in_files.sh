@@ -7,7 +7,7 @@
 set -euo pipefail
 
 # shellcheck source=/dev/null
-. ./01_set_env_variables.sh
+. ~/Documents/Github/2.1.Linux/1.Install/01_set_env_variables.sh
 
 files=(
     '01_post_install.sh'

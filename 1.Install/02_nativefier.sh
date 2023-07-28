@@ -6,17 +6,17 @@
 set -euo pipefail
 
 # shellcheck source=/dev/null
-. ./01_set_env_variables.sh
+. ~/Documents/Github/2.1.Linux/1.Install/01_set_env_variables.sh
 
 # Exit if command is already installed
 if command -v nativefier >>"$INSTALL_LOG"; then
-    if [[ "$0" == "${BASH_SOURCE[0]}" ]]; then exit 0; else return 0; fi
+    if [[ "$0" == "${BASH_SOURCE[0]}" ]]; then [[ "$0" == "${BASH_SOURCE[0]}" ]] && exit 0 || return 0; else return 0; fi
 fi
 
 sudo npm install nativefier -g
 
-[[ $LAUNCH_APP = true ]] && (cd /tmp || exit) && nativefier -p linux -a x64 \
+$RUN  (cd /tmp || exit) && nativefier -p linux -a x64 \
     -u 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Brave Chrome/89.0.4389.72 Safari/537.36' \
     https://youtube.com
 
-[[ $LAUNCH_APP = true ]] && /tmp/YouTube-linux-x64/YouTube
+$RUN  /tmp/YouTube-linux-x64/YouTube

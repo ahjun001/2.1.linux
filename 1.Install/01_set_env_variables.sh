@@ -19,4 +19,4 @@ export SOURCE_DIR
 DBG='echo' # 'echo' :
 
 # lauch apps after install
-LAUNCH_APP=true
+RUN=; # ;  or :

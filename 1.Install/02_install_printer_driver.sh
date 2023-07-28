@@ -7,7 +7,7 @@
 set -euo pipefail
 
 # shellcheck source=/dev/null
-. ./01_set_env_variables.sh
+. ~/Documents/Github/2.1.Linux/1.Install/01_set_env_variables.sh
 
 if [[ "$0" == "${BASH_SOURCE[0]}" ]] ||
     ! dpkg-query -s printer-driver-fujixerox >"$INSTALL_LOG" ||
