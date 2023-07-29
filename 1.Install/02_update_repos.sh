@@ -8,6 +8,8 @@ set -euo pipefail
 # shellcheck source=/dev/null
 . ~/Documents/Github/2.1.Linux/1.Install/01_set_env_variables.sh
 
+$DBG now in "$0"
+
 # make directories that will contain repositories files (not links to files)
 case $ID in
 fedora | ubuntu)

@@ -8,6 +8,8 @@ set -euo pipefail
 # shellcheck source=/dev/null
 . ~/Documents/Github/2.1.Linux/1.Install/01_set_env_variables.sh
 
+$DBG now in "$0"
+
 program=shellspec
 # Exit if command is already installed
 if command -v "$program" >>"$INSTALL_LOG"; then

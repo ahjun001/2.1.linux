@@ -10,6 +10,8 @@ set -euo pipefail
 
 $DBG now in "$0"
 
+$DBG now in "$0"
+
 case $ID in
 fedora)
     #dnf flags

@@ -5,26 +5,29 @@
 
 set -euo pipefail
 
-
 . ~/Documents/Github/2.1.Linux/1.Install/01_set_env_variables.sh
+
+$DBG now in "$0"
 
 # speed up Linux Package Manager
 . ./02_speed_up_dnf_n_apt.sh
 
 # install vim
-PKG_DIR=~/Documents/Github/2.1.Vim 
+PKG_DIR=~/Documents/Github/2.1.Vim
 [[ -d $PKG_DIR ]] || git clone https://github.com/ahjun001/2.1.Vim $PKG_DIR
 . "$PKG_DIR"/1.Install/install_pj.sh
 
 # install nvim
-PKG_DIR=~/Documents/Github/2.2.Nvim 
-[[ -d $PKG_DIR ]] || git clone https://github.com/ahjun001/2.2.Nvim $PKG_DIR
+# PKG_DIR=~/Documents/Github/2.2.Nvim
+# [[ -d $PKG_DIR ]] || git clone https://github.com/ahjun001/2.2.Nvim $PKG_DIR
+# . "$PKG_DIR"/1.Install/install_pj.sh
+
+# install vscode
+PKG_DIR=~/Documents/Github/2.2.VSCode
+[[ -d $PKG_DIR ]] || git clone https://github.com/ahjun001/2.2.VSCode $PKG_DIR
 . "$PKG_DIR"/1.Install/install_pj.sh
 
 : && exit
-
-# install vscode
-. ./02_code/02_code.sh
 
 # install git, required to install zsh & oh-my-zsh
 . ./02_git.sh
