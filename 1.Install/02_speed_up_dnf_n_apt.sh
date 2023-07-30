@@ -8,9 +8,7 @@ set -euo pipefail
 # shellcheck source=/dev/null
 . ~/Documents/Github/2.1.Linux/1.Install/01_set_env_variables.sh
 
-$DBG now in "$0"
-
-$DBG now in "$0"
+$DBG now in "${BASH_SOURCE[0]}" 
 
 case $ID in
 fedora)
@@ -38,10 +36,10 @@ fedora)
             fi
         fi
     done
-    [ "$LAUNCH_APP" = true ] && less /etc/dnf/dnf.conf
+    $RUN less /etc/dnf/dnf.conf
     ;;
 linuxmint | ubuntu)
-    $DBG -e "\n$0 not implemented in $ID\n"
+    [[ "$0" == "${BASH_SOURCE[0]}" ]] && exit 0 || return 0
     ;;
 *)
     echo -e "Distribution $ID not recognized, exiting ...\n"

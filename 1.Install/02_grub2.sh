@@ -8,7 +8,7 @@ set -euo pipefail
 # shellcheck source=/dev/null
 . ~/Documents/Github/2.1.Linux/1.Install/01_set_env_variables.sh
 
-$DBG now in "$0"
+$DBG now in "${BASH_SOURCE[0]}" 
 
 # run with arg x to perform, u  to undo; argument is required to comply with set -u
 case $# in

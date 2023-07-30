@@ -17,6 +17,7 @@ export SOURCE_DIR
 
 # info verbose debug trace
 DBG='echo' # 'echo' :
+# DBG=:
 
 # lauch apps after install
-RUN=; # ;  or :
+RUN= # ;  or :

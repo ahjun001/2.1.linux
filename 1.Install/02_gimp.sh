@@ -9,7 +9,7 @@ set -euo pipefail
 # shellcheck source=/dev/null
 . ~/Documents/Github/2.1.Linux/1.Install/01_set_env_variables.sh
 
-$DBG now in "$0"
+$DBG now in "${BASH_SOURCE[0]}" 
 
 # Exit if command is already installed
 if command -v gimp >>"$INSTALL_LOG"; then

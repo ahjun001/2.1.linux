@@ -7,15 +7,38 @@ set -euo pipefail
 
 . ~/Documents/Github/2.1.Linux/1.Install/01_set_env_variables.sh
 
-$DBG now in "$0"
+$DBG now in "${BASH_SOURCE[0]}"
 
 # speed up Linux Package Manager
 . ./02_speed_up_dnf_n_apt.sh
 
+# as a prerequesite install all paakages that are not included in the default distribution
+# and install siomply with the package manager
+
+for APP in git; do
+    if command -v "$APP" >/dev/null; then
+        $DBG "$0" "$APP" is already installed
+        continue
+    fi
+
+    case $ID in
+    fedora)
+        sudo dnf install $APP
+        ;;
+    linuxmint | ubuntu)
+        sudo apt install $APP
+        ;;
+    *)
+        echo "Distribution $ID not recognized, exiting ..."
+        exit 1
+        ;;
+    esac
+done
+
 # install vim
 PKG_DIR=~/Documents/Github/2.1.Vim
 [[ -d $PKG_DIR ]] || git clone https://github.com/ahjun001/2.1.Vim $PKG_DIR
-. "$PKG_DIR"/1.Install/install_pj.sh
+bash "$PKG_DIR"/1.Install/install_pj.sh
 
 # install nvim
 # PKG_DIR=~/Documents/Github/2.2.Nvim
