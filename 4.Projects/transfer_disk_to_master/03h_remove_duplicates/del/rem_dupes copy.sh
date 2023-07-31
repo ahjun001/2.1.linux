@@ -1,7 +1,7 @@
 #!/bin/bash
 
 set -euo pipefail
-echo $'\nnow in '"$(basename "${BASH_SOURCE[0]}")"$'\n'
+echo $'\n'"$(basename "${BASH_SOURCE[0]}")"$'\n'
 
 CWD="${0%/*}"
 

@@ -7,7 +7,7 @@ set -euo pipefail
 
 . ~/Documents/Github/2.1.Linux/1.Install/01_set_env_variables.sh
 
-$DBG now in "${BASH_SOURCE[0]}"
+$DBG $'\n'"${BASH_SOURCE[0]#/home/perubu/Documents/Github/}"
 
 # speed up Linux Package Manager
 . ./02_speed_up_dnf_n_apt.sh
@@ -15,9 +15,10 @@ $DBG now in "${BASH_SOURCE[0]}"
 # as a prerequesite install all paakages that are not included in the default distribution
 # and install siomply with the package manager
 
+$DBG $'\nInstalling with package manager'
 for APP in git; do
     if command -v "$APP" >/dev/null; then
-        $DBG "$0" "$APP" is already installed
+        $DBG $'\t'"$APP" is already installed
         continue
     fi
 
@@ -41,9 +42,9 @@ PKG_DIR=~/Documents/Github/2.1.Vim
 bash "$PKG_DIR"/1.Install/install_pj.sh
 
 # install nvim
-# PKG_DIR=~/Documents/Github/2.2.Nvim
-# [[ -d $PKG_DIR ]] || git clone https://github.com/ahjun001/2.2.Nvim $PKG_DIR
-# . "$PKG_DIR"/1.Install/install_pj.sh
+PKG_DIR=~/Documents/Github/2.2.Nvim
+[[ -d $PKG_DIR ]] || git clone https://github.com/ahjun001/2.2.Nvim $PKG_DIR
+. "$PKG_DIR"/1.Install/install_pj.sh
 
 # install vscode
 PKG_DIR=~/Documents/Github/2.2.VSCode

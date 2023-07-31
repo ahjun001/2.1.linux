@@ -9,7 +9,7 @@ set -euo pipefail
 # shellcheck source=/dev/null
 . ~/Documents/Github/2.1.Linux/1.Install/01_set_env_variables.sh
 
-$DBG now in "${BASH_SOURCE[0]}" 
+$DBG $'\n'"${BASH_SOURCE[0]#/home/perubu/Documents/Github/}" 
 
 if [[ "$0" == "${BASH_SOURCE[0]}" ]] ||
     ! dpkg-query -s printer-driver-fujixerox >"$INSTALL_LOG" ||

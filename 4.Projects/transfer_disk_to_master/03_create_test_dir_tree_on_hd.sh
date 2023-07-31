@@ -2,7 +2,7 @@
 
 set -euo pipefail
 
-echo $'\nnow in '"$(basename "${BASH_SOURCE[0]}")"$'\n'
+echo $'\n'"$(basename "${BASH_SOURCE[0]}")"$'\n'
 
 SRCE=/media/perubu/Toshiba_4TB/
 

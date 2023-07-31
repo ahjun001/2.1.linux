@@ -16,63 +16,63 @@
 /home/perubu/Desktop/test/Documents/3.Info_tech_n_systems/a.Main_technos/3.Python/Books/The_Python_3_Standard_Library_by_Example_Doug_Hellmann.pdf
 /home/perubu/Desktop/test/Documents/3.Info_tech_n_systems/a.Main_technos/3.Python/Study/learning_materials/stock/The_Python_3_Standard_Library_by_Example_Doug_Hellmann.pdf
 
-/home/perubu/Desktop/test/Documents/3.Info_tech_n_systems/a.Main_technos/3.Python/Study/python_coding/PythonForProgrammers-master/examples/ch10/snippets_ipynb/card_images/queen_of_hearts.svg
-/home/perubu/Desktop/test/Documents/3.Info_tech_n_systems/a.Main_technos/3.Python/Study/python_coding/PythonForProgrammers-master/examples/ch10/card_images/queen_of_hearts.svg
+/home/perubu/Desktop/test/Documents/3.Info_tech_n_systems/a.Main_technos/3.Python/Study/python_coding/PythonForAPPmers-master/examples/ch10/snippets_ipynb/card_images/queen_of_hearts.svg
+/home/perubu/Desktop/test/Documents/3.Info_tech_n_systems/a.Main_technos/3.Python/Study/python_coding/PythonForAPPmers-master/examples/ch10/card_images/queen_of_hearts.svg
 
-/home/perubu/Desktop/test/Documents/3.Info_tech_n_systems/a.Main_technos/3.Python/Study/python_coding/PythonForProgrammers-master/examples/ch10/snippets_ipynb/card_images/queen_of_hearts.png
-/home/perubu/Desktop/test/Documents/3.Info_tech_n_systems/a.Main_technos/3.Python/Study/python_coding/PythonForProgrammers-master/examples/ch10/card_images/queen_of_hearts.png
+/home/perubu/Desktop/test/Documents/3.Info_tech_n_systems/a.Main_technos/3.Python/Study/python_coding/PythonForAPPmers-master/examples/ch10/snippets_ipynb/card_images/queen_of_hearts.png
+/home/perubu/Desktop/test/Documents/3.Info_tech_n_systems/a.Main_technos/3.Python/Study/python_coding/PythonForAPPmers-master/examples/ch10/card_images/queen_of_hearts.png
 
-/home/perubu/Desktop/test/Documents/3.Info_tech_n_systems/a.Main_technos/3.Python/Study/python_coding/PythonForProgrammers-master/examples/ch10/snippets_ipynb/card_images/king_of_hearts.png
-/home/perubu/Desktop/test/Documents/3.Info_tech_n_systems/a.Main_technos/3.Python/Study/python_coding/PythonForProgrammers-master/examples/ch10/card_images/king_of_hearts.png
+/home/perubu/Desktop/test/Documents/3.Info_tech_n_systems/a.Main_technos/3.Python/Study/python_coding/PythonForAPPmers-master/examples/ch10/snippets_ipynb/card_images/king_of_hearts.png
+/home/perubu/Desktop/test/Documents/3.Info_tech_n_systems/a.Main_technos/3.Python/Study/python_coding/PythonForAPPmers-master/examples/ch10/card_images/king_of_hearts.png
 
-/home/perubu/Desktop/test/Documents/3.Info_tech_n_systems/a.Main_technos/3.Python/Study/python_coding/PythonForProgrammers-master/examples/ch10/snippets_ipynb/card_images/jack_of_clubs.svg
-/home/perubu/Desktop/test/Documents/3.Info_tech_n_systems/a.Main_technos/3.Python/Study/python_coding/PythonForProgrammers-master/examples/ch10/card_images/jack_of_clubs.svg
+/home/perubu/Desktop/test/Documents/3.Info_tech_n_systems/a.Main_technos/3.Python/Study/python_coding/PythonForAPPmers-master/examples/ch10/snippets_ipynb/card_images/jack_of_clubs.svg
+/home/perubu/Desktop/test/Documents/3.Info_tech_n_systems/a.Main_technos/3.Python/Study/python_coding/PythonForAPPmers-master/examples/ch10/card_images/jack_of_clubs.svg
 
-/home/perubu/Desktop/test/Documents/3.Info_tech_n_systems/a.Main_technos/3.Python/Study/python_coding/PythonForProgrammers-master/examples/ch10/snippets_ipynb/card_images/jack_of_spades.svg
-/home/perubu/Desktop/test/Documents/3.Info_tech_n_systems/a.Main_technos/3.Python/Study/python_coding/PythonForProgrammers-master/examples/ch10/card_images/jack_of_spades.svg
+/home/perubu/Desktop/test/Documents/3.Info_tech_n_systems/a.Main_technos/3.Python/Study/python_coding/PythonForAPPmers-master/examples/ch10/snippets_ipynb/card_images/jack_of_spades.svg
+/home/perubu/Desktop/test/Documents/3.Info_tech_n_systems/a.Main_technos/3.Python/Study/python_coding/PythonForAPPmers-master/examples/ch10/card_images/jack_of_spades.svg
 
-/home/perubu/Desktop/test/Documents/3.Info_tech_n_systems/a.Main_technos/3.Python/Study/python_coding/PythonForProgrammers-master/examples/ch10/snippets_ipynb/card_images/queen_of_spades.png
-/home/perubu/Desktop/test/Documents/3.Info_tech_n_systems/a.Main_technos/3.Python/Study/python_coding/PythonForProgrammers-master/examples/ch10/card_images/queen_of_spades.png
+/home/perubu/Desktop/test/Documents/3.Info_tech_n_systems/a.Main_technos/3.Python/Study/python_coding/PythonForAPPmers-master/examples/ch10/snippets_ipynb/card_images/queen_of_spades.png
+/home/perubu/Desktop/test/Documents/3.Info_tech_n_systems/a.Main_technos/3.Python/Study/python_coding/PythonForAPPmers-master/examples/ch10/card_images/queen_of_spades.png
 
-/home/perubu/Desktop/test/Documents/3.Info_tech_n_systems/a.Main_technos/3.Python/Study/python_coding/PythonForProgrammers-master/examples/ch10/snippets_ipynb/card_images/king_of_diamonds.svg
-/home/perubu/Desktop/test/Documents/3.Info_tech_n_systems/a.Main_technos/3.Python/Study/python_coding/PythonForProgrammers-master/examples/ch10/card_images/king_of_diamonds.svg
+/home/perubu/Desktop/test/Documents/3.Info_tech_n_systems/a.Main_technos/3.Python/Study/python_coding/PythonForAPPmers-master/examples/ch10/snippets_ipynb/card_images/king_of_diamonds.svg
+/home/perubu/Desktop/test/Documents/3.Info_tech_n_systems/a.Main_technos/3.Python/Study/python_coding/PythonForAPPmers-master/examples/ch10/card_images/king_of_diamonds.svg
 
-/home/perubu/Desktop/test/Documents/3.Info_tech_n_systems/a.Main_technos/3.Python/Study/python_coding/PythonForProgrammers-master/examples/ch10/snippets_ipynb/card_images/king_of_clubs.svg
-/home/perubu/Desktop/test/Documents/3.Info_tech_n_systems/a.Main_technos/3.Python/Study/python_coding/PythonForProgrammers-master/examples/ch10/card_images/king_of_clubs.svg
+/home/perubu/Desktop/test/Documents/3.Info_tech_n_systems/a.Main_technos/3.Python/Study/python_coding/PythonForAPPmers-master/examples/ch10/snippets_ipynb/card_images/king_of_clubs.svg
+/home/perubu/Desktop/test/Documents/3.Info_tech_n_systems/a.Main_technos/3.Python/Study/python_coding/PythonForAPPmers-master/examples/ch10/card_images/king_of_clubs.svg
 
-/home/perubu/Desktop/test/Documents/3.Info_tech_n_systems/a.Main_technos/3.Python/Study/python_coding/PythonForProgrammers-master/examples/ch10/snippets_ipynb/card_images/jack_of_hearts.svg
-/home/perubu/Desktop/test/Documents/3.Info_tech_n_systems/a.Main_technos/3.Python/Study/python_coding/PythonForProgrammers-master/examples/ch10/card_images/jack_of_hearts.svg
+/home/perubu/Desktop/test/Documents/3.Info_tech_n_systems/a.Main_technos/3.Python/Study/python_coding/PythonForAPPmers-master/examples/ch10/snippets_ipynb/card_images/jack_of_hearts.svg
+/home/perubu/Desktop/test/Documents/3.Info_tech_n_systems/a.Main_technos/3.Python/Study/python_coding/PythonForAPPmers-master/examples/ch10/card_images/jack_of_hearts.svg
 
-/home/perubu/Desktop/test/Documents/3.Info_tech_n_systems/a.Main_technos/3.Python/Study/python_coding/PythonForProgrammers-master/examples/ch10/snippets_ipynb/card_images/jack_of_diamonds.svg
-/home/perubu/Desktop/test/Documents/3.Info_tech_n_systems/a.Main_technos/3.Python/Study/python_coding/PythonForProgrammers-master/examples/ch10/card_images/jack_of_diamonds.svg
+/home/perubu/Desktop/test/Documents/3.Info_tech_n_systems/a.Main_technos/3.Python/Study/python_coding/PythonForAPPmers-master/examples/ch10/snippets_ipynb/card_images/jack_of_diamonds.svg
+/home/perubu/Desktop/test/Documents/3.Info_tech_n_systems/a.Main_technos/3.Python/Study/python_coding/PythonForAPPmers-master/examples/ch10/card_images/jack_of_diamonds.svg
 
-/home/perubu/Desktop/test/Documents/3.Info_tech_n_systems/a.Main_technos/3.Python/Study/python_coding/PythonForProgrammers-master/examples/ch10/snippets_ipynb/card_images/queen_of_clubs.png
-/home/perubu/Desktop/test/Documents/3.Info_tech_n_systems/a.Main_technos/3.Python/Study/python_coding/PythonForProgrammers-master/examples/ch10/card_images/queen_of_clubs.png
+/home/perubu/Desktop/test/Documents/3.Info_tech_n_systems/a.Main_technos/3.Python/Study/python_coding/PythonForAPPmers-master/examples/ch10/snippets_ipynb/card_images/queen_of_clubs.png
+/home/perubu/Desktop/test/Documents/3.Info_tech_n_systems/a.Main_technos/3.Python/Study/python_coding/PythonForAPPmers-master/examples/ch10/card_images/queen_of_clubs.png
 
-/home/perubu/Desktop/test/Documents/3.Info_tech_n_systems/a.Main_technos/3.Python/Study/python_coding/PythonForProgrammers-master/examples/ch10/snippets_ipynb/card_images/king_of_spades.svg
-/home/perubu/Desktop/test/Documents/3.Info_tech_n_systems/a.Main_technos/3.Python/Study/python_coding/PythonForProgrammers-master/examples/ch10/card_images/king_of_spades.svg
+/home/perubu/Desktop/test/Documents/3.Info_tech_n_systems/a.Main_technos/3.Python/Study/python_coding/PythonForAPPmers-master/examples/ch10/snippets_ipynb/card_images/king_of_spades.svg
+/home/perubu/Desktop/test/Documents/3.Info_tech_n_systems/a.Main_technos/3.Python/Study/python_coding/PythonForAPPmers-master/examples/ch10/card_images/king_of_spades.svg
 
-/home/perubu/Desktop/test/Documents/3.Info_tech_n_systems/a.Main_technos/3.Python/Study/python_coding/PythonForProgrammers-master/examples/ch10/snippets_ipynb/card_images/queen_of_clubs.svg
-/home/perubu/Desktop/test/Documents/3.Info_tech_n_systems/a.Main_technos/3.Python/Study/python_coding/PythonForProgrammers-master/examples/ch10/card_images/queen_of_clubs.svg
+/home/perubu/Desktop/test/Documents/3.Info_tech_n_systems/a.Main_technos/3.Python/Study/python_coding/PythonForAPPmers-master/examples/ch10/snippets_ipynb/card_images/queen_of_clubs.svg
+/home/perubu/Desktop/test/Documents/3.Info_tech_n_systems/a.Main_technos/3.Python/Study/python_coding/PythonForAPPmers-master/examples/ch10/card_images/queen_of_clubs.svg
 
-/home/perubu/Desktop/test/Documents/3.Info_tech_n_systems/a.Main_technos/3.Python/Study/python_coding/PythonForProgrammers-master/examples/ch10/snippets_ipynb/card_images/queen_of_spades.svg
-/home/perubu/Desktop/test/Documents/3.Info_tech_n_systems/a.Main_technos/3.Python/Study/python_coding/PythonForProgrammers-master/examples/ch10/card_images/queen_of_spades.svg
+/home/perubu/Desktop/test/Documents/3.Info_tech_n_systems/a.Main_technos/3.Python/Study/python_coding/PythonForAPPmers-master/examples/ch10/snippets_ipynb/card_images/queen_of_spades.svg
+/home/perubu/Desktop/test/Documents/3.Info_tech_n_systems/a.Main_technos/3.Python/Study/python_coding/PythonForAPPmers-master/examples/ch10/card_images/queen_of_spades.svg
 
-/home/perubu/Desktop/test/Documents/3.Info_tech_n_systems/a.Main_technos/3.Python/Study/python_coding/PythonForProgrammers-master/examples/ch10/snippets_ipynb/card_images/queen_of_diamonds.svg
-/home/perubu/Desktop/test/Documents/3.Info_tech_n_systems/a.Main_technos/3.Python/Study/python_coding/PythonForProgrammers-master/examples/ch10/card_images/queen_of_diamonds.svg
+/home/perubu/Desktop/test/Documents/3.Info_tech_n_systems/a.Main_technos/3.Python/Study/python_coding/PythonForAPPmers-master/examples/ch10/snippets_ipynb/card_images/queen_of_diamonds.svg
+/home/perubu/Desktop/test/Documents/3.Info_tech_n_systems/a.Main_technos/3.Python/Study/python_coding/PythonForAPPmers-master/examples/ch10/card_images/queen_of_diamonds.svg
 
 /home/perubu/Desktop/test/Documents/3.Info_tech_n_systems/a.Main_technos/3.Python/Study/learning_materials/stock/plan_b/[Luciano_Ramalho]_Fluent_Python.pdf
 /home/perubu/Desktop/test/Documents/3.Info_tech_n_systems/a.Main_technos/3.Python/Study/learning_materials/Fluent Python by Luciano Ramalho.pdf
 
-/home/perubu/Desktop/test/Documents/3.Info_tech_n_systems/a.Main_technos/3.Python/Study/learning_materials/Python_GUI_Programming_Cookbook.pdf
-/home/perubu/Desktop/test/Documents/3.Info_tech_n_systems/a.Main_technos/3.Python/Study/learning_materials/stock/plan_b/plan_c/Python_GUI_Programming_Cookbook.pdf
+/home/perubu/Desktop/test/Documents/3.Info_tech_n_systems/a.Main_technos/3.Python/Study/learning_materials/Python_GUI_APPming_Cookbook.pdf
+/home/perubu/Desktop/test/Documents/3.Info_tech_n_systems/a.Main_technos/3.Python/Study/learning_materials/stock/plan_b/plan_c/Python_GUI_APPming_Cookbook.pdf
 
 /home/perubu/Desktop/test/Documents/3.Info_tech_n_systems/a.Main_technos/3.Python/Study/learning_materials/Reuven_Lerner__Practice_Makes_Python.pdf
 /home/perubu/Desktop/test/Documents/3.Info_tech_n_systems/a.Main_technos/3.Python/Study/learning_materials/stock/[Reuven_Lerner]_Practice_Makes_Python.pdf
 
-/home/perubu/Desktop/test/Documents/3.Info_tech_n_systems/a.Main_technos/3.Python/Study/learning_materials/Python for Programmers with Big Data and Artificial Intelligence Case Studies by Paul Deitel, Dr. Harvey Deitel.pdf
-/home/perubu/Desktop/test/Documents/3.Info_tech_n_systems/a.Main_technos/3.Python/Books/Python for Programmers with Big Data and Artificial Intelligence Case Studies by Paul Deitel, Dr. Harvey Deitel.pdf
-/home/perubu/Desktop/test/Documents/3.Info_tech_n_systems/a.Main_technos/3.Python/Python for Programmers - with Big Data and Artificial Intelligence Case Studies.pdf
+/home/perubu/Desktop/test/Documents/3.Info_tech_n_systems/a.Main_technos/3.Python/Study/learning_materials/Python for APPmers with Big Data and Artificial Intelligence Case Studies by Paul Deitel, Dr. Harvey Deitel.pdf
+/home/perubu/Desktop/test/Documents/3.Info_tech_n_systems/a.Main_technos/3.Python/Books/Python for APPmers with Big Data and Artificial Intelligence Case Studies by Paul Deitel, Dr. Harvey Deitel.pdf
+/home/perubu/Desktop/test/Documents/3.Info_tech_n_systems/a.Main_technos/3.Python/Python for APPmers - with Big Data and Artificial Intelligence Case Studies.pdf
 
 /home/perubu/Desktop/test/Documents/3.Info_tech_n_systems/a.Main_technos/3.Python/MOOC_Python3/wip_course.old/w9/w9-s4-av-slide1.pptx
 /home/perubu/Desktop/test/Documents/3.Info_tech_n_systems/a.Main_technos/3.Python/MOOC_Python3/course_ori/w9/w9-s4-av-slide1.pptx
@@ -3500,8 +3500,8 @@
 /home/perubu/Desktop/test/Documents/9.Lire/aa_lectures_en_vrac/sarrazin_l_astragale.pdf
 /home/perubu/Desktop/test/testing_dir/sarrazin_l_astragale.pdf
 
-/home/perubu/Desktop/test/Documents/9.Lire/aa_lectures_en_vrac/How I learned to program.pdf
-/home/perubu/Desktop/test/testing_dir/How I learned to program.pdf
+/home/perubu/Desktop/test/Documents/9.Lire/aa_lectures_en_vrac/How I learned to APP.pdf
+/home/perubu/Desktop/test/testing_dir/How I learned to APP.pdf
 
 /home/perubu/Desktop/test/Documents/9.Lire/aa_lectures_en_vrac/Andrew T. Price-Smith - The health of nations_ infectious disease, environmental change, and their effects on national security and development  -MIT Press (2002).pdf
 /home/perubu/Desktop/test/testing_dir/Andrew T. Price-Smith - The health of nations_ infectious disease, environmental change, and their effects on national security and development  -MIT Press (2002).pdf
@@ -3998,8 +3998,8 @@
 /home/perubu/Desktop/test/Documents/9.Lire/aa_lectures_en_vrac/[Calvino_Italo]_Le_Citta_Invisibili(z-lib.org).pdf
 /home/perubu/Desktop/test/testing_dir/[Calvino_Italo]_Le_Citta_Invisibili(z-lib.org).pdf
 
-/home/perubu/Desktop/test/Documents/9.Lire/aa_lectures_en_vrac/97 Things Every Programmer Should Know.pdf
-/home/perubu/Desktop/test/testing_dir/97 Things Every Programmer Should Know.pdf
+/home/perubu/Desktop/test/Documents/9.Lire/aa_lectures_en_vrac/97 Things Every APPmer Should Know.pdf
+/home/perubu/Desktop/test/testing_dir/97 Things Every APPmer Should Know.pdf
 
 /home/perubu/Desktop/test/Documents/9.Lire/aa_lectures_en_vrac/HISTOIRE_PIERRE.pdf
 /home/perubu/Desktop/test/testing_dir/HISTOIRE_PIERRE.pdf
@@ -4073,8 +4073,8 @@
 /home/perubu/Desktop/test/Documents/9.Lire/aa_lectures_en_vrac/Le prix de l'amour.pdf
 /home/perubu/Desktop/test/testing_dir/Le prix de l'amour.pdf
 
-/home/perubu/Desktop/test/Documents/9.Lire/aa_lectures_en_vrac/LAvenir en commun Le programme pour lUnion Populaire by Jean-Luc Mélenchon.epub.pdf
-/home/perubu/Desktop/test/testing_dir/LAvenir en commun Le programme pour lUnion Populaire by Jean-Luc Mélenchon.epub.pdf
+/home/perubu/Desktop/test/Documents/9.Lire/aa_lectures_en_vrac/LAvenir en commun Le APPme pour lUnion Populaire by Jean-Luc Mélenchon.epub.pdf
+/home/perubu/Desktop/test/testing_dir/LAvenir en commun Le APPme pour lUnion Populaire by Jean-Luc Mélenchon.epub.pdf
 
 /home/perubu/Desktop/test/Documents/9.Lire/aa_lectures_en_vrac/bc011ce791b049a888d2c45c2f8b2e4a.pdf
 /home/perubu/Desktop/test/testing_dir/bc011ce791b049a888d2c45c2f8b2e4a.pdf
@@ -5216,8 +5216,8 @@
 /home/perubu/Desktop/test/Documents/9.Lire/aa_lectures_en_vrac/Cambridge IELTS 2.pdf
 /home/perubu/Desktop/test/testing_dir/Cambridge IELTS 2.pdf
 
-/home/perubu/Desktop/test/Documents/9.Lire/aa_lectures_en_vrac/Les_candidats_as_des_langages_de_programmation_1649921595.pdf
-/home/perubu/Desktop/test/testing_dir/Les_candidats_as_des_langages_de_programmation_1649921595.pdf
+/home/perubu/Desktop/test/Documents/9.Lire/aa_lectures_en_vrac/Les_candidats_as_des_langages_de_APPmation_1649921595.pdf
+/home/perubu/Desktop/test/testing_dir/Les_candidats_as_des_langages_de_APPmation_1649921595.pdf
 
 /home/perubu/Desktop/test/Documents/9.Lire/aa_lectures_en_vrac/La disparue de Noel - Perry, Anne.epub
 /home/perubu/Desktop/test/testing_dir/La disparue de Noel - Perry, Anne.epub
@@ -5593,8 +5593,8 @@
 /home/perubu/Desktop/test/Documents/9.Lire/aa_lectures_en_vrac/Sustainable Innovation And Impact.pdf
 /home/perubu/Desktop/test/testing_dir/Sustainable Innovation And Impact.pdf
 
-/home/perubu/Desktop/test/Documents/9.Lire/aa_lectures_en_vrac/(Dora the Explorer 2) - Dance with Dora -Scholastic Inc, Dora the Explorer - Phonics Reading Program (2005).pdf
-/home/perubu/Desktop/test/testing_dir/(Dora the Explorer 2) - Dance with Dora -Scholastic Inc, Dora the Explorer - Phonics Reading Program (2005).pdf
+/home/perubu/Desktop/test/Documents/9.Lire/aa_lectures_en_vrac/(Dora the Explorer 2) - Dance with Dora -Scholastic Inc, Dora the Explorer - Phonics Reading APP (2005).pdf
+/home/perubu/Desktop/test/testing_dir/(Dora the Explorer 2) - Dance with Dora -Scholastic Inc, Dora the Explorer - Phonics Reading APP (2005).pdf
 
 /home/perubu/Desktop/test/Documents/9.Lire/aa_lectures_en_vrac/Line Papin - Le coeur en laisse.pdf
 /home/perubu/Desktop/test/testing_dir/Line Papin - Le coeur en laisse.pdf
@@ -6016,8 +6016,8 @@
 /home/perubu/Desktop/test/Documents/9.Lire/aa_lectures_en_vrac/Voici - 21 Janvier 2022.pdf
 /home/perubu/Desktop/test/testing_dir/Voici - 21 Janvier 2022.pdf
 
-/home/perubu/Desktop/test/Documents/9.Lire/aa_lectures_en_vrac/HeartMath Brain Fitness Program by Rollin McCraty, Deborah Rozman.pdf
-/home/perubu/Desktop/test/testing_dir/HeartMath Brain Fitness Program by Rollin McCraty, Deborah Rozman.pdf
+/home/perubu/Desktop/test/Documents/9.Lire/aa_lectures_en_vrac/HeartMath Brain Fitness APP by Rollin McCraty, Deborah Rozman.pdf
+/home/perubu/Desktop/test/testing_dir/HeartMath Brain Fitness APP by Rollin McCraty, Deborah Rozman.pdf
 
 /home/perubu/Desktop/test/Documents/9.Lire/aa_lectures_en_vrac/Marketing Operations Specialist.pdf
 /home/perubu/Desktop/test/testing_dir/Marketing Operations Specialist.pdf
@@ -6088,8 +6088,8 @@
 /home/perubu/Desktop/test/Documents/9.Lire/aa_lectures_en_vrac/[Richard_Dawkins]_The_Selfish_Gene.pdf
 /home/perubu/Desktop/test/testing_dir/[Richard_Dawkins]_The_Selfish_Gene.pdf
 
-/home/perubu/Desktop/test/Documents/9.Lire/aa_lectures_en_vrac/(Dora the Explorer 1) - A Great Day for Soccer -Scholastic Inc, Dora the Explorer - Phonics Reading Program (2005).pdf
-/home/perubu/Desktop/test/testing_dir/(Dora the Explorer 1) - A Great Day for Soccer -Scholastic Inc, Dora the Explorer - Phonics Reading Program (2005).pdf
+/home/perubu/Desktop/test/Documents/9.Lire/aa_lectures_en_vrac/(Dora the Explorer 1) - A Great Day for Soccer -Scholastic Inc, Dora the Explorer - Phonics Reading APP (2005).pdf
+/home/perubu/Desktop/test/testing_dir/(Dora the Explorer 1) - A Great Day for Soccer -Scholastic Inc, Dora the Explorer - Phonics Reading APP (2005).pdf
 
 /home/perubu/Desktop/test/Documents/9.Lire/aa_lectures_en_vrac/FourFourTwo - February 2020 UK.pdf
 /home/perubu/Desktop/test/testing_dir/FourFourTwo - February 2020 UK.pdf
@@ -6743,13 +6743,13 @@
 /home/perubu/Desktop/test/Documents/2.Pro/1.TST/lbl_factory_data/logo_Jimmy/LOGO DETO.pdf
 /home/perubu/Desktop/test/Documents/2.Pro/1.TST/lbl_factory_data/logo_Jimmy/LOGO DETO 3.pdf
 
-/home/perubu/Desktop/test/Documents/2.Pro/1.TST/lbl_factory_data/_data_not_used_by_the_program/contracts/A906019-001 宁波美铭 LED灯 包装资料 Feb.26, 2019 TY.pdf
+/home/perubu/Desktop/test/Documents/2.Pro/1.TST/lbl_factory_data/_data_not_used_by_the_APP/contracts/A906019-001 宁波美铭 LED灯 包装资料 Feb.26, 2019 TY.pdf
 /home/perubu/Desktop/test/Documents/2.Pro/1.TST/lbl_factory_data/data/A906019/A906019-001 宁波美铭 LED灯 包装资料 Feb.26, 2019 TY.pdf
 
-/home/perubu/Desktop/test/Documents/2.Pro/1.TST/lbl_factory_data/_data_not_used_by_the_program/contracts/A915002-001 兰溪康华 双罐防毒口罩包装资料2019.10 BL.pdf
+/home/perubu/Desktop/test/Documents/2.Pro/1.TST/lbl_factory_data/_data_not_used_by_the_APP/contracts/A915002-001 兰溪康华 双罐防毒口罩包装资料2019.10 BL.pdf
 /home/perubu/Desktop/test/Documents/2.Pro/1.TST/lbl_factory_data/contracts_samples/A915002/A915002-001 兰溪康华 双罐防毒口罩包装资料2019.10 BL.pdf
 
-/home/perubu/Desktop/test/Documents/2.Pro/1.TST/lbl_factory_data/_data_not_used_by_the_program/contracts/A906135-006 兰溪康华 耳罩，眼镜和安全头盔 包装资料 June 27, 2019 TY.pdf
+/home/perubu/Desktop/test/Documents/2.Pro/1.TST/lbl_factory_data/_data_not_used_by_the_APP/contracts/A906135-006 兰溪康华 耳罩，眼镜和安全头盔 包装资料 June 27, 2019 TY.pdf
 /home/perubu/Desktop/test/Documents/2.Pro/1.TST/lbl_factory_data/data/A906135/A906135-006 兰溪康华 耳罩，眼镜和安全头盔 包装资料 June 27, 2019 TY.pdf
 
 /home/perubu/Desktop/test/Documents/2.Pro/1.TST/合同.xls,_包装.ai__n_pdf/合同号A906206-001海盐华霆螺母包装资料/A906206-001海盐华霆螺母包装资料.pdf

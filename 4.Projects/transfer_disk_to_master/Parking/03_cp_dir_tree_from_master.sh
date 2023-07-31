@@ -4,7 +4,7 @@ set -euo pipefail
 
 # shellcheck source=/dev/null
 . ./01_commons.sh
-$DBG $'\nnow in '"$(basename "${BASH_SOURCE[0]}")"$'\n'
+$DBG $'\n'"$(basename "${BASH_SOURCE[0]}")"$'\n'
 
 # DISK is the master, DEST the destination
 DEST=/home/perubu/Desktop/test

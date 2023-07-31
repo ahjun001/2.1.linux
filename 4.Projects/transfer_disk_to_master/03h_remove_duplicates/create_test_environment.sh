@@ -4,4 +4,4 @@ set -euo pipefail
 
 # shellcheck source=/dev/null
 . ./01_commons.sh
-$DBG $'\nnow in '"$(basename "${BASH_SOURCE[0]}")"$'\n'
+$DBG $'\n'"$(basename "${BASH_SOURCE[0]}")"$'\n'

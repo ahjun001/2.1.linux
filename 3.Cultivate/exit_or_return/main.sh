@@ -5,6 +5,6 @@
 set -euo pipefail
 
 SOURCED=1
-. ./sourced_or_not_5.sh
+. ./sub.sh
 
 echo normal exit

@@ -27,7 +27,7 @@ resumé /media/perubu/Toshiba_4T/Documents/1.Perso/2.Famille-amis-autres/resumé
 resume /media/perubu/Toshiba_4T/Documents/1.Perso/2.Famille-amis-autres/resume
 McKinsey /media/perubu/Toshiba_4T/Documents/2.Pro/5.Publications_good_reads/McKinsey
 Linux /media/perubu/Toshiba_4T/Documents/3.Info_tech_n_systems/a.Main_technos/1.Linux
-competitive /media/perubu/Toshiba_4T/Documents/3.Info_tech_n_systems/a.Main_technos/0.competitive_programming_n_learn_to_code
+competitive /media/perubu/Toshiba_4T/Documents/3.Info_tech_n_systems/a.Main_technos/0.competitive_APPming_n_learn_to_code
 SVG /media/perubu/Toshiba_4T/Documents/3.Info_tech_n_systems/a.Main_technos/SVG_inskcape
 architecture /media/perubu/Toshiba_4T/Documents/3.Info_tech_n_systems/a.Main_technos/0.architecture
 TCP /media/perubu/Toshiba_4T/Documents/3.Info_tech_n_systems/a.Main_technos/TCP_IP_networks

@@ -22,7 +22,7 @@ fi
 # sudo dpkg --add-architecture i386
 # mintinstall
 
-# install wine programs
+# install wine APPs
 printf '\nInstall Wenlin, WeChat\n, Internet Explorer'
 
 ## sudo apt update

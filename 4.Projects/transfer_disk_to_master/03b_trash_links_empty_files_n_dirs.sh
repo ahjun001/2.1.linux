@@ -6,7 +6,7 @@ set -euo pipefail
 # shellcheck source=/dev/null
 . ./01_commons.sh
 
-$DBG $'\nnow in '"$(basename "${BASH_SOURCE[0]}")"$'\n'
+$DBG $'\n'"$(basename "${BASH_SOURCE[0]}")"$'\n'
 
 # remove symbolic links
 mapfile -t -d $'\0' my_l < <(find "$DISK" -type l -print0)

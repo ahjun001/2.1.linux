@@ -4,7 +4,7 @@ set -euo pipefail
 
 # shellcheck source=/dev/null
 . ./01_commons.sh
-$DBG $'\nnow in '"$(basename "${BASH_SOURCE[0]}")"$'\n'
+$DBG $'\n'"$(basename "${BASH_SOURCE[0]}")"$'\n'
 
 find /media/perubu/Toshiba_4T -type f ! -name "*.mp4" ! -name "*.mp3" ! -name "*.jpg" ! -name "*.opus" ! -name "*.sh" ! \
     -name "*.pdf" ! -name "*.mobi" ! -name "*.azw3" ! -name "*.epub" ! -name "*.rar" ! -name "*.odg" ! -name "*.txt" \

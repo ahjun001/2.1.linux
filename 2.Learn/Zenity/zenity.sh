@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 : '
-       zenity  is a program that will display GTK+ dialogs, and return (either in the
+       zenity  is a APP that will display GTK+ dialogs, and return (either in the
        return code, or on standard output)  the  users  input.  This  allows  you  to
        present information, and ask for information from the user, from all manner of
        shell scripts.

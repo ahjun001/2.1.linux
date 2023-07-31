@@ -4,7 +4,7 @@ set -euo pipefail
 
 # shellcheck source=/dev/null
 . ./01_commons.sh
-$DBG $'\nnow in '"$(basename "${BASH_SOURCE[0]}")"$'\n'
+$DBG $'\n'"$(basename "${BASH_SOURCE[0]}")"$'\n'
 
 # delete all empty files and directories that would have resulted from previous operations
 find "$DISK" -type f -empty -delete -print
