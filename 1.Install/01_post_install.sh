@@ -5,7 +5,7 @@
 
 set -euo pipefail
 
-. ~/Documents/Github/2.1.Linux/1.Install/01_set_env_variables.sh
+. ~/Documents/Github/2.1.linux/1.Install/01_set_env_variables.sh
 
 $DBG $'\n'"${BASH_SOURCE[0]#/home/perubu/Documents/Github/}"
 
@@ -16,7 +16,10 @@ $DBG $'\n'"${BASH_SOURCE[0]#/home/perubu/Documents/Github/}"
 # and install siomply with the package manager
 
 $DBG $'\nInstalling with package manager'
-for APP in git; do
+for APP in \
+    git \
+    audacity \
+    ffmpeg; do
     if command -v "$APP" >/dev/null; then
         $DBG $'\t'"$APP" is already installed
         continue
@@ -27,13 +30,14 @@ for APP in git; do
         sudo dnf install $APP
         ;;
     linuxmint | ubuntu)
-        sudo apt install $APP
+        sudo apt install $APP -y
         ;;
     *)
         echo "Distribution $ID not recognized, exiting ..."
         exit 1
         ;;
     esac
+    $RUN "$APP"
 done
 
 # install vim

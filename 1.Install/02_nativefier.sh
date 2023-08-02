@@ -6,7 +6,7 @@
 set -euo pipefail
 
 # shellcheck source=/dev/null
-. ~/Documents/Github/2.1.Linux/1.Install/01_set_env_variables.sh
+. ~/Documents/Github/2.1.linux/1.Install/01_set_env_variables.sh
 
 $DBG $'\n'"${BASH_SOURCE[0]#/home/perubu/Documents/Github/}" 
 
@@ -17,7 +17,7 @@ fi
 
 sudo npm install nativefier -g
 
-$RUN  (cd /tmp || exit) && nativefier -p linux -a x64 \
+(cd /tmp || exit) && nativefier -p linux -a x64 \
     -u 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Brave Chrome/89.0.4389.72 Safari/537.36' \
     https://youtube.com
 
