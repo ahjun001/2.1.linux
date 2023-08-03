@@ -4,6 +4,7 @@ set -euo pipefail
 
 rm -f ~/.config/google-chrome/Default/GPUCache/*
 rm -f ~/.config/BraveSoftware/Brave-Browser/Default/GPUCache/*
+rm -f ~/.config/Z-Library/GPUCache/*
 
 cat <<.
 
