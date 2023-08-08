@@ -22,16 +22,17 @@ linuxmint | ubuntu)
     FILE=LosslessCut-linux-x64.tar.bz2
     TARFILE=/tmp/"$FILE"
     ICON=/opt/LosslessCut-linux-x64/losslesscut.svg
-    set -x
+
     [[ -f $TARFILE ]] ||
         wget https://github.com/mifi/lossless-cut/releases/latest/download/"$FILE" -O "$TARFILE"
 
-    # sudo tar -xvf "$TARFILE" -C /opt/
+    sudo tar -xvf "$TARFILE" -C /opt/
 
     [[ -f $ICON ]] ||
         sudo wget https://static.mifi.no/losslesscut.svg -O "$ICON"
 
     cat <<. | sed 's/^[[:blank:]]*//' >/home/perubu/Desktop/losslesscut.desktop
+        #!/usr/bin/env xdg-open
         [Desktop Entry]
         Name=losslesscut
         Exec=/opt/LosslessCut-linux-x64/losslesscut
