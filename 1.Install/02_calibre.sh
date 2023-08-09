@@ -12,7 +12,7 @@ $DBG $'\n'"${BASH_SOURCE[0]#/home/perubu/Documents/Github/}"
 
 # Exit if APP is already installed
 APP=calibre
-# if command -v $APP >>"$INSTALL_LOG"; then [[ "$0" == "${BASH_SOURCE[0]}" ]] && exit 0 || return 0; fi
-if command -v $APP >>"$INSTALL_LOG"; then [[ "$0" == "${BASH_SOURCE[0]}" ]] && exit 0 || return 0; fi
+# if command -v $APP; then [[ "$0" == "${BASH_SOURCE[0]}" ]] && exit 0 || return 0; fi
+if command -v $APP; then [[ "$0" == "${BASH_SOURCE[0]}" ]] && exit 0 || return 0; fi
 
 sudo -v && wget -nv -O- https://download.calibre-ebook.com/linux-installer.sh | sudo sh /dev/stdin

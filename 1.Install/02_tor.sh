@@ -12,7 +12,7 @@ $DBG $'\n'"${BASH_SOURCE[0]#/home/perubu/Documents/Github/}"  # to get VERSION_C
 
 packageNeeded=torbrowser
 # Exit if command is already installed
-if command -v "$packageNeeded" >>"$INSTALL_LOG"; then
+if command -v "$packageNeeded"; then
     if [[ "$0" == "${BASH_SOURCE[0]}" ]]; then [[ "$0" == "${BASH_SOURCE[0]}" ]] && exit 0 || return 0; else return 0; fi
 fi
 

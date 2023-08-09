@@ -12,7 +12,7 @@ set -euo pipefail
 $DBG $'\n'"${BASH_SOURCE[0]#/home/perubu/Documents/Github/}" 
 
 # Exit if command is already installed
-if command -v gimp >>"$INSTALL_LOG"; then
+if command -v gimp; then
     if [[ "$0" == "${BASH_SOURCE[0]}" ]]; then [[ "$0" == "${BASH_SOURCE[0]}" ]] && exit 0 || return 0; else return 0; fi
 fi
 

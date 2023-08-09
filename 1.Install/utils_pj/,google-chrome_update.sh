@@ -10,9 +10,8 @@ set -euo pipefail
 . /usr/local/sbin/01_set_env_variables.sh
 
 # forcing to install if launched from CLI
-# exiting if google-chrome is already installed
-if [[ "$0" == "${BASH_SOURCE[0]}" ]] ||
-    ! command -v google-chrome >>"$INSTALL_LOG"; then
+# when sourced, exiting if package is already installed
+if [[ "$0" == "${BASH_SOURCE[0]}" ]] || ! command -v google-chrome; then
 
     case $ID in
     fedora)

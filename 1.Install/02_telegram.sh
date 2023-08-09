@@ -12,8 +12,8 @@ $DBG $'\n'"${BASH_SOURCE[0]#/home/perubu/Documents/Github/}"
 
 # Exit if APP is already installed
 APP=foo
-# if command -v $APP >>"$INSTALL_LOG"; then [[ "$0" == "${BASH_SOURCE[0]}" ]] && exit 0 || return 0; fi
-if command -v $APP >>"$INSTALL_LOG"; then [[ "$0" == "${BASH_SOURCE[0]}" ]] && exit 0 || return 0; fi
+# if command -v $APP; then [[ "$0" == "${BASH_SOURCE[0]}" ]] && exit 0 || return 0; fi
+if command -v $APP; then [[ "$0" == "${BASH_SOURCE[0]}" ]] && exit 0 || return 0; fi
 
 wget "https://telegram.org/dl/desktop/linux" -O /tmp/telegram.tar.xz
 sudo tar -xvf /tmp/telegram.tar.xz -C /opt/
