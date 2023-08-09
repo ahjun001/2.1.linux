@@ -35,6 +35,7 @@ if [[ "$0" == "${BASH_SOURCE[0]}" ]] || ! command -v "$APP"; then
                 nasm yasm \
                 x264 libx264-dev \
                 libfontconfig1-dev \
+                libharfbuzz-dev \
                 -y
             ;&
 
@@ -48,16 +49,20 @@ if [[ "$0" == "${BASH_SOURCE[0]}" ]] || ! command -v "$APP"; then
             # [[ -f ./tests/Makefile ]] &&
             # make clean # remove object files and executables but keeps configure files and Makefiles.
             # [[ -f ./tests/Makefile ]] &&
-            # make distclean # will remove everything including configure scripts and Makefiles
-            # rm -f Makefile
+            make distclean && echo # will remove everything including configure scripts and Makefiles
+            rm -f Makefile && echo 
+            git clean -fdx && echo 
             ./configure --prefix=/opt/ffmpeg \
                 --enable-libx264 \
                 --enable-gpl \
                 --enable-libfontconfig \
                 --enable-libfreetype \
-                --enable-filter=drawtext
+                --enable-filter=drawtext \
+                --enable-libharfbuzz
+
             # shellcheck disable=SC2046
-            make -j$(nproc)
+            # make -j$(nproc)
+            make -j1
             sudo make install
             popd
             ;&
