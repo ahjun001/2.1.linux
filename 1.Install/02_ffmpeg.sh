@@ -23,6 +23,7 @@ if [[ "$0" == "${BASH_SOURCE[0]}" ]] || ! command -v "$APP"; then
         $DBG -e "\n$APP not implemented in $ID\n"
         ;;
     linuxmint | ubuntu)
+        clear
         INDEX=3
         case $INDEX in
         0)
@@ -33,6 +34,7 @@ if [[ "$0" == "${BASH_SOURCE[0]}" ]] || ! command -v "$APP"; then
             sudo apt install build-essential git libtool pkg-config autoconf automake \
                 nasm yasm \
                 x264 libx264-dev \
+                libfontconfig1-dev \
                 -y
             ;&
 
@@ -43,15 +45,22 @@ if [[ "$0" == "${BASH_SOURCE[0]}" ]] || ! command -v "$APP"; then
             ;&
         3)
             pushd ~/.local/share/src/ffmpeg || exit 1
-            [[ -f /tests/Makefile ]]
-            make clean     # remove object files and executables but keeps configure files and Makefiles.
-            make distclean # will remove everything including configure scripts and Makefiles
-            ./configure --prefix=/opt/ffmpeg --enable-libx264 --enable-gpl
+            # [[ -f ./tests/Makefile ]] &&
+            # make clean # remove object files and executables but keeps configure files and Makefiles.
+            # [[ -f ./tests/Makefile ]] &&
+            # make distclean # will remove everything including configure scripts and Makefiles
+            # rm -f Makefile
+            ./configure --prefix=/opt/ffmpeg \
+                --enable-libx264 \
+                --enable-gpl \
+                --enable-libfontconfig \
+                --enable-libfreetype \
+                --enable-filter=drawtext
             # shellcheck disable=SC2046
             make -j$(nproc)
             sudo make install
             popd
-            ;;
+            ;&
         4)
             sudo ln -fs /opt/ffmpeg/bin/ffmpeg /usr/local/sbin/ffmpeg
             sudo ln -fs /opt/ffmpeg/bin/ffprobe /usr/local/sbin/ffmprobe
