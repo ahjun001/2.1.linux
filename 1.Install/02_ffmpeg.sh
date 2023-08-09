@@ -23,7 +23,7 @@ if [[ "$0" == "${BASH_SOURCE[0]}" ]] || ! command -v "$APP"; then
         $DBG -e "\n$APP not implemented in $ID\n"
         ;;
     linuxmint | ubuntu)
-        INDEX=4
+        INDEX=3
         case $INDEX in
         0)
             git clone https://git.ffmpeg.org/ffmpeg.git ~/.local/share/src/ffmpeg
@@ -31,7 +31,9 @@ if [[ "$0" == "${BASH_SOURCE[0]}" ]] || ! command -v "$APP"; then
 
         1)
             sudo apt install build-essential git libtool pkg-config autoconf automake \
-                nasm yasm -y
+                nasm yasm \
+                x264 libx264-dev \
+                -y
             ;&
 
         2)
@@ -41,7 +43,10 @@ if [[ "$0" == "${BASH_SOURCE[0]}" ]] || ! command -v "$APP"; then
             ;&
         3)
             pushd ~/.local/share/src/ffmpeg || exit 1
-            ./configure --prefix=/opt/ffmpeg
+            [[ -f /tests/Makefile ]]
+            make clean     # remove object files and executables but keeps configure files and Makefiles.
+            make distclean # will remove everything including configure scripts and Makefiles
+            ./configure --prefix=/opt/ffmpeg --enable-libx264 --enable-gpl
             # shellcheck disable=SC2046
             make -j$(nproc)
             sudo make install
