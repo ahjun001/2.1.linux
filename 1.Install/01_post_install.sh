@@ -18,8 +18,9 @@ $DBG $'\n'"${BASH_SOURCE[0]#/home/perubu/Documents/Github/}"
 $DBG $'\nInstalling with package manager'
 for APP in \
     git \
-    audacity \
-    ffmpeg; do
+    podman \
+    ffmpeg \
+    audacity; do
     if command -v "$APP" >/dev/null; then
         $DBG $'\t'"$APP" is already installed
         continue
