@@ -1,9 +1,10 @@
 #!/usr/bin/env bash
 # shellcheck disable=SC2209,SC2034,SC2154
 
-set -euo pipefail
+[[ "$SHELL" == '/bin/bash' ]] && set -euo pipefail
 
-DISK=/home/perubu/Desktop/test
+DISK=/tmp/test_dir && mkdir -p "$DISK"
+# DISK=/home/perubu/Desktop/tist
 # DISK=/media/perubu/Toshiba_4TB
 # DISK=/media/perubu/Blueend_BckUp
 

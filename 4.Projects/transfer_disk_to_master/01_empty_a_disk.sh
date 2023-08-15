@@ -1,9 +1,9 @@
 #!/usr/bin/env bash
+# shellcheck source=/dev/null
 
 set -euo pipefail
 
-# shellcheck source=/dev/null
-. ~/Documents/Github/2.1.linux/4.Projects/transfer_disk_to_master/01_commons.sh
+. ~/Documents/Github/2.1.linux/4.Projects/transfer_disk_to_master/00_commons.sh
 
 $DBG $'\n'"${BASH_SOURCE[0]#/home/perubu/Documents/Github/}"
 # shellcheck source=/dev/null
@@ -13,7 +13,17 @@ nemo Trash:///
 [[ $(pgrep -f nemo) ]] && pkill -f nemo
 
 ### SORT, Set, Shine, Standardise, Sustain: Eliminate clutter and unecessary items
-
+SORT_STEP=1
+case $SORT_STEP in
+1)
+    printf "%s\n" 'erase non canonically installed dirs'
+    . erase_non_canonically_installed_dirs.sh
+    ;;
+*)
+    printf "%s\n" 'SORT is done'
+    ;;
+esac
+: && exit
 # for testing purposes
 ($TEST && "$FAST") || . ./03_create_test_dir_tree_on_hd.sh
 

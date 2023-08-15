@@ -7,3 +7,7 @@ self providing a testing environment
 undo capability
 
 showing results before moving on modules.
+
+works on master, hard disk, external disks
+
+first remove all empty directories and keep it this way all along

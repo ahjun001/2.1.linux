@@ -3,7 +3,7 @@
 set -euo pipefail
 
 # shellcheck source=/dev/null
-. ./01_commons.sh
+. ./00_commons.sh
 
 # Level 1, L1 directories to remove pdfs whose name contain keywords
 # pdfs to be later kept should be moved to DMPV - Documents Downloads Music Pictures Videos

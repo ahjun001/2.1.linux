@@ -3,14 +3,14 @@
 set -euo pipefail
 
 # shellcheck source=/dev/null
-. ./01_commons.sh
+. ./00_commons.sh
 $DBG $'\n'"$(basename "${BASH_SOURCE[0]}")"$'\n'
 
 # Usage
 PGM=${0##*/}
 Usage() {
     cat <<.
-$PGM                will treat the disk defined in 01_commons.sh
+$PGM                will treat the disk defined in 00_commons.sh
 $PGM <other_disk>   operates on disk as indicated
 
 ex: $PGM /home/perubu/Desktop/test
