@@ -7,11 +7,15 @@
 set -euo pipefail
 
 # shellcheck source=/dev/null
-. /usr/local/sbin/01_set_env_variables.sh
+. ~/Documents/Github/2.1.linux/1.Install/01_set_env_variables.sh
 
-# forcing to install if launched from CLI
-# when sourced, exiting if package is already installed
-if [[ "$0" == "${BASH_SOURCE[0]}" ]] || ! command -v google-chrome; then
+$DBG $'\n'"${BASH_SOURCE[0]#/home/perubu/Documents/Github/}"
+
+APP=google-chrome
+
+# if launched from CLI, will install anyways
+# if sourced, exiting if package is already installed
+if [[ "$0" == "${BASH_SOURCE[0]}" ]] || ! command -v "$APP"; then
 
     case $ID in
     fedora)
@@ -32,6 +36,6 @@ if [[ "$0" == "${BASH_SOURCE[0]}" ]] || ! command -v google-chrome; then
         ;;
     esac
 
-    [[ "$LAUNCH_APP" == true ]] && google-chrome
+    $RUN "$APP"
 
 fi

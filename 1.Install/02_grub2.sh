@@ -34,7 +34,7 @@ if grep 'GRUB_SAVEDEFAULT=true' "$G_FILE"; then
     esac
 else
     case $ACT in
-    x) echo GRUB_SAVEDEFAULT=true | sudo tee -a "$G_FILE" && $DBG "GRUB_SAVEDEFAULT=true added to $G_FILE" && G_MODIFIED=true ;;
+    x) echo GRUB_SAVEDEFAULT=true | sudo tee a "$G_FILE" && $DBG "GRUB_SAVEDEFAULT=true added to $G_FILE" && G_MODIFIED=true ;;
     u) echo "GRUB_SAVEDEFAULT was not found in $G_FILE : nothing to do" ;;
     *) echo "Should never happen" && exit 1 ;;
     esac
@@ -103,7 +103,7 @@ fi
 
 [ "$MY_TRACE" = true ] && (diff $G_FILE $G_FILE.bak || true)
 
-if [ "$LAUNCH_APP" = true ] && [ $G_MODIFIED = true ]; then
+if [[ $G_MODIFIED == true ]]; then
     case $ID in
     fedora)
         # sudo rm /boot/efi/EFI/fedora/grub.cfg

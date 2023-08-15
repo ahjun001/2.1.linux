@@ -7,15 +7,10 @@ set -euo pipefail
 
 $DBG $'\n'"${BASH_SOURCE[0]#/home/perubu/Documents/Github/}"
 
-# Exit if APP is already installed
 APP="${APP:?}"
-# if command -v "$APP" >/dev/null; then
-#     $DBG $'\t'"$APP" is already installed
-#     [[ "$0" == "${BASH_SOURCE[0]}" ]] && exit 0 || return 0
-# fi
 
-# forcing to install if launched from CLI
-# when sourced, exiting if package is already installed
+# if launched from CLI, will install anyways
+# if sourced, exiting if package is already installed
 if [[ "$0" == "${BASH_SOURCE[0]}" ]] || ! command -v "$APP"; then
 
     case $ID in
@@ -31,6 +26,7 @@ if [[ "$0" == "${BASH_SOURCE[0]}" ]] || ! command -v "$APP"; then
         ;;
     esac
 
+    # remove if not needed
     LINKS="${0#/*}"/links_pj.sh
     [[ -f $LINKS ]] && $LINKS
 

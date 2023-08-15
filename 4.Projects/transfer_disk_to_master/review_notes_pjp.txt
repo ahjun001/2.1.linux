@@ -1,0 +1,9 @@
+have a main that calls for
+individual
+independant
+
+self providing a testing environment
+
+undo capability
+
+showing results before moving on modules.

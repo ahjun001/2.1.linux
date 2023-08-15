@@ -26,14 +26,13 @@ lines=(
     '# run with arg u  to undo'
     ''
     '# launch after install
-[[ -n ${LAUNCH_APP+foo} ]]  || LAUNCH_APP=true
+    $RUN
 
 # info verbose debug trace
 [[ ${MY_TRACE+foo} ]] || MY_TRACE=true'
     ''
 )
 
-# MY_STRING='# run with arg u  to undo\n\n display results or not\n \[ -n "${LAUNCH_APP+x}"  \] && LAUNCH_APP=true'
 for line in "${lines[@]}"; do
     MY_STRING+="\n$line"
 done
