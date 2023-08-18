@@ -36,3 +36,4 @@ endif::[]
 * is freemind list necessary?
 * what to do with insert_lines_in_files.sh?
 * what to do with wip_a_post_install_system.sh (2 files)?
+* check the value of using autokey on Fedora / KDE Plasma
