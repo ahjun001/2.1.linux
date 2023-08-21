@@ -22,7 +22,7 @@ setup() {
 }
 
 It 'deletes directories'
-    When run script ./erase_non_canonically_installed_dirs.sh
+    When run ./erase_non_canonically_installed_dirs.sh
         The status should be success
         The output should include 'erase_non_canonically_installed_dirs.sh'
         The directory "$DISK/.git" should not be exist

@@ -11,50 +11,50 @@ SRCE=/media/perubu/Toshiba_4TB/
     exit 1
 }
 # copy dir tree
-DEST=/home/perubu/Desktop/test
-[[ -d $DEST ]] || {
-    echo -e "\n$DEST not accessible\n"
+DISK=/home/perubu/Desktop/test
+[[ -d $DISK ]] || {
+    echo -e "\n$DISK not accessible\n"
     exit 1
 }
 
 # create non non canonically installed dirs
-mkdir -p $DEST/non_canon_d
+mkdir -p $DISK/non_canon_d
 for i in {1..3}; do
-    mkdir -p $DEST/non_canon_d/d"$i"/.venv
-    mkdir -p $DEST/non_canon_d/d"$i"/nvm
-    mkdir -p $DEST/non_canon_d/d"$i"/go
-    mkdir -p $DEST/non_canon_d/d"$i"/__pycache__
+    mkdir -p $DISK/non_canon_d/d"$i"/.venv
+    mkdir -p $DISK/non_canon_d/d"$i"/nvm
+    mkdir -p $DISK/non_canon_d/d"$i"/go
+    mkdir -p $DISK/non_canon_d/d"$i"/__pycache__
 done
 
 # (re-)create some sizeable folders
-time rsync -aqumP --no-links --min-size=100000 --max-size=200000 $SRCE $DEST
+time rsync -aqumP --no-links --min-size=100000 --max-size=200000 $SRCE $DISK
 # q quiet
 # m prune empty directory chains from file list
 
 # include a lot of pdfs if needed
-time rsync -aqumP --include='*.pdf' --include='*/' --exclude='*' --no-links $SRCE $DEST
+time rsync -aqumP --include='*.pdf' --include='*/' --exclude='*' --no-links $SRCE $DISK
 
 # create a few links
-mkdir -p $DEST/links_d
-my_file=$DEST/'links_d/somefile with a blank in it'
+mkdir -p $DISK/links_d
+my_file=$DISK/'links_d/somefile with a blank in it'
 fallocate -l 1024000 "$my_file"
 
 for i in {1..3}; do
     # symbolic links
-    ln -sf "$my_file" $DEST/links_d/'soft lnk'"$i"
+    ln -sf "$my_file" $DISK/links_d/'soft lnk'"$i"
     # hard links
-    ln -f "$my_file" $DEST/links_d/'hard lnk'"$i"
+    ln -f "$my_file" $DISK/links_d/'hard lnk'"$i"
 done
 
 # create a few empty files & dirs
-mkdir -p $DEST/empty/empty_d{1..3}
-touch $DEST/empty/empty_d{1..3}/f{1..2}
+mkdir -p $DISK/empty/empty_d{1..3}
+touch $DISK/empty/empty_d{1..3}/f{1..2}
 
 # create some ephemerals
 for ((i = 0; i < 10; i++)); do
     ! read -r a && break
-    mkdir -p $DEST/ephemerals/"$i"
-    touch $DEST/ephemerals/"$i"/"$a".pdf
-    touch $DEST/ephemerals/"$i"/"$a".docx
-    touch $DEST/ephemerals/"$i"/"$a".xlsx
+    mkdir -p $DISK/ephemerals/"$i"
+    touch $DISK/ephemerals/"$i"/"$a".pdf
+    touch $DISK/ephemerals/"$i"/"$a".docx
+    touch $DISK/ephemerals/"$i"/"$a".xlsx
 done <./03c_delete_ephemerals/03c_delete_ephemerals.txt

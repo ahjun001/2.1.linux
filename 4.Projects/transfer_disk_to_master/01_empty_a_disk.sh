@@ -12,7 +12,7 @@ $DBG $'\n'"${BASH_SOURCE[0]#/home/perubu/Documents/Github/}"
 nemo Trash:///
 [[ $(pgrep -f nemo) ]] && pkill -f nemo
 
-### SORT, Set, Shine, Standardise, Sustain: Eliminate clutter and unecessary items
+### 1. SORT, Set, Shine, Standardise, Sustain: Eliminate clutter and unecessary items
 SORT_STEP=1
 case $SORT_STEP in
 1)
@@ -36,8 +36,14 @@ esac
 
 "$SKIP" || . ./03d_standardize_dir_names.sh
 
-### Sort, SET, Shine, Standardise, Sustain: Create a designated labelled place for each item.
+### 2. Sort, SET, Shine, Standardise, Sustain: Create a designated labelled place for each item.
 
+: '
+auto clean Wechat
+hand clean Desktop, Downloads and other Rogues dirs
+run dupes
+'
+ 
 . ./03e_recreate_tree_on_disk_to_be_emptied.sh
 
 . ./03f_manage_wechat_folders.sh
