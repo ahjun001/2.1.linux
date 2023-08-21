@@ -25,16 +25,16 @@ case $SORT_STEP in
 esac
 : && exit
 # for testing purposes
-($TEST && "$FAST") || . ./03_create_test_dir_tree_on_hd.sh
+($TEST && "$SKIP") || . ./03_create_test_dir_tree_on_hd.sh
 
 # production steps
 . ./03a_erase_non_canonically_installed_dirs.sh
 
-"$FAST" || . ./03b_trash_links_empty_files_n_dirs.sh
+"$SKIP" || . ./03b_trash_links_empty_files_n_dirs.sh
 
-"$FAST" || . ./03c_delete_ephemerals/03c_delete_ephemerals.sh
+"$SKIP" || . ./03c_delete_ephemerals/03c_delete_ephemerals.sh
 
-"$FAST" || . ./03d_standardize_dir_names.sh
+"$SKIP" || . ./03d_standardize_dir_names.sh
 
 ### Sort, SET, Shine, Standardise, Sustain: Create a designated labelled place for each item.
 

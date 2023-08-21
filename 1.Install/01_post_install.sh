@@ -3,6 +3,12 @@
 
 # post install script to install favorite environment, apps, and settings
 
+: '
+This script manages packages that are not readily installed by the following distributions:
+Fedora
+LinuxMint
+'
+
 set -euo pipefail
 
 . ~/Documents/Github/2.1.linux/1.Install/01_set_env_variables.sh

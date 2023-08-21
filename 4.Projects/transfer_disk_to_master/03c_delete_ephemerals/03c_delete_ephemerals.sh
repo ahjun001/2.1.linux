@@ -11,7 +11,7 @@ $DBG $'\n'"$(basename "${BASH_SOURCE[0]}")"$'\n'
 [[ $(pgrep -f nemo) ]] && pkill -f nemo
 
 # sort keywords so that new ones can be easier added later
-if $FAST; then
+if $SKIP; then
     KWDS="$CWD"/03c_delete_ephemerals_short.txt
 else
     KWDS="$CWD"/03c_delete_ephemerals.txt

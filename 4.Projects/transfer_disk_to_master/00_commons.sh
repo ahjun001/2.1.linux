@@ -3,6 +3,25 @@
 
 [[ "$SHELL" == '/bin/bash' ]] && set -euo pipefail
 
+# use DBG to print runtime infos
+DBG=echo
+# DBG=:
+
+# use TEST && NOT to run extra commands or functions
+# particularly building testing environments
+TEST=true
+# TEST=false
+
+# use SKIP not to run commands that take too long
+# that are known be have already been run successfully
+# or that we don't want to run to preserve working disk when in development phase
+# SKIP=true
+SKIP=false
+
+# identifying master disk
+MSTR=/media/perubu/Toshiba_4TB
+# MSTR=/home/perubu/Desktop/test
+
 DISK=/tmp/test_dir && mkdir -p "$DISK"
 # DISK=/home/perubu/Desktop/tist
 # DISK=/media/perubu/Toshiba_4TB
@@ -13,25 +32,8 @@ DISK=/tmp/test_dir && mkdir -p "$DISK"
     exit 1
 }
 
-# use DBG to print runtime infos
-DBG=echo
-# DBG=:
-
-# use TEST && NOT to run extra commands or functions
-# particularly building testing environments
-TEST=true
-# TEST=false
-
-# use FAST not to run commands that take too long
-FAST=true
-# FAST=false
-
 # Directory to store all books blindly collected by WeChat
 VRAC="$DISK"/Documents/9.Lire/aa_lectures_en_vrac
-
-# identifying and cleaning master disk
-# MSTR=/home/perubu/Desktop/test
-MSTR=/media/perubu/Toshiba_4TB
 
 # string comparison, ignore case
 Icomp() {

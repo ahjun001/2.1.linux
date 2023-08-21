@@ -6,7 +6,7 @@ set -euo pipefail
 . ./00_commons.sh
 $DBG $'\n'"$(basename "${BASH_SOURCE[0]}")"$'\n'
 
-$FAST || ./03d_standardize_dir_names.sh "$MSTR"
+$SKIP || ./03d_standardize_dir_names.sh "$MSTR"
 
 # recreate directory tree on disk
 rsync -au -f"+ */" -f"- *" "$MSTR"/ "$DISK"
