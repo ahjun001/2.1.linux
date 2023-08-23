@@ -13,24 +13,38 @@ setup() {
     # put a file to avoid having the script deleting the test directory
     touch "$DISK"/stub_file.empty
     export DISK
+    export DBG=:
 
     # Create some directories to be deleted
-    mkdir -p "$DISK/.git" "$DISK/.idea" "$DISK/myvenv" "$DISK/go" "$DISK/nvm" "$DISK/__pycache__"
-    mkdir -p "$DISK/a/.git" "$DISK/b/.idea" "$DISK/c/.venv" "$DISK/d/go" "$DISK/e/nvm" \
-        "$DISK/f/__pycache__"
-    mkdir -p "$DISK/g/.venv3"
+    declare -a list
+    list=(
+        .git
+        .idea
+        myvenv
+        go
+        nvm
+        __pycache__
+        a/.git
+        b/.idea
+        c/.venv
+        d/go
+        e/nvm
+        f/__pycache__
+        g/.venv3
+    )
+
+    for d in "${list[@]}"; do
+        mkdir -p "$DISK"/"$d"
+    done
+
 }
 
 It 'deletes directories'
-    When run ./erase_non_canonically_installed_dirs.sh
-        The status should be success
-        The output should include 'erase_non_canonically_installed_dirs.sh'
-        The directory "$DISK/.git" should not be exist
-        The directory "$DISK/.idea" should not be exist
-        The directory "$DISK/myvenv" should not be exist
-        The directory "$DISK/go" should not be exist
-        The directory "$DISK/nvm" should not be exist
-        The directory "$DISK/__pycache__" should not be exist
+When run ./erase_non_canonically_installed_dirs.sh
+The status should be success
+for d in "${list[@]}"; do
+    The directory "$DISK"/"$d" should not be exist
+done
 End
 
 AfterAll 'teardown'

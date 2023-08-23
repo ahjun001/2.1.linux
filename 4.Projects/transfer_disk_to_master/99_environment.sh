@@ -1,7 +1,8 @@
 #!/usr/bin/env bash
+# shellcheck disable=SC2034
 
 # use DBG to print runtime infos
-DBG=echo
+DBG='echo'
 # DBG=:
 
 # use TEST && NOT to run extra commands or functions

@@ -1,37 +1,20 @@
 #!/usr/bin/env bash
-
 set -euo pipefail
 
-# shellcheck source=/dev/null
-. ./00_commons.sh
-$DBG $'\n'"$(basename "${BASH_SOURCE[0]}")"$'\n'
+DISK="${DISK:=/tmp/test_dir}" && mkdir -p "$DISK"
 
-# Usage
-PGM=${0##*/}
-Usage() {
-    cat <<.
-$PGM                will treat the disk defined in 00_commons.sh
-$PGM <other_disk>   operates on disk as indicated
-
-ex: $PGM /home/perubu/Desktop/test
-
-In directory names, $PGM will replace:
-- spaces everywhere except for Calibre directories
-- . with - in dates
-.
+[[ -d $DISK ]] || {
+    echo -e "\n$DISK not accessible\n"
+    exit 1
 }
 
-case $# in
-0) $TEST && Usage ;;
-1) $DBG using "$PGM" with DISK = "$DISK" ;;
-*)
-    echo "$PGM" : too many arguments. Exiting ...
-    exit 1
-    ;;
-esac
+DBG="${DBG:=echo}" # 'echo' :  , print runtime infos
+$DBG $'\n'"${BASH_SOURCE[0]#/home/perubu/Documents/Github/}"
 
 # check max depth of directory tree
-D=$(find "$DISK" -type d | awk -F"/" 'NF > max {max = NF} END {print max}')
+D1=$(echo "$DISK" | awk -F"/" 'NF > max {max = NF} END {print max}')
+D2=$(find "$DISK" -type d | awk -F"/" 'NF > max {max = NF} END {print max}')
+D=$((D2 - D1))
 $DBG max depth of directory tree = "$D"
 
 # replace spaces in directories names by _
@@ -40,9 +23,8 @@ $DBG max depth of directory tree = "$D"
 for i in $(seq 1 "$D"); do
     find "$DISK" -maxdepth "$i" -type d | while read -r dir; do
 
-        # replace spaces everywhere except for Calibre
-        # if [[ $dir == *" "* ]] && ! [[ $dir == *'Calibre Library'* ]]; then
-        if echo "$dir" | grep -q ' ' && ! [[ $dir == *'Calibre Library'* ]]; then
+        # replace spaces
+        if echo "$dir" | grep -q ' '; then
             newdir=${dir//\. /.}
             newdir=${newdir// /_}
             mv -v --strip-trailing-slashes "$dir" "$newdir"
