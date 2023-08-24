@@ -1,8 +1,10 @@
 #!/usr/bin/env bash
 
-# set -euo pipefail
+${DBG:=echo} $'\nEntering '"${BASH_SOURCE[0]##*/}"
 
-if [[ -n "${SOURCED}" ]]; then
+set -euo pipefail
+
+if [[ -n "${SOURCED:=1}" ]]; then
   echo "Sourced"
 else
   echo "Not sourced"
@@ -11,3 +13,5 @@ fi
 echo "${BASH_SOURCE[1]}"
 basename "$0"
 echo "$0"
+
+echo '    tty: wrong; sourced: ok'

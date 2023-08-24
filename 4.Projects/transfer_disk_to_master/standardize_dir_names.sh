@@ -9,7 +9,7 @@ DISK="${DISK:=/tmp/test_dir}" && mkdir -p "$DISK"
 }
 
 DBG="${DBG:=echo}" # 'echo' :  , print runtime infos
-$DBG $'\n'"${BASH_SOURCE[0]#/home/perubu/Documents/Github/}"
+$DBG $'\n'"${BASH_SOURCE[0]##*/}"
 
 # check max depth of directory tree
 D1=$(echo "$DISK" | awk -F"/" 'NF > max {max = NF} END {print max}')

@@ -21,7 +21,7 @@ TEST="${TEST:=true}" # true or not, run extra commands or functions
 SKIP="${SKIP:=true}" # true or not, not to run commands that take too long
 DBG="${DBG:=echo}"   # 'echo' :  , print runtime infos
 
-$DBG $'\n'"${BASH_SOURCE[0]#/home/perubu/Documents/Github/}"
+$DBG $'\n'"${BASH_SOURCE[0]##*/}"
 
 # empty trash so that it later contains only files that were trashed in the last operation
 # nemo Trash:///
@@ -31,7 +31,9 @@ $DBG $'\n'"${BASH_SOURCE[0]#/home/perubu/Documents/Github/}"
 SORT_STEP=2
 case $SORT_STEP in
 1) . erase_non_canonically_installed_dirs.sh ;&
-2) . standardize_dir_names.sh ;&
+2) . trash_links_empty_files_n_dirs.sh ;;
+3) . standardize_dir_names.sh ;&
+4) . recreate_tree_on_disk_to_be_emptied ;&
 *)
     printf "%s\n\n" 'SORT is done'
     ;;

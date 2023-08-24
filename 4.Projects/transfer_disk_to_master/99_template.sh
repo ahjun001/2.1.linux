@@ -20,4 +20,4 @@ TEST="${TEST:=true}" # true or not, run extra commands or functions
 SKIP="${SKIP:=true}" # true or not, not to run commands that take too long
 DBG="${DBG:=echo}"   # 'echo' :  , print runtime infos
 
-$DBG $'\n'"${BASH_SOURCE[0]#/home/perubu/Documents/Github/}"
+$DBG $'\n'"${BASH_SOURCE[0]##*/}"
