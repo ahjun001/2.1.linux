@@ -5,6 +5,8 @@ set -euo pipefail
 
 # Displaying what is about to be erased
 Erase_my_l_or_exit() {
+    (($# != 1)) && echo 'Erase_my_l_or_exit requires 1 and only 1 argument' >&2 && return 99
+
     : "$1 can be:
     symbolic_links
     hard_links
@@ -26,7 +28,7 @@ Erase_my_l_or_exit() {
             echo "${my_l[*]}" >'/tmp/'"$1"'.txt'
             echo $'Removing should be performed outside this script. Exiting ...\n'
             nemo '/tmp/'"$1"'.txt' &
-            exit 1
+            return 1
         fi
     fi
     return 0

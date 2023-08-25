@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# shellcheck disable=SC2034
+# trash_links_empty_files_n_dirs.sh
 set -euo pipefail
 
 DISK="${DISK:=/tmp/test_dir}" && mkdir -p "$DISK"

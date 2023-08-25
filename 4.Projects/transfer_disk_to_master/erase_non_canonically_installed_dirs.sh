@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
+# erase_non_canonically_installed_dirs.sh
 set -euo pipefail
 
 DISK=${DISK:=/tmp/test_dir} && mkdir -p "$DISK"

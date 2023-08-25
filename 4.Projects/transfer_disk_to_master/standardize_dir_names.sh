@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
+# standardize_dir_names.sh
 set -euo pipefail
 
 DISK="${DISK:=/tmp/test_dir}" && mkdir -p "$DISK"
