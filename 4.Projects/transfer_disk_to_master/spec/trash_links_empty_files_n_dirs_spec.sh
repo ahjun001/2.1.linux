@@ -1,70 +1,61 @@
 #!/usr/bin/env bash
-#shellcheck disable=SC2317
+#shellcheck disable=SC2034,SC2317
 set -euo pipefail
 eval "$(shellspec - -c) exit 1"
 
 Before 'setup'
 setup(){
-    nemo() { echo 'nemo' "$@"; }
-    # Create a temporary directory for testing in line with the one in 00_commons.sh
+    # nemo() { echo 'nemo' "$@"; }
+    # nemo() { :; }
+    # Create a temporary directory for testing
     DISK=/tmp/test_dir
     mkdir -p "$DISK"
-    # put a file to avoid having the script deleting the test directory
+    # create a file to avoid having the script deleting the test directory
     touch "$DISK"/stub_file.empty
-    export DISK
-    export DBG=:
-    
-    my_l=() 
-    export my_l
-}
-
-After 'cleanup'
-cleanup(){
-    mkdir -p "$DISK"
 }
 
 
 Describe 'Erase_my_l_or_exit()'
-    Describe 'when list is empty'
-        # Include ./trash_links_empty_files_n_dirs.sh
-        Before 'setup'
-        After 'cleanup'
-        set -x
-        It 'does not exit'
-            Data 'n'
-            When call Erase_my_l_or_exit 'symbolic_links'
-            The status should be success
-        End
-    End
+    Include ./lib_pj.sh
 
-    # Describe 'when list is non-empty'
-    #     BeforeEach 'my_l=(/tmp/test_dir/foo /tmp/test_dir/bar)'
-    #     AfterEach 'rm -rf /tmp/test_dir/foo /tmp/test_dir/bar'
-
-    #     It 'asks for confirmation before deleting the list'
-    #         Skip if "user does not confirm" [[ "$REPLY" == "y" ]]
+    # Describe 'when list is empty'
+    #     Before 'my_l=()'
+    #     It 'does not exit'
+    #         Data 'n'
     #         When call Erase_my_l_or_exit 'symbolic_links'
-    #         The output should include '/tmp/test_dir/foo'
-    #         The output should include '/tmp/test_dir/bar'
-    #         The status should be failure
-    #     End
-
-    #     It 'deletes the list when confirmed'
-    #         Skip if "user does not confirm" [[ "$REPLY" == "y" ]]
-    #         When call Erase_my_l_or_exit 'symbolic_links'
-    #         The output should not include '/tmp/test_dir/foo'
-    #         The output should not include '/tmp/test_dir/bar'
     #         The status should be success
     #     End
+    # End
 
-#         It 'copies the list to a file when not confirmed'
-#             Skip if "user confirms" [[ $confirm != "n" ]]
-#             When call Erase_my_l_or_exit 'symbolic_links'
-#             The output should include '/tmp/symbolic_links.txt'
-#             The status should be failure
-#         End
-#     End
-# End
+    Describe 'when list is non-empty'
+        BeforeEach 'setupEach'
+        setupEach(){
+            touch "$DISK"/stub_file.empty
+            ln -fs "$DISK"/stub_file.empty "$DISK"/foo
+            ln -fs "$DISK"/stub_file.empty "$DISK"/bar
+            my_l=(/tmp/test_dir/foo /tmp/test_dir/bar)
+        }
+
+        It 'deletes the list when confirmed'
+            Data '_'
+            When call Erase_my_l_or_exit 'symbolic_links'
+            The output should include '/tmp/test_dir/foo'
+            The output should include '/tmp/test_dir/bar'
+            The status should be success
+        End
+
+        It 'copies the list to a file when not confirmed'
+            Data 'n'
+            When call Erase_my_l_or_exit 'symbolic_links'
+            The file /tmp/symbolic_links should exist
+        #     # The output should include '/tmp/symbolic_links.txt'
+        #     # The stderr should include "Press 'n' not to erase these"
+        #     The stderr should include ' '
+        #     The status should be success
+        #     Dump
+        End
+    End
+End
 
 # Describe 'main script'
 #     BeforeEach 'DISK=$(mktemp -d) && mkdir -p "$DISK"'
@@ -149,4 +140,3 @@ Describe 'Erase_my_l_or_exit()'
 #             End
 #         End
 # End
-    End
