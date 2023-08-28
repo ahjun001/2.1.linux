@@ -4,7 +4,7 @@ set -euo pipefail
 
 # identifying master disk
 MSTR="${MSTR:=/media/perubu/Toshiba_4TB}"
-# MSTR=/home/perubu/Desktop/test
+# MSTR=/tmp/test_dir
 
 SKIP="${SKIP:=not}" # true or not, not to run commands that take too long
 
@@ -14,8 +14,9 @@ $DBG $'\n'"${BASH_SOURCE[0]##*/}"
 DISK="${DISK:=/tmp/test_dir}" && mkdir -p "$DISK"
 [[ -d $DISK ]] || {
     echo -e "\n$DISK not accessible\n"
-    exit 1
+    return 1
 }
+[[ $DISK == "$MSTR" ]] && exit 0
 
 # Directory to store all books blindly collected by WeChat
 VRAC="$DISK"/Documents/9.Lire/aa_lectures_en_vrac
@@ -25,6 +26,6 @@ rsync -au -f"+ */" -f"- *" "$MSTR"/ "$DISK"
 
 # check that $VRAC exists
 [[ -d $VRAC ]] || {
-    echo "$VRAC" was not created properly, exiting ...
-    exit 1
+    echo "$VRAC" was not created properly, returning ...
+    return 1
 }

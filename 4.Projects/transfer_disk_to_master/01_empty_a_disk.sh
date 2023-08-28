@@ -3,8 +3,8 @@
 set -euo pipefail
 
 DISK="${DISK:=/tmp/test_dir}" && mkdir -p "$DISK"
-# DISK=/home/perubu/
 # DISK=/media/perubu/Toshiba_4TB
+# DISK=/home/perubu/
 # DISK=/media/perubu/Blueend_BckUp
 
 [[ -d $DISK ]] || {
@@ -28,13 +28,13 @@ $DBG $'\n'"${BASH_SOURCE[0]##*/}"
 # [[ $(pgrep -f nemo) ]] && pkill -f nemo
 
 ### 1. SORT, Set, Shine, Standardise, Sustain: Eliminate clutter and unecessary items
-SORT_STEP=2
+SORT_STEP=5
 case $SORT_STEP in
 1) . erase_non_canonically_installed_dirs.sh ;&       # tested
-2) . trash_links_empty_files_n_dirs.sh ;;             # tested
+2) . trash_links_empty_files_n_dirs.sh ;&             # tested
 3) . standardize_dir_names.sh ;&                      # tested
 4) echo "Have master dir names been standardized?" ;& #
-5) . recreate_tree_on_disk_to_be_emptied ;&           # tested
+5) . recreate_tree_on_disk_to_be_emptied.sh ;&           # tested
 *) printf "%s\n\n" 'SORT is done' ;;
 esac
 : && exit
