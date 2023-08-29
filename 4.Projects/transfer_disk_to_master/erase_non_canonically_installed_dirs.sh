@@ -14,6 +14,7 @@ del_dirs=(
     go
     nvm
     __pycache__
+    containers
 )
 
 for del_dir in "${del_dirs[@]}"; do

@@ -24,6 +24,7 @@ setup() {
         go
         nvm
         __pycache__
+        containers
         a/.git
         b/.idea
         c/.venv
@@ -31,6 +32,7 @@ setup() {
         e/nvm
         f/__pycache__
         g/.venv3
+        h/containers
     )
 
     for d in "${list[@]}"; do
