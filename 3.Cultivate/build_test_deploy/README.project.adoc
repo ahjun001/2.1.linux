@@ -1,0 +1,52 @@
+= Video quick build project
+:backend: asciidoctor
+:github-flavored:  // enables GitHub-specific features like tables, task lists, and fenced code blocks
+ifndef::env-github[:icons: font]
+ifdef::env-github[]
+// Naughty Waco Temps
+:note-caption: :paperclip:
+:tip-caption: :bulb:
+:warning-caption: :warning:
+:caution-caption: :fire:
+:important-caption: :exclamation:
+endif::[]
+:toc: // gets a ToC after the title
+:toclevels: 2
+// :sectnums: // gets ToC sections to be numbered
+:sectnumlevels: 3 // max # of numbering levels
+
+== Summary
+Isolate specific environments for:
+
+* *Develop*
+
+All artifacts in a subdir under /tmp, with automatic setup and cleanup
+Loging
+
+* *Test*
+
+ShellSpec managed
+
+* *Deploy*
+
+Would use real life hardware and environment 
+
+== Workflow
+
+
+== Technically
+
+Bash scripts should be sourced from one another, keeping the environment consistent.
+
+Each script should be individually ran & tested.
+
+
+== Lessons learned: Technical issues or time over-consuming steps encountered during project & resolutions / mitigations
+
+define ROOT_DIR in the main and submodules, it is not used in the environment file
+
+`"ROOT="$(cd "${BASH_SOURCE[0]%/*.sh}" && pwd)" && +
+. "$ROOT"/lib/environments.sh && +
+cd "$ROOT" || exit 1
+"`
+
