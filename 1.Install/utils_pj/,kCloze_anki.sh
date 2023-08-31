@@ -6,4 +6,4 @@ xclip -o |
     sed -e '/\[sound:/{N;N;s/$/\}\}/}' |
     xclip -i -selection clipboard
 
-[[ -S /usr/local/sbin/,kCloze_anki.sh ]] || sudo ln -fs ~/Documents/Github/2.1.linux/1.Install/utils_pj/,kCloze_anki.sh /usr/local/sbin/,kCloze_anki.sh
+[[ -L /usr/local/sbin/,kCloze_anki.sh ]] || sudo ln -fs ~/Documents/Github/2.1.linux/1.Install/utils_pj/,kCloze_anki.sh /usr/local/sbin/,kCloze_anki.sh

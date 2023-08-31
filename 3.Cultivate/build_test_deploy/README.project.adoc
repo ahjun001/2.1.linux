@@ -33,6 +33,14 @@ Would use real life hardware and environment
 
 == Workflow
 
+The first thing is to determine which environment the script is being run under.
+The variable ENV should be set from environments.sh in Development and Deploy; and in the *_spec.sh files for Testing.
+ENV should pass on all scripts without being reset, so be declared as
+readonly ENV=...   # or
+const ENV=...      # when inside a function
+
+Then Testing parameters should be declared in environments.sh to the same extent than for Development and Deploy.
+And then other parameters necessary for testing in the *_spec.sh files.
 
 == Technically
 
