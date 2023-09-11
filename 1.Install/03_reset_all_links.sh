@@ -31,9 +31,9 @@ sudo find /usr/local/sbin/ -type l -delete
 
 
 # link nvim with soft link in PATH
-my_orig='/opt/nvim-linux64/bin/nvim'
-my_link=/usr/local/sbin/nvim
-make_a_link
+# my_orig='/opt/nvim-linux64/bin/nvim'
+# my_link=/usr/local/sbin/nvim
+# make_a_link
 
 # link vim to Github vimrc
 my_orig='/home/perubu/Documents/Github/3.c-install-n-utils/02_vim/vimrc'
