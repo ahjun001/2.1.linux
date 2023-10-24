@@ -22,3 +22,5 @@ find /home/perubu/Documents/Github -maxdepth 1 -mindepth 1 -type d ! -name '.*' 
     pwd 
     git '"$CMD"'
   ' sh {} \;
+
+[[ -S /usr/local/sbin/,gh_command.sh ]] || sudo ln -fs ~/Documents/Github/2.1.linux/1.Install/utils_pj/,gh_command.sh /usr/local/sbin/,gh_command.sh
