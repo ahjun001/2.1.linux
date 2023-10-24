@@ -7,7 +7,7 @@ eval "$(shellspec - -c) exit 1"
 
 BeforeAll 'setup'
 setup() {
-    # Create a temporary directory for testing in line with the one in 00_commons.sh
+    # Create a temporary directory for testing
     DISK=/tmp/test_dir
     mkdir -p "$DISK"
 
