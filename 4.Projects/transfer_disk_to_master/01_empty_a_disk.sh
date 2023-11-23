@@ -3,9 +3,9 @@
 set -euo pipefail
 
 DISK="${DISK:=/tmp/test_dir}" && mkdir -p "$DISK"
-# DISK=/media/perubu/Toshiba_4TB
+# DISK=/run/media/perubu/Toshiba_4TB
 # DISK=/home/perubu/
-# DISK=/media/perubu/Blueend_BckUp
+# DISK=/run/media/perubu/Blueend_BckUp
 
 [[ -d $DISK ]] || {
     echo -e "\n$DISK not accessible\n"
@@ -13,7 +13,7 @@ DISK="${DISK:=/tmp/test_dir}" && mkdir -p "$DISK"
 }
 
 # identifying master disk
-MSTR="${MSTR:=/media/perubu/Toshiba_4TB}"
+MSTR="${MSTR:=/run/media/perubu/Toshiba_4TB}"
 # MSTR=/home/perubu/Desktop/test
 
 RVW="${RVW:=true}"   # true or not , review what is about to be deleted
@@ -29,6 +29,9 @@ $DBG $'\n'"${BASH_SOURCE[0]##*/}"
 
 ### 1. SORT, Set, Shine, Standardise, Sustain: Eliminate clutter and unecessary items
 SORT_STEP=5
+
+[[ $DISK == "$MSTR" ]] &&  [[ $SORT_STEP -gt 3 ]] && echo Only first 3 SORT steps on "$MSTR" && exit 1
+
 case $SORT_STEP in
 1) . erase_non_canonically_installed_dirs.sh ;&       # tested
 2) . trash_links_empty_files_n_dirs.sh ;&             # tested

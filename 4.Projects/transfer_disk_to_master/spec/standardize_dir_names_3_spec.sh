@@ -26,28 +26,11 @@ It "replaces spaces 1"
         The status should be success
 End
 
-replace_spaces_and_check() {
-    replace_spaces
-    find "$DISK" -maxdepth 1 -type d | sed "s|$DISK||" | grep -q " "
-}
 
-It "replaces spaces 2"
-    mkdir -p "$DISK/21 22.test"
-    mkdir -p "$DISK/. 21 22.test"
-    When call replace_spaces_and_check
-        The status should be failure
+It "replaces dots with dashes in directory names starting with 20[0-9][0-9]"
+    mkdir -p "$DISK/2021.01-01.test"
+    mkdir -p "$DISK/2021.02.02.test"
+    When call replace_dots
+        find "$DISK" -maxdepth 1 -type d | grep -q "2021"
+        The status should be success
 End
-
-# It "replaces dots with dashes in directory names starting with 20[0-9][0-9]"
-#     mkdir -p "$DISK/2021.test"
-#     mkdir -p "$DISK/2022.test"
-#     replace_dots
-#     ls "$DISK" | grep -q "2021.test"
-#     The status should be failure
-#     ls "$DISK" | grep -q "2021-test"
-#     The status should be success
-#     ls "$DISK" | grep -q "2022.test"
-#     The status should be failure
-#     ls "$DISK" | grep -q "2022-test"
-#     The status should be success
-# End

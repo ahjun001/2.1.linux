@@ -13,29 +13,25 @@ DBG="${DBG:=echo}" # 'echo' :  , print runtime infos
 $DBG $'\n'"${BASH_SOURCE[0]##*/}"
 
 # Function to replace spaces with underscores in directory names
+# Function to replace dots with dashes in directory names starting with 20[0-9][0-9]
 replace_spaces() {
-    find "$DISK" -type d -execdir rename 's/\. /./' {} +
-    find "$DISK" -type d -execdir rename 's/ /_/g' {} +
+    find "$DISK" -depth -type d -execdir prename 's/\. /./' {} \;
+    find "$DISK" -depth -type d -print0 | xargs -0 -I{} prename 's/ /_/' "{}"
 }
 
-# Function to replace dots with dashes in directory names starting with 20[0-9][0-9]
-replace_dots_bak() {
-    for dir in "$DISK"/20[0-9][0-9]*/; do
-        echo dir = "$dir"
-        new_dir="${dir/\./-}"
-        mv "$dir" "$new_dir"
-    done
-}
 replace_dots() {
-    for dir in "$DISK"/20[0-9][0-9]*/; do
+    for dir in "$DISK"/20[0-9][0-9]*; do
         dirname=$(basename "$dir")
         path=$(dirname "$dir")
-        if [[ $dirname == *\.* ]] && [[ $dir == $path/$dirname/ ]]; then
-            cd "$path"
-            mv -v "$dir" "${dirname//./-}"
+        if [[ "$dirname" == *.* ]] && [[ "$dir" == "$path/$dirname" ]]; then
+            mv "$dir" "${dir//./-}"
         fi
     done
 }
+
 # Main script
+mkdir -p "$DISK/2021.01-01.test"
+mkdir -p "$DISK/2021.02.02.test"
 replace_spaces
 replace_dots
+find "$DISK" -maxdepth 1 -type d | grep -q "2021"
