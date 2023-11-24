@@ -34,15 +34,15 @@ set -x
 diff -r $HD/ $UD/ || :
 set +x
 
-read -rsn 1 -p "Ctrl-C or press any key to run meld ..."
+read -rsn 1 -p "Ctrl-C or press any key to run meld ...\n"  # todo check if disks are identical before and avoid meld and kompare
 
 meld $HD/ $UD/ 
 
-read -rsn 1 -p "Ctrl-C or press any key to run kompare ..."
+read -rsn 1 -p "Ctrl-C or press any key to run kompare ...\n"
 
 kompare $HD/ $UD/ 
 
-read -rsn 1 -p "Ctrl-C or press any key to sync disks ..."
+read -rsn 1 -p "Ctrl-C or press any key to sync disks ...\n"
 
 set -x
 rsync -avu $HD/ $UD
