@@ -24,5 +24,4 @@ find /home/perubu/Documents/Github -maxdepth 1 -mindepth 1 -type d ! -name '.*' 
 
 LINK=/usr/local/sbin/"${0##*/}"
 FILE=$(realpath "$0")
-echo FILE= "$FILE"
 [[ -L $LINK ]] || sudo ln -fs "$FILE" "$LINK"
