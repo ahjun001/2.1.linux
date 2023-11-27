@@ -4,7 +4,7 @@ set -euo pipefail
 
 # Indent level
 declare -i INDENT=0
-declare -i SHIFT_W=4
+declare -i SHIFT_W=2
 BLANK=
 DATA=
 WHEN=

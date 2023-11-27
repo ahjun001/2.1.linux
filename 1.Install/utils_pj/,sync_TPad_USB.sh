@@ -1,52 +1,93 @@
 #!/usr/bin/env bash
+# ,sync_TPad_USB.sh
 
 set -euo pipefail
 
-Usage_exit() {
+Usage() {
     cat <<.
 
-Usage: ${0##*/} mimi / safe
+    Usage: ${0##*/} mimi / safe
 
 .
-    exit
 }
 
-[[ $# == 1 ]] || Usage_exit
+Setup() {
+    [[ $# == 1 ]] || Usage && exit
 
-case $1 in
-'mimi')
-    HD=/mnt/TPad_mimi
-    UD=/run/media/perubu/USB_mimi
-    ;;
-'safe')
-    HD=/mnt/TPad_safe
-    UD=/run/media/perubu/USB_safe
-    ;;
-*)
-    Usage_exit
-    ;;
-esac
+    case $1 in
+    'mimi')
+        HD=/mnt/TPad_mimi
+        UD=/run/media/perubu/USB_mimi
+        ;;
+    'safe')
+        HD=/mnt/TPad_safe
+        UD=/run/media/perubu/USB_safe
+        ;;
+    *)
+        Usage_exit
+        ;;
+    esac
 
-mount | grep "on $HD type" >/dev/null || (echo -e $"$HD" $'cannot be reached\nExiting ...\n' && exit 1)
-mount | grep "on $UD type" >/dev/null || (echo -e $"$UD" $'cannot be reached\nExiting ...\n' && exit 1)
+    mount | grep "on $HD type" >/dev/null || (echo -e $"$HD" $'cannot be reached\nExiting ...\n' && return 1)
+    mount | grep "on $UD type" >/dev/null || (echo -e $"$UD" $'cannot be reached\nExiting ...\n' && return 1)
+}
 
-set -x
-diff -r $HD/ $UD/ || :
-set +x
+Diff() {
+    read -rsn 1 -p $'Diff disks [Yy] or press any other key to bypass \n'
+    case $REPLY in
+    y | Y)
+        set -x
+        diff -r $HD/ $UD/ || :
+        set +x
+        ;;
+    *)
+        echo 'bypassed'
+        return
+        ;;
+    esac
+}
 
-read -rsn 1 -p "Ctrl-C or press any key to run meld ...\n"  # todo check if disks are identical before and avoid meld and kompare
+Meld() {
+    read -rsn 1 -p $'Meld disks [Yy] or press any other key to bypass \n'
+    case $REPLY in
+    y | Y) meld $HD/ $UD/ ;;
+    *)
+        echo 'bypassed'
+        return
+        ;;
+    esac
+}
 
-meld $HD/ $UD/ 
+Kompare() {
+    read -rsn 1 -p $'Kompare disks [Yy] or press any other key to bypass \n'
+    case $REPLY in
+    y | Y) kompare $HD/ $UD/ ;;
+    *)
+        echo 'bypassed'
+        return
+        ;;
+    esac
+}
 
-read -rsn 1 -p "Ctrl-C or press any key to run kompare ...\n"
+Rsync() {
+    read -rsn 1 -p $'Rsync disks [Yy] or press any other key to bypass \n'
+    case $REPLY in
+    y | Y)
+        set -x
+        rsync -avu $HD/ $UD
+        rsync -avu $UD/ $HD
+        set +x
+        ;;
+    *)
+        echo 'bypassed'
+        return
+        ;;
+    esac
+}
 
-kompare $HD/ $UD/ 
-
-read -rsn 1 -p "Ctrl-C or press any key to sync disks ...\n"
-
-set -x
-rsync -avu $HD/ $UD
-rsync -avu $UD/ $HD
-set +x
-
-diff -r $HD/ $UD/ || :
+Setup "$@"
+Diff
+Meld
+Kompare
+Rsync
+Diff
