@@ -12,7 +12,9 @@ Usage() {
 }
 
 Setup() {
-    [[ $# == 1 ]] || Usage && exit
+    [[ $# == 1 ]] || {
+        Usage && exit
+    }
 
     case $1 in
     'mimi')
@@ -23,9 +25,7 @@ Setup() {
         HD=/mnt/TPad_safe
         UD=/run/media/perubu/USB_safe
         ;;
-    *)
-        Usage_exit
-        ;;
+    *) Usage && exit ;;
     esac
 
     mount | grep "on $HD type" >/dev/null || (echo -e $"$HD" $'cannot be reached\nExiting ...\n' && return 1)
