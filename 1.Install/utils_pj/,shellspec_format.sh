@@ -49,8 +49,9 @@ while read -r line; do
 
     # done  # to be used with ShellSpec, then input is stdin, output is stdout
 done <<< \
-    "$(xclip -selection clipboard -o)" | 
+    "$(xclip -selection clipboard -o)" |
     xclip -selection clipboard
 
-[[ -L /usr/local/sbin/,shellspec_format.sh ]] ||
-    sudo ln -fs ~/Documents/Github/2.1.linux/1.Install/utils_pj/,shellspec_format.sh /usr/local/sbin/,shellspec_format.sh
+LINK=/usr/local/sbin/"${0##*/}"
+FILE=$(realpath "$0")
+[[ -L $LINK ]] || sudo ln -fs "$FILE" "$LINK"

@@ -14,3 +14,7 @@ It "shows the usage"
     The error should eq ''
     The status should be success
 End
+
+LINK=/usr/local/sbin/"${0##*/}"
+FILE=$(realpath "$0")
+[[ -L $LINK ]] || sudo ln -fs "$FILE" "$LINK"

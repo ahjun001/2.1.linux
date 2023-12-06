@@ -111,3 +111,7 @@ if [ "$command_args_ok" = true ]; then
     esac
 
 fi
+
+LINK=/usr/local/sbin/"${0##*/}"
+FILE=$(realpath "$0")
+[[ -L $LINK ]] || sudo ln -fs "$FILE" "$LINK"

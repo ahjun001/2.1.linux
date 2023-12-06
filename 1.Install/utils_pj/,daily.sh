@@ -32,3 +32,7 @@ linuxmint | ubuntu) sudo yt-dlp -U ;;
 fedora) ;;
 *) echo "Should not happen" && exit 1 ;;
 esac
+
+LINK=/usr/local/sbin/"${0##*/}"
+FILE=$(realpath "$0")
+[[ -L $LINK ]] || sudo ln -fs "$FILE" "$LINK"

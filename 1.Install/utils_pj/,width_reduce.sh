@@ -20,3 +20,7 @@ for file in *.jpg *.png *.gif *.jpeg *.webp; do
   fi
 
 done
+
+LINK=/usr/local/sbin/"${0##*/}"
+FILE=$(realpath "$0")
+[[ -L $LINK ]] || sudo ln -fs "$FILE" "$LINK"

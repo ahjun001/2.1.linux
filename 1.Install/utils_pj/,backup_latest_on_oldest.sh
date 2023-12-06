@@ -17,3 +17,7 @@ usb2=/media/perubu/San_64GB_open
 rsync -rnv --delete --exclude=lost+found $usb1/ $usb2 >diffs.txt
 
 grep -v 'sending incremental file list' diffs.txt | grep -v 'sent'
+
+LINK=/usr/local/sbin/"${0##*/}"
+FILE=$(realpath "$0")
+[[ -L $LINK ]] || sudo ln -fs "$FILE" "$LINK"

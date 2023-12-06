@@ -6,4 +6,6 @@ xclip -o |
     sed 's/}}//g' |
     xclip -i -selection clipboard
 
-[[ -L /usr/local/sbin/,kclean_anki.sh ]] || sudo ln -fs ~/Documents/Github/2.1.linux/1.Install/utils_pj/,kclean_anki.sh /usr/local/sbin/,kclean_anki.sh
+LINK=/usr/local/sbin/"${0##*/}"
+FILE=$(realpath "$0")
+[[ -L $LINK ]] || sudo ln -fs "$FILE" "$LINK"

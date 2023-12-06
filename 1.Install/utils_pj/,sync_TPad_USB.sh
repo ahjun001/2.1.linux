@@ -33,11 +33,11 @@ Setup() {
 }
 
 Diff() {
-    read -rsn 1 -p $'Diff disks [Yy] or press any other key to bypass \n'
+    read -rp "Diff disks? [Yy] "
     case $REPLY in
     y | Y)
         set -x
-        diff -r $HD/ $UD/ || :
+        diff -r "$HD"/ "$UD"/ || :
         set +x
         ;;
     *)
@@ -48,9 +48,9 @@ Diff() {
 }
 
 Meld() {
-    read -rsn 1 -p $'Meld disks [Yy] or press any other key to bypass \n'
+    read -rp "Meld disks? [Yy] "
     case $REPLY in
-    y | Y) meld $HD/ $UD/ ;;
+    y | Y) meld "$HD"/ "$UD"/ ;;
     *)
         echo 'bypassed'
         return
@@ -59,9 +59,9 @@ Meld() {
 }
 
 Kompare() {
-    read -rsn 1 -p $'Kompare disks [Yy] or press any other key to bypass \n'
+    read -rp "Kompare disks? [Yy] "
     case $REPLY in
-    y | Y) kompare $HD/ $UD/ ;;
+    y | Y) kompare "$HD"/ "$UD"/ ;;
     *)
         echo 'bypassed'
         return
@@ -70,12 +70,12 @@ Kompare() {
 }
 
 Rsync() {
-    read -rsn 1 -p $'Rsync disks [Yy] or press any other key to bypass \n'
+    read -rp "Rsync disks? [Yy] "
     case $REPLY in
     y | Y)
         set -x
-        rsync -avu $HD/ $UD
-        rsync -avu $UD/ $HD
+        rsync -avu "$HD"/ "$UD"
+        rsync -avu "$UD"/ "$HD"
         set +x
         ;;
     *)
@@ -91,3 +91,7 @@ Meld
 Kompare
 Rsync
 Diff
+
+LINK=/usr/local/sbin/"${0##*/}"
+FILE=$(realpath "$0")
+[[ -L $LINK ]] || sudo ln -fs "$FILE" "$LINK"
