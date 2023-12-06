@@ -21,6 +21,7 @@ for file in *.jpg *.png *.gif *.jpeg *.webp; do
 
 done
 
+# make a soft link in /usr/local/sbin
 LINK=/usr/local/sbin/"${0##*/}"
 FILE=$(realpath "$0")
 [[ -L $LINK ]] || sudo ln -fs "$FILE" "$LINK"

@@ -8,6 +8,7 @@ videos tab and write a yt-dlp command that works '
 MY_L=$1
 yt-dlp https://youtu.be/"${MY_L#*=}"
 
+# make a soft link in /usr/local/sbin
 LINK=/usr/local/sbin/"${0##*/}"
 FILE=$(realpath "$0")
 [[ -L $LINK ]] || sudo ln -fs "$FILE" "$LINK"

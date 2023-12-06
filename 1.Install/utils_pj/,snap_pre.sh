@@ -1,17 +1,18 @@
 #!/usr/bin/env bash
+# ,snap_pre.sh
 
-set -euo pipefail
+set -o pipefail # set -e not good because will get the terminal window to exit when script is sourced
+# set u will cause prompt definition in inside shell to fail as well and script to exit
 
 # Check if there is one and only one argument
-if [ "$#" -ne 1 ]; then
+[[ "$#" -ne 1 ]] && {
     echo "Usage: source ${0##*/} <description>"
-    exit 1
-fi
-
+    return 1
+}
 
 [[ "${BASH_SOURCE[0]}" == "${0}" ]] && {
-    echo "${0##*/}" $'only can be sourced\nExiting.';
-    exit 1
+    echo "${0##*/}" $'only can be sourced\nExiting.'
+    return 1
 }
 
 # Save the description in PJ_SNAP_DESCRIPTION
@@ -26,6 +27,19 @@ export PJ_SNAP_HOME_PRE
 PJ_SNAP_ROOT_PRE=$(sudo snapper -c root create --type pre --print-number --description "$PJ_SNAP_DESCRIPTION" --cleanup-algorithm number)
 export PJ_SNAP_ROOT_PRE
 
-LINK=/usr/local/sbin/"${0##*/}"
-FILE=$(realpath "$0")
+# save snapshot values so that they can be used in a different terminal window if needed
+mkdir -p /tmp/snapper
+cat <<. >/tmp/snapper/pj_snap.sh
+#!/usr/bin/env bash
+[[ "${BASH_SOURCE[0]}" == "${0}" ]] && {
+    echo "${0##*/}" $'only can be sourced\nExiting.'
+    return 1
+}
+export PJ_SNAP_DESCRIPTION="$PJ_SNAP_DESCRIPTION"
+export PJ_SNAP_HOME_PRE=$PJ_SNAP_HOME_PRE
+export PJ_SNAP_ROOT_PRE=$PJ_SNAP_ROOT_PRE
+.
+
+# make a soft link in /usr/local/sbin
+LINK=/usr/local/sbin/"${0##*/}" FILE=$(realpath "$0")
 [[ -L $LINK ]] || sudo ln -fs "$FILE" "$LINK"
