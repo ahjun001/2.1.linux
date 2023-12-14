@@ -39,7 +39,3 @@ export PJ_SNAP_DESCRIPTION="$PJ_SNAP_DESCRIPTION"
 export PJ_SNAP_HOME_PRE=$PJ_SNAP_HOME_PRE
 export PJ_SNAP_ROOT_PRE=$PJ_SNAP_ROOT_PRE
 .
-
-# make a soft link in /usr/local/sbin
-LINK=/usr/local/sbin/"${0##*/}" FILE=$(realpath "$0")
-[[ -L $LINK ]] || sudo ln -fs "$FILE" "$LINK"
