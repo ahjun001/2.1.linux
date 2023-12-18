@@ -42,7 +42,7 @@ if [[ ! -f $FILE_IN_PATH ]]; then
 set -euo pipefail
 
 # shellcheck disable=SC1091
-source /home/perubu/Documents/Github/2.1.linux/1.Install/utils_pj/,snap_pre.sh "\$1"
+source /home/perubu/Documents/Github/2.1.linux/1.Install/utils_pj/,snap_post.sh
 .
     sudo chmod +x "$FILE_IN_PATH"
 fi
