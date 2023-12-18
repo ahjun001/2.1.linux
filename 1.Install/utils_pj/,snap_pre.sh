@@ -10,10 +10,10 @@ set -o pipefail # set -e not good because will get the terminal window to exit w
     return 1
 }
 
-[[ "${BASH_SOURCE[0]}" == "${0}" ]] && {
+if [[ "${BASH_SOURCE[0]}" == "${0}" ]]; then
     echo "${0##*/}" $'only can be sourced\nExiting.'
-    return 1
-}
+    exit 1
+fi
 
 # Save the description in PJ_SNAP_DESCRIPTION
 PJ_SNAP_DESCRIPTION=$1
@@ -31,11 +31,26 @@ export PJ_SNAP_ROOT_PRE
 mkdir -p /tmp/snapper
 cat <<. >/tmp/snapper/pj_snap.sh
 #!/usr/bin/env bash
-[[ "${BASH_SOURCE[0]}" == "${0}" ]] && {
+if "${BASH_SOURCE[0]}" == "${0}" ; then
     echo "${0##*/}" $'only can be sourced\nExiting.'
     return 1
-}
+fi
 export PJ_SNAP_DESCRIPTION="$PJ_SNAP_DESCRIPTION"
 export PJ_SNAP_HOME_PRE=$PJ_SNAP_HOME_PRE
 export PJ_SNAP_ROOT_PRE=$PJ_SNAP_ROOT_PRE
 .
+
+# make a encapsulation in /usr/local/sbin to use in $PATH
+
+FILE_IN_PATH=/usr/local/sbin/,snap_pre.sh
+if [[ ! -f $FILE_IN_PATH ]]; then
+    cat <<. | sudo tee "$FILE_IN_PATH" >/dev/null
+#!/usr/bin/env bash
+
+set -euo pipefail
+
+# shellcheck disable=SC1091
+source /home/perubu/Documents/Github/2.1.linux/1.Install/utils_pj/,snap_pre.sh "\$1"
+.
+    sudo chmod +x "$FILE_IN_PATH"
+fi
