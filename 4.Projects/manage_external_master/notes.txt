@@ -1,0 +1,5 @@
+Faire des utilitaires:
+
+dans un volume faire la liste décroissante des plus gros dirs
+
+véfifier si un fichier existe déjà dans un autre volume, et peut-être alors l'effacer.

@@ -1,0 +1,992 @@
+/run/media/perubu/Tosh_4TB/.Trash-1000/files/Adobe CC/Adobe Illustrator CC 2019 v23.0.2.567/Setup (Pre-Activated)/products/LIBS/CC-Library-mul.zip
+/run/media/perubu/Tosh_4TB/Documents/03.Info_tech_n_systems/4.Systems_install_+_maintenance/Adobe_Illustrator_CC_2019_v23.0.2.567/Setup_(Pre-Activated)/products/LIBS/CC-Library-mul.zip
+
+/run/media/perubu/Tosh_4TB/.Trash-1000/files/Adobe CC/Adobe Illustrator CC 2019 v23.0.2.567/Setup (Pre-Activated)/products/ILST/AdobeIllustrator23-nl_NL.zip
+/run/media/perubu/Tosh_4TB/Documents/03.Info_tech_n_systems/4.Systems_install_+_maintenance/Adobe_Illustrator_CC_2019_v23.0.2.567/Setup_(Pre-Activated)/products/ILST/AdobeIllustrator23-nl_NL.zip
+
+/run/media/perubu/Tosh_4TB/.Trash-1000/files/Adobe CC/Adobe Illustrator CC 2019 v23.0.2.567/Setup (Pre-Activated)/products/ILST/AdobeIllustrator23-pt_BR.zip
+/run/media/perubu/Tosh_4TB/Documents/03.Info_tech_n_systems/4.Systems_install_+_maintenance/Adobe_Illustrator_CC_2019_v23.0.2.567/Setup_(Pre-Activated)/products/ILST/AdobeIllustrator23-pt_BR.zip
+
+/run/media/perubu/Tosh_4TB/.Trash-1000/files/Adobe CC/Adobe Illustrator CC 2019 v23.0.2.567/Setup (Pre-Activated)/products/ILST/AdobeIllustrator23-zh_CN.zip
+/run/media/perubu/Tosh_4TB/Documents/03.Info_tech_n_systems/4.Systems_install_+_maintenance/Adobe_Illustrator_CC_2019_v23.0.2.567/Setup_(Pre-Activated)/products/ILST/AdobeIllustrator23-zh_CN.zip
+
+/run/media/perubu/Tosh_4TB/.Trash-1000/files/Adobe CC/Adobe Illustrator CC 2019 v23.0.2.567/Setup (Pre-Activated)/products/ILST/AdobeIllustrator23-pl_PL.zip
+/run/media/perubu/Tosh_4TB/Documents/03.Info_tech_n_systems/4.Systems_install_+_maintenance/Adobe_Illustrator_CC_2019_v23.0.2.567/Setup_(Pre-Activated)/products/ILST/AdobeIllustrator23-pl_PL.zip
+
+/run/media/perubu/Tosh_4TB/.Trash-1000/files/Adobe CC/Adobe Illustrator CC 2019 v23.0.2.567/Setup (Pre-Activated)/products/ILST/AdobeIllustrator23-uk_UA.zip
+/run/media/perubu/Tosh_4TB/Documents/03.Info_tech_n_systems/4.Systems_install_+_maintenance/Adobe_Illustrator_CC_2019_v23.0.2.567/Setup_(Pre-Activated)/products/ILST/AdobeIllustrator23-uk_UA.zip
+
+/run/media/perubu/Tosh_4TB/.Trash-1000/files/Adobe CC/Adobe Illustrator CC 2019 v23.0.2.567/Setup (Pre-Activated)/products/ILST/AdobeIllustrator23-fr_MA.zip
+/run/media/perubu/Tosh_4TB/Documents/03.Info_tech_n_systems/4.Systems_install_+_maintenance/Adobe_Illustrator_CC_2019_v23.0.2.567/Setup_(Pre-Activated)/products/ILST/AdobeIllustrator23-fr_MA.zip
+
+/run/media/perubu/Tosh_4TB/.Trash-1000/files/Adobe CC/Adobe Illustrator CC 2019 v23.0.2.567/Setup (Pre-Activated)/products/ILST/AdobeIllustrator23-en_US.zip
+/run/media/perubu/Tosh_4TB/Documents/03.Info_tech_n_systems/4.Systems_install_+_maintenance/Adobe_Illustrator_CC_2019_v23.0.2.567/Setup_(Pre-Activated)/products/ILST/AdobeIllustrator23-en_US.zip
+
+/run/media/perubu/Tosh_4TB/.Trash-1000/files/Adobe CC/Adobe Illustrator CC 2019 v23.0.2.567/Setup (Pre-Activated)/products/ILST/AdobeIllustrator23-tr_TR.zip
+/run/media/perubu/Tosh_4TB/Documents/03.Info_tech_n_systems/4.Systems_install_+_maintenance/Adobe_Illustrator_CC_2019_v23.0.2.567/Setup_(Pre-Activated)/products/ILST/AdobeIllustrator23-tr_TR.zip
+
+/run/media/perubu/Tosh_4TB/.Trash-1000/files/Adobe CC/Adobe Illustrator CC 2019 v23.0.2.567/Setup (Pre-Activated)/products/ILST/AdobeIllustrator23-ko_KR.zip
+/run/media/perubu/Tosh_4TB/Documents/03.Info_tech_n_systems/4.Systems_install_+_maintenance/Adobe_Illustrator_CC_2019_v23.0.2.567/Setup_(Pre-Activated)/products/ILST/AdobeIllustrator23-ko_KR.zip
+
+/run/media/perubu/Tosh_4TB/.Trash-1000/files/Adobe CC/Adobe Illustrator CC 2019 v23.0.2.567/Setup (Pre-Activated)/products/ILST/AdobeIllustrator23-fr_FR.zip
+/run/media/perubu/Tosh_4TB/Documents/03.Info_tech_n_systems/4.Systems_install_+_maintenance/Adobe_Illustrator_CC_2019_v23.0.2.567/Setup_(Pre-Activated)/products/ILST/AdobeIllustrator23-fr_FR.zip
+
+/run/media/perubu/Tosh_4TB/.Trash-1000/files/Adobe CC/Adobe Illustrator CC 2019 v23.0.2.567/Setup (Pre-Activated)/products/ILST/AdobeIllustrator23-Core.zip
+/run/media/perubu/Tosh_4TB/Documents/03.Info_tech_n_systems/4.Systems_install_+_maintenance/Adobe_Illustrator_CC_2019_v23.0.2.567/Setup_(Pre-Activated)/products/ILST/AdobeIllustrator23-Core.zip
+
+/run/media/perubu/Tosh_4TB/.Trash-1000/files/Adobe CC/Adobe Illustrator CC 2019 v23.0.2.567/Setup (Pre-Activated)/products/ILST/AdobeIllustrator23-de_DE.zip
+/run/media/perubu/Tosh_4TB/Documents/03.Info_tech_n_systems/4.Systems_install_+_maintenance/Adobe_Illustrator_CC_2019_v23.0.2.567/Setup_(Pre-Activated)/products/ILST/AdobeIllustrator23-de_DE.zip
+
+/run/media/perubu/Tosh_4TB/.Trash-1000/files/Adobe CC/Adobe Illustrator CC 2019 v23.0.2.567/Setup (Pre-Activated)/products/ILST/AdobeIllustrator23-cs_CZ.zip
+/run/media/perubu/Tosh_4TB/Documents/03.Info_tech_n_systems/4.Systems_install_+_maintenance/Adobe_Illustrator_CC_2019_v23.0.2.567/Setup_(Pre-Activated)/products/ILST/AdobeIllustrator23-cs_CZ.zip
+
+/run/media/perubu/Tosh_4TB/.Trash-1000/files/Adobe CC/Adobe Illustrator CC 2019 v23.0.2.567/Setup (Pre-Activated)/products/ILST/AdobeIllustrator23-da_DK.zip
+/run/media/perubu/Tosh_4TB/Documents/03.Info_tech_n_systems/4.Systems_install_+_maintenance/Adobe_Illustrator_CC_2019_v23.0.2.567/Setup_(Pre-Activated)/products/ILST/AdobeIllustrator23-da_DK.zip
+
+/run/media/perubu/Tosh_4TB/.Trash-1000/files/Adobe CC/Adobe Illustrator CC 2019 v23.0.2.567/Setup (Pre-Activated)/products/ILST/AdobeIllustrator23-en_GB.zip
+/run/media/perubu/Tosh_4TB/Documents/03.Info_tech_n_systems/4.Systems_install_+_maintenance/Adobe_Illustrator_CC_2019_v23.0.2.567/Setup_(Pre-Activated)/products/ILST/AdobeIllustrator23-en_GB.zip
+
+/run/media/perubu/Tosh_4TB/.Trash-1000/files/Adobe CC/Adobe Illustrator CC 2019 v23.0.2.567/Setup (Pre-Activated)/products/ILST/AdobeIllustrator23-sv_SE.zip
+/run/media/perubu/Tosh_4TB/Documents/03.Info_tech_n_systems/4.Systems_install_+_maintenance/Adobe_Illustrator_CC_2019_v23.0.2.567/Setup_(Pre-Activated)/products/ILST/AdobeIllustrator23-sv_SE.zip
+
+/run/media/perubu/Tosh_4TB/.Trash-1000/files/Adobe CC/Adobe Illustrator CC 2019 v23.0.2.567/Setup (Pre-Activated)/products/ILST/AdobeIllustrator23-en_IL.zip
+/run/media/perubu/Tosh_4TB/Documents/03.Info_tech_n_systems/4.Systems_install_+_maintenance/Adobe_Illustrator_CC_2019_v23.0.2.567/Setup_(Pre-Activated)/products/ILST/AdobeIllustrator23-en_IL.zip
+
+/run/media/perubu/Tosh_4TB/.Trash-1000/files/Adobe CC/Adobe Illustrator CC 2019 v23.0.2.567/Setup (Pre-Activated)/products/ILST/AdobeIllustrator23-ru_RU.zip
+/run/media/perubu/Tosh_4TB/Documents/03.Info_tech_n_systems/4.Systems_install_+_maintenance/Adobe_Illustrator_CC_2019_v23.0.2.567/Setup_(Pre-Activated)/products/ILST/AdobeIllustrator23-ru_RU.zip
+
+/run/media/perubu/Tosh_4TB/.Trash-1000/files/Adobe CC/Adobe Illustrator CC 2019 v23.0.2.567/Setup (Pre-Activated)/products/ILST/AdobeIllustrator23-it_IT.zip
+/run/media/perubu/Tosh_4TB/Documents/03.Info_tech_n_systems/4.Systems_install_+_maintenance/Adobe_Illustrator_CC_2019_v23.0.2.567/Setup_(Pre-Activated)/products/ILST/AdobeIllustrator23-it_IT.zip
+
+/run/media/perubu/Tosh_4TB/.Trash-1000/files/Adobe CC/Adobe Illustrator CC 2019 v23.0.2.567/Setup (Pre-Activated)/products/ILST/AdobeIllustrator23-ja_JP.zip
+/run/media/perubu/Tosh_4TB/Documents/03.Info_tech_n_systems/4.Systems_install_+_maintenance/Adobe_Illustrator_CC_2019_v23.0.2.567/Setup_(Pre-Activated)/products/ILST/AdobeIllustrator23-ja_JP.zip
+
+/run/media/perubu/Tosh_4TB/.Trash-1000/files/Adobe CC/Adobe Illustrator CC 2019 v23.0.2.567/Setup (Pre-Activated)/products/ILST/AdobeIllustrator23-zh_TW.zip
+/run/media/perubu/Tosh_4TB/Documents/03.Info_tech_n_systems/4.Systems_install_+_maintenance/Adobe_Illustrator_CC_2019_v23.0.2.567/Setup_(Pre-Activated)/products/ILST/AdobeIllustrator23-zh_TW.zip
+
+/run/media/perubu/Tosh_4TB/.Trash-1000/files/Adobe CC/Adobe Illustrator CC 2019 v23.0.2.567/Setup (Pre-Activated)/products/ILST/AdobeIllustrator23-es_ES.zip
+/run/media/perubu/Tosh_4TB/Documents/03.Info_tech_n_systems/4.Systems_install_+_maintenance/Adobe_Illustrator_CC_2019_v23.0.2.567/Setup_(Pre-Activated)/products/ILST/AdobeIllustrator23-es_ES.zip
+
+/run/media/perubu/Tosh_4TB/.Trash-1000/files/Adobe CC/Adobe Illustrator CC 2019 v23.0.2.567/Setup (Pre-Activated)/products/ILST/AdobeIllustrator23-hu_HU.zip
+/run/media/perubu/Tosh_4TB/Documents/03.Info_tech_n_systems/4.Systems_install_+_maintenance/Adobe_Illustrator_CC_2019_v23.0.2.567/Setup_(Pre-Activated)/products/ILST/AdobeIllustrator23-hu_HU.zip
+
+/run/media/perubu/Tosh_4TB/.Trash-1000/files/Adobe CC/Adobe Illustrator CC 2019 v23.0.2.567/Setup (Pre-Activated)/products/ILST/AdobeIllustrator23-es_MX.zip
+/run/media/perubu/Tosh_4TB/Documents/03.Info_tech_n_systems/4.Systems_install_+_maintenance/Adobe_Illustrator_CC_2019_v23.0.2.567/Setup_(Pre-Activated)/products/ILST/AdobeIllustrator23-es_MX.zip
+
+/run/media/perubu/Tosh_4TB/.Trash-1000/files/Adobe CC/Adobe Illustrator CC 2019 v23.0.2.567/Setup (Pre-Activated)/products/ILST/AdobeIllustrator23-en_AE.zip
+/run/media/perubu/Tosh_4TB/Documents/03.Info_tech_n_systems/4.Systems_install_+_maintenance/Adobe_Illustrator_CC_2019_v23.0.2.567/Setup_(Pre-Activated)/products/ILST/AdobeIllustrator23-en_AE.zip
+
+/run/media/perubu/Tosh_4TB/.Trash-1000/files/Adobe CC/Adobe Illustrator CC 2019 v23.0.2.567/Setup (Pre-Activated)/products/ILST/AdobeIllustrator23-fr_CA.zip
+/run/media/perubu/Tosh_4TB/Documents/03.Info_tech_n_systems/4.Systems_install_+_maintenance/Adobe_Illustrator_CC_2019_v23.0.2.567/Setup_(Pre-Activated)/products/ILST/AdobeIllustrator23-fr_CA.zip
+
+/run/media/perubu/Tosh_4TB/.Trash-1000/files/Adobe CC/Adobe Illustrator CC 2019 v23.0.2.567/Setup (Pre-Activated)/packages/ADC/Runtime/Runtime.pima
+/run/media/perubu/Tosh_4TB/Documents/03.Info_tech_n_systems/4.Systems_install_+_maintenance/Adobe_Illustrator_CC_2019_v23.0.2.567/Setup_(Pre-Activated)/packages/ADC/Runtime/Runtime.pima
+
+/run/media/perubu/Tosh_4TB/Misc/WeChat_Files/wxid_6761767617821/FileStorage/File/2020-08/Orthographe_Pour_Tous-Bescherelle.pdf
+/run/media/perubu/Tosh_4TB/Documents/07.Pratiquer_un_hobby/05.Languages/Français/Bescherelle/Orthographe_Pour_Tous-Bescherelle.pdf
+
+/run/media/perubu/Tosh_4TB/Misc/WeChat_Files/wxid_6761767617821/FileStorage/File/2019-12/The Washington Post 2019-12-19.pdf
+/run/media/perubu/Tosh_4TB/Documents/t0/t1/t/21. epub_n_pdf/pdf/The Washington Post 2019-12-19.pdf
+
+/run/media/perubu/Tosh_4TB/Misc/WeChat_Files/wxid_6761767617821/FileStorage/File/2019-12/Le_Particulier_Vie_Pratique_-_D_cembre_2019.pdf
+/run/media/perubu/Tosh_4TB/Documents/09.Lire/aa_lectures_en_vrac/journaux & livres/Le_Particulier_Vie_Pratique_-_D_cembre_2019.pdf
+
+/run/media/perubu/Tosh_4TB/Misc/WeChat_Files/wxid_6761767617821/FileStorage/File/2020-04/How to Eat (A Mindful Buddhist Guide).mp3
+/run/media/perubu/Tosh_4TB/Documents/09.Lire/aa_lectures_en_vrac/How to Eat (A Mindful Buddhist Guide).mp3
+
+/run/media/perubu/Tosh_4TB/Misc/WeChat_Files/wxid_6761767617821/FileStorage/File/2022-03/1_Troisième Testament (Le) -Julius - T04 - Julius IV.cbz
+/run/media/perubu/Tosh_4TB/Misc/WeChat_Files/wxid_6761767617821/FileStorage/File/2022-03/Troisième Testament (Le) -Julius - T04 - Julius IV.cbz
+
+/run/media/perubu/Tosh_4TB/Misc/WeChat_Files/wxid_6761767617821/FileStorage/File/2022-03/Troisième Testament (Le) -Julius - T02 - La révélation - Chapitre 12.cbz
+/run/media/perubu/Tosh_4TB/Misc/WeChat_Files/wxid_6761767617821/FileStorage/File/2022-03/Troisième Testament (Le) -Julius - T02 - La Révélation 1.cbz
+
+/run/media/perubu/Tosh_4TB/Misc/WeChat_Files/wxid_6761767617821/FileStorage/File/2020-03/Sacred Geometry Philosophy and Practice.pdf
+/run/media/perubu/Tosh_4TB/Documents/t0/t1/t/21. epub_n_pdf/pdf/Sacred Geometry Philosophy and Practice.pdf
+
+/run/media/perubu/Tosh_4TB/Misc/WeChat_Files/wxid_6761767617821/FileStorage/File/2020-01/HBR.pdf
+/run/media/perubu/Tosh_4TB/Documents/09.Lire/aa_lectures_en_vrac/journaux_magazines_par_titres/ HBR Harvard Business Review/HBR.pdf
+
+/run/media/perubu/Tosh_4TB/Misc/WeChat_Files/wxid_6761767617821/FileStorage/File/2020-01/EK.pdf
+/run/media/perubu/Tosh_4TB/Documents/09.Lire/aa_lectures_en_vrac/journaux_magazines_par_titres/The Economist/EK.pdf
+
+/run/media/perubu/Tosh_4TB/Misc/WeChat_Files/wxid_6761767617821/FileStorage/File/2020-01/FourFourTwo - February 2020 UK.pdf
+/run/media/perubu/Tosh_4TB/Documents/t0/t1/t/21. epub_n_pdf/pdf/FourFourTwo - February 2020 UK.pdf
+
+/run/media/perubu/Tosh_4TB/Misc/WeChat_Files/wxid_6761767617821/FileStorage/File/2020-02/Tome 22 - Les Dalton dans le blizzard.pdf
+/run/media/perubu/Tosh_4TB/Documents/09.Lire/aa_lectures_en_vrac/bandes_dessinées_par_auteurs_&_séries/Lucky Luke/Tome 22 - Les Dalton dans le blizzard.pdf
+
+/run/media/perubu/Tosh_4TB/Misc/WeChat_Files/wxid_6761767617821/FileStorage/File/2020-02/Geo492.pdf
+/run/media/perubu/Tosh_4TB/Documents/09.Lire/aa_lectures_en_vrac/journaux_magazines_par_titres/National Geographic & Geo/Geo492.pdf
+
+/run/media/perubu/Tosh_4TB/Misc/WeChat_Files/wxid_6761767617821/FileStorage/File/2020-02/le trone - HistCivili59 - 2020-03_compressed.pdf
+/run/media/perubu/Tosh_4TB/Documents/09.Lire/aa_lectures_en_vrac/journaux_magazines_par_titres/Historia & histoire/le trone - HistCivili59 - 2020-03_compressed.pdf
+
+/run/media/perubu/Tosh_4TB/Misc/WeChat_Files/wxid_6761767617821/FileStorage/File/2020-05/The Speed Reading Book by Tony Buzan (z-lib.org).pdf
+/run/media/perubu/Tosh_4TB/Documents/09.Lire/aa_lectures_en_vrac/The Speed Reading Book by Tony Buzan (z-lib.org).pdf
+
+/run/media/perubu/Tosh_4TB/Downloads/Downloads/zlibrary-setup-latest.deb
+/run/media/perubu/Tosh_4TB/Documents/09.Lire/z-library/zlibrary-setup-latest .deb
+/run/media/perubu/Tosh_4TB/Downloads/Downloads/zlibrary-setup-latest .deb
+
+/run/media/perubu/Tosh_4TB/Downloads/Downloads/The Complete Coding Manual Ed3 2023_downmagaz.net.pdf
+/run/media/perubu/Tosh_4TB/Downloads/Downloads/The Complete Coding Manual Ed3 2023_downmagaz.net2.pdf
+
+/run/media/perubu/Tosh_4TB/Downloads/Harvard Business Review USA 01.02 2024_downmagaz.net.pdf
+/run/media/perubu/Tosh_4TB/Documents/WeChat Files/wxid_6761767617821/FileStorage/File/2024-01/Harvard Business Review USA 01.02 2024_downmagaz.net.pdf
+/run/media/perubu/Tosh_4TB/Documents/07.Pratiquer_un_hobby/Harvard Business Review USA 01.02 2024_downmagaz.net.pdf
+
+/run/media/perubu/Tosh_4TB/Downloads/pj_docs/pj_books/Linux Shell - Handbook, Special Edition, 2022.pdf
+/run/media/perubu/Tosh_4TB/Documents/09.Lire/aa_lectures_en_vrac/Read_n_dump_pj/Linux Shell - Handbook, Special Edition, 2022.pdf
+
+/run/media/perubu/Tosh_4TB/Downloads/pj_docs/pj_books/code_books/0.linux/Pro_linux_system_administration.pdf
+/run/media/perubu/Tosh_4TB/Documents/03.Info_tech_n_systems/2.Main_technos/2.Linux/Books/stock/administration/Pro_linux_system_administration.pdf
+/run/media/perubu/Tosh_4TB/Documents/t0/t1/t/Major technologies/0.Linux/stock/administration/Pro_linux_system_administration.pdf
+
+/run/media/perubu/Tosh_4TB/Downloads/pj_docs/pj_books/code_books/3.python/Python for Programmers with Big Data and Artificial Intelligence Case Studies by Paul Deitel, Dr. Harvey Deitel.pdf
+/run/media/perubu/Tosh_4TB/Documents/03.Info_tech_n_systems/2.Main_technos/2.Python/Study/learning_materials/Python for Programmers with Big Data and Artificial Intelligence Case Studies by Paul Deitel, Dr. Harvey Deitel.pdf
+/run/media/perubu/Tosh_4TB/Documents/03.Info_tech_n_systems/2.Main_technos/2.Python/Books/Python for Programmers with Big Data and Artificial Intelligence Case Studies by Paul Deitel, Dr. Harvey Deitel.pdf
+/run/media/perubu/Tosh_4TB/Documents/03.Info_tech_n_systems/2.Main_technos/2.Python/Python for Programmers - with Big Data and Artificial Intelligence Case Studies.pdf
+/run/media/perubu/Tosh_4TB/Documents/t0/t1/t/21. epub_n_pdf/pdf/Python for Programmers with Big Data and Artificial Intelligence Case Studies by Paul Deitel, Dr. Harvey Deitel.pdf
+
+/run/media/perubu/Tosh_4TB/Downloads/Tutos/losslesscut tuto/export separate files/VID_20230815_222008-00.00.31.000-00.00.39.739-seg2.mp4
+/run/media/perubu/Tosh_4TB/Downloads/Tutos/losslesscut tuto/merge + separate/VID_20230815_222008-00.00.31.000-00.00.39.739-seg2.mp4
+
+/run/media/perubu/Tosh_4TB/Downloads/Tutos/losslesscut tuto/export separate files/VID_20230815_222008-00.00.39.990-00.00.46.812-seg3.mp4
+/run/media/perubu/Tosh_4TB/Downloads/Tutos/losslesscut tuto/merge + separate/VID_20230815_222008-00.00.39.990-00.00.46.812-seg3.mp4
+
+/run/media/perubu/Tosh_4TB/Downloads/Tutos/losslesscut tuto/export separate files/VID_20230815_222008-00.00.04.000-00.00.16.510-seg1.mp4
+/run/media/perubu/Tosh_4TB/Downloads/Tutos/losslesscut tuto/merge + separate/VID_20230815_222008-00.00.04.000-00.00.16.510-seg1.mp4
+
+/run/media/perubu/Tosh_4TB/Videos/télé_française/Cash investigation - Argent facile ： les fausses promesses des influenceurs [c4f96b95-4af3-479b-a40a-6f6d438d414e].mp4
+/run/media/perubu/Tosh_4TB/Downloads/télé_française/Cash investigation - Argent facile ： les fausses promesses des influenceurs [c4f96b95-4af3-479b-a40a-6f6d438d414e].mp4
+
+/run/media/perubu/Tosh_4TB/Videos/télé_française/Chine ： opérations secrètes [9f6ea7f2-9b77-4619-80a3-a1769c2b019a].mp4
+/run/media/perubu/Tosh_4TB/Downloads/télé_française/Chine ： opérations secrètes [9f6ea7f2-9b77-4619-80a3-a1769c2b019a].mp4
+
+/run/media/perubu/Tosh_4TB/Videos/télé_française/DGSE ： la fabrique des agents secrets [4ed877d7-6a24-48f3-83ba-b5f7b7419998].mp4
+/run/media/perubu/Tosh_4TB/Downloads/télé_française/DGSE ： la fabrique des agents secrets [4ed877d7-6a24-48f3-83ba-b5f7b7419998].mp4
+
+/run/media/perubu/Tosh_4TB/Videos/télé_française/Mascus, les hommes qui détestent les femmes - Mascus, les hommes qui détestent les femmes - Le documentaire [31e1fb91-43ef-4efe-9275-51926446a623].mp4
+/run/media/perubu/Tosh_4TB/Downloads/télé_française/Mascus, les hommes qui détestent les femmes - Mascus, les hommes qui détestent les femmes - Le documentaire [31e1fb91-43ef-4efe-9275-51926446a623].mp4
+
+/run/media/perubu/Tosh_4TB/Documents/WeChat Files/wxid_6761767617821/FileStorage/File/2024-02/Harvard Business Review USA - MarchApril 2023_downmagaz.net.pdf
+/run/media/perubu/Tosh_4TB/Documents/07.Pratiquer_un_hobby/Harvard Business Review USA - MarchApril 2023_downmagaz.net.pdf
+
+/run/media/perubu/Tosh_4TB/Documents/WeChat Files/wxid_6761767617821/FileStorage/File/2024-02/Harvard Business Review USA 01.02 2023_downmagaz.net.pdf
+/run/media/perubu/Tosh_4TB/Documents/07.Pratiquer_un_hobby/Harvard Business Review USA 01.02 2023_downmagaz.net.pdf
+
+/run/media/perubu/Tosh_4TB/Documents/WeChat Files/wxid_6761767617821/FileStorage/File/2024-02/Harvard Business Review USA 11.12 2023_downmagaz.net.pdf
+/run/media/perubu/Tosh_4TB/Documents/07.Pratiquer_un_hobby/Harvard Business Review USA 11.12 2023_downmagaz.net.pdf
+
+/run/media/perubu/Tosh_4TB/Documents/WeChat Files/wxid_6761767617821/FileStorage/File/2024-02/lib210224.pdf
+/run/media/perubu/Tosh_4TB/Documents/WeChat Files/wxid_6761767617821/FileStorage/File/2024-02/lib210224(1).pdf
+
+/run/media/perubu/Tosh_4TB/Documents/WeChat Files/wxid_6761767617821/FileStorage/File/2024-02/Comtesse.pdf
+/run/media/perubu/Tosh_4TB/Documents/09.Lire/aa_BD/Comtesse.pdf
+/run/media/perubu/Tosh_4TB/Downloads/Comtesse.pdf
+
+/run/media/perubu/Tosh_4TB/Documents/WeChat Files/wxid_6761767617821/FileStorage/File/2024-02/Harvard Business Review USA 05.06 2023_downmagaz.net.pdf
+/run/media/perubu/Tosh_4TB/Documents/07.Pratiquer_un_hobby/Harvard Business Review USA 05.06 2023_downmagaz.net.pdf
+
+/run/media/perubu/Tosh_4TB/Documents/WeChat Files/wxid_6761767617821/FileStorage/File/2024-02/C_est_Votre_Argent_-_Mars-Mai_2024.pdf
+/run/media/perubu/Tosh_4TB/Documents/WeChat Files/wxid_6761767617821/FileStorage/File/2024-02/C_est_Votre_Argent_-_Mars-Mai_2024(1).pdf
+
+/run/media/perubu/Tosh_4TB/Documents/WeChat Files/wxid_6761767617821/FileStorage/File/2024-02/Science & Vie Junior Hors-Série - Mars 2024.pdf
+/run/media/perubu/Tosh_4TB/Documents/WeChat Files/wxid_6761767617821/FileStorage/File/2024-02/Science & Vie Junior Hors-Série - Mars 2024(1).pdf
+
+/run/media/perubu/Tosh_4TB/Documents/WeChat Files/wxid_6761767617821/FileStorage/File/2024-02/Harvard Business Review OnPoint Spring 2023_downmagaz.net.pdf
+/run/media/perubu/Tosh_4TB/Documents/07.Pratiquer_un_hobby/Harvard Business Review OnPoint Spring 2023_downmagaz.net.pdf
+
+/run/media/perubu/Tosh_4TB/Documents/WeChat Files/wxid_6761767617821/FileStorage/File/2024-02/Harvard Business Review OnPoint Summer 2023_downmagaz.net.pdf
+/run/media/perubu/Tosh_4TB/Documents/07.Pratiquer_un_hobby/Harvard Business Review OnPoint Summer 2023_downmagaz.net.pdf
+
+/run/media/perubu/Tosh_4TB/Documents/WeChat Files/wxid_6761767617821/FileStorage/File/2024-02/Le_Journal_de_Mickey_-_14_F_vrier_2024.pdf
+/run/media/perubu/Tosh_4TB/Documents/WeChat Files/wxid_6761767617821/FileStorage/File/2024-02/Le_Journal_de_Mickey_-_14_F_vrier_2024(1).pdf
+/run/media/perubu/Tosh_4TB/Documents/WeChat Files/wxid_6761767617821/FileStorage/File/2024-02/Le_Journal_de_Mickey_-_14_F_vrier_2024(2).pdf
+
+/run/media/perubu/Tosh_4TB/Documents/WeChat Files/wxid_6761767617821/FileStorage/File/2024-02/Harvard Business Review USA 07.08 2023_downmagaz.net.pdf
+/run/media/perubu/Tosh_4TB/Documents/07.Pratiquer_un_hobby/Harvard Business Review USA 07.08 2023_downmagaz.net.pdf
+
+/run/media/perubu/Tosh_4TB/Documents/WeChat Files/wxid_6761767617821/FileStorage/File/2024-02/L_Essentiel_de_la_science_-_Mars-Mai_2024.pdf
+/run/media/perubu/Tosh_4TB/Documents/WeChat Files/wxid_6761767617821/FileStorage/File/2024-02/L_Essentiel_de_la_science_-_Mars-Mai_2024(1).pdf
+
+/run/media/perubu/Tosh_4TB/Documents/WeChat Files/wxid_6761767617821/FileStorage/File/2023-12/Vaste le ciel.cbr
+/run/media/perubu/Tosh_4TB/Documents/09.Lire/aa_BD/Vaste le ciel.cbr
+
+/run/media/perubu/Tosh_4TB/Documents/WeChat Files/wxid_6761767617821/FileStorage/File/2023-12/Les ombres de Maui.cbr
+/run/media/perubu/Tosh_4TB/Documents/09.Lire/aa_BD/Les ombres de Maui.cbr
+
+/run/media/perubu/Tosh_4TB/Documents/WeChat Files/wxid_6761767617821/FileStorage/File/2023-12/Géopolitique - histoire et théories.pdf
+/run/media/perubu/Tosh_4TB/Documents/07.Pratiquer_un_hobby/03.Business/Economy/Géopolitique - histoire et théories.pdf
+
+/run/media/perubu/Tosh_4TB/Documents/WeChat Files/wxid_6761767617821/FileStorage/File/2023-12/Les_Cahiers_de_Science___Vie_-_Janvier-F_vrier_2024.pdf
+/run/media/perubu/Tosh_4TB/Documents/07.Pratiquer_un_hobby/02.Sport_yoga_méditation/Les_Cahiers_de_Science___Vie_-_Janvier-F_vrier_2024.pdf
+
+/run/media/perubu/Tosh_4TB/Documents/WeChat Files/wxid_6761767617821/FileStorage/File/2023-12/Bienvenue dans la NHK - 4 - Tome 4.cbr
+/run/media/perubu/Tosh_4TB/Documents/WeChat Files/wxid_6761767617821/FileStorage/File/2023-12/Bienvenue dans la NHK - 4 - Tome 4(1).cbr
+
+/run/media/perubu/Tosh_4TB/Documents/WeChat Files/wxid_6761767617821/FileStorage/File/2023-12/Cent mille ans.cbr
+/run/media/perubu/Tosh_4TB/Documents/07.Pratiquer_un_hobby/10.Politics-religions/Cent mille ans.cbr
+
+/run/media/perubu/Tosh_4TB/Documents/WeChat Files/wxid_6761767617821/FileStorage/File/2023-12/lib151223.pdf
+/run/media/perubu/Tosh_4TB/Documents/WeChat Files/wxid_6761767617821/FileStorage/File/2023-12/lib151223(1).pdf
+
+/run/media/perubu/Tosh_4TB/Documents/WeChat Files/wxid_6761767617821/FileStorage/File/2023-12/5461d245daefc4d8cf7e74d29d898e63.pdf
+/run/media/perubu/Tosh_4TB/Documents/09.Lire/aa_lectures_en_vrac/John Cornwell, Hitler's scientits.pdf
+
+/run/media/perubu/Tosh_4TB/Documents/WeChat Files/wxid_6761767617821/FileStorage/File/2023-12/Ian Lambot, Greg Girard - City of Darkness - Life in Kowloon Walled City-Watermark (1993).pdf
+/run/media/perubu/Tosh_4TB/Documents/WeChat Files/wxid_6761767617821/FileStorage/File/2023-12/City of Darkness - Life in Kowloon Walled City -- Ian Lambot, Greg Girard -- 1993 -- Watermark -- 9781873200131 -- 41c3bdd6f1316fceff671a71fd711c98 -- Anna’s Archive.pdf
+/run/media/perubu/Tosh_4TB/Documents/09.Lire/aa_lectures_en_vrac/City of Darkness - Life in Kowloon Walled City -- Ian Lambot, Greg Girard -- 1993 -- Watermark -- 9781873200131 -- 41c3bdd6f1316fceff671a71fd711c98 -- Anna’s Archive.pdf
+
+/run/media/perubu/Tosh_4TB/Documents/WeChat Files/wxid_6761767617821/FileStorage/File/2023-12/Les tuniques bleues - 66 - Irish Melody.cbr
+/run/media/perubu/Tosh_4TB/Documents/09.Lire/aa_BD/Les tuniques bleues - 66 - Irish Melody.cbr
+
+/run/media/perubu/Tosh_4TB/Documents/WeChat Files/wxid_6761767617821/FileStorage/File/2023-12/Bienvenue dans la NHK - 7 - Tome 7.cbr
+/run/media/perubu/Tosh_4TB/Documents/WeChat Files/wxid_6761767617821/FileStorage/File/2023-12/Bienvenue dans la NHK - 7 - Tome 7(1).cbr
+
+/run/media/perubu/Tosh_4TB/Documents/WeChat Files/wxid_6761767617821/FileStorage/File/2023-12/Géopolitique - Histoire et théories.cbr
+/run/media/perubu/Tosh_4TB/Documents/07.Pratiquer_un_hobby/03.Business/Economy/Géopolitique - Histoire et théories.cbr
+
+/run/media/perubu/Tosh_4TB/Documents/WeChat Files/wxid_6761767617821/FileStorage/File/2023-12/Le Figaro Magazine - 29 Décembre 2023.pdf
+/run/media/perubu/Tosh_4TB/Documents/WeChat Files/wxid_6761767617821/FileStorage/File/2023-12/Le Figaro Magazine - 29 Décembre 2023(1).pdf
+
+/run/media/perubu/Tosh_4TB/Documents/WeChat Files/wxid_6761767617821/FileStorage/File/2023-12/Les Echos Week-end - 15 Décembre 2023.pdf
+/run/media/perubu/Tosh_4TB/Documents/WeChat Files/wxid_6761767617821/FileStorage/File/2023-12/Les Echos Week-end - 15 Décembre 2023(1).pdf
+
+/run/media/perubu/Tosh_4TB/Documents/WeChat Files/wxid_6761767617821/FileStorage/File/2023-12/Bienvenue dans la NHK - 8 - Tome 8.cbr
+/run/media/perubu/Tosh_4TB/Documents/WeChat Files/wxid_6761767617821/FileStorage/File/2023-12/Bienvenue dans la NHK - 8 - Tome 8(1).cbr
+
+/run/media/perubu/Tosh_4TB/Documents/WeChat Files/wxid_6761767617821/FileStorage/File/2023-12/Mieux_Vivre_Votre_Argent_-_Janvier_2024.pdf
+/run/media/perubu/Tosh_4TB/Documents/WeChat Files/wxid_6761767617821/FileStorage/File/2023-12/Mieux_Vivre_Votre_Argent_-_Janvier_2024(1).pdf
+
+/run/media/perubu/Tosh_4TB/Documents/WeChat Files/wxid_6761767617821/FileStorage/File/2023-12/Challenges_-_14_D_cembre_2023.pdf
+/run/media/perubu/Tosh_4TB/Documents/WeChat Files/wxid_6761767617821/FileStorage/File/2023-12/Challenges_-_14_D_cembre_2023.pdfhlink
+
+/run/media/perubu/Tosh_4TB/Documents/WeChat Files/wxid_6761767617821/FileStorage/File/2023-12/Investir_-_23_D_cembre_2023.pdf
+/run/media/perubu/Tosh_4TB/Documents/WeChat Files/wxid_6761767617821/FileStorage/File/2023-12/Investir_-_23_D_cembre_2023(1).pdf
+/run/media/perubu/Tosh_4TB/Documents/WeChat Files/wxid_6761767617821/FileStorage/File/2023-12/Investir_-_23_D_cembre_2023(2).pdf
+
+/run/media/perubu/Tosh_4TB/Documents/WeChat Files/wxid_6761767617821/FileStorage/File/2023-12/David Boring.cbr
+/run/media/perubu/Tosh_4TB/Documents/WeChat Files/wxid_6761767617821/FileStorage/File/2023-12/David Boring(1).cbr
+
+/run/media/perubu/Tosh_4TB/Documents/WeChat Files/wxid_6761767617821/FileStorage/File/2023-12/Bienvenue dans la NHK - 5 - Tome 5.cbr
+/run/media/perubu/Tosh_4TB/Documents/WeChat Files/wxid_6761767617821/FileStorage/File/2023-12/Bienvenue dans la NHK - 5 - Tome 5(1).cbr
+
+/run/media/perubu/Tosh_4TB/Documents/WeChat Files/wxid_6761767617821/FileStorage/File/2023-12/Je suis leur silence.cbr
+/run/media/perubu/Tosh_4TB/Documents/09.Lire/aa_BD/Je suis leur silence.cbr
+
+/run/media/perubu/Tosh_4TB/Documents/WeChat Files/wxid_6761767617821/FileStorage/File/2023-12/Madame Figaro - 15 Décembre 2023.pdf
+/run/media/perubu/Tosh_4TB/Documents/WeChat Files/wxid_6761767617821/FileStorage/File/2023-12/Madame Figaro - 15 Décembre 2023(1).pdf
+
+/run/media/perubu/Tosh_4TB/Documents/WeChat Files/wxid_6761767617821/FileStorage/File/2023-12/Une histoire mortelle 01.pdf
+/run/media/perubu/Tosh_4TB/Documents/09.Lire/aa_BD/Une histoire mortelle 01.pdf
+
+/run/media/perubu/Tosh_4TB/Documents/WeChat Files/wxid_6761767617821/FileStorage/File/2023-12/MTVideo.mp4.mp4
+/run/media/perubu/Tosh_4TB/Documents/01.Perso/2.Famille-amis-autres/MTVideo.mp4.mp4
+
+/run/media/perubu/Tosh_4TB/Documents/WeChat Files/wxid_6761767617821/FileStorage/File/2023-12/Les tuniques bleues - 67 - Du feu sur la glace.cbr
+/run/media/perubu/Tosh_4TB/Documents/09.Lire/aa_BD/Les tuniques bleues - 67 - Du feu sur la glace.cbr
+
+/run/media/perubu/Tosh_4TB/Documents/WeChat Files/wxid_6761767617821/FileStorage/File/2023-12/Bienvenue dans la NHK - 6 - Tome 6.cbr
+/run/media/perubu/Tosh_4TB/Documents/WeChat Files/wxid_6761767617821/FileStorage/File/2023-12/Bienvenue dans la NHK - 6 - Tome 6(1).cbr
+
+/run/media/perubu/Tosh_4TB/Documents/WeChat Files/wxid_6761767617821/FileStorage/File/2023-12/Le Figaro Magazine - 15 Décembre 2023.pdf
+/run/media/perubu/Tosh_4TB/Documents/WeChat Files/wxid_6761767617821/FileStorage/File/2023-12/Le Figaro Magazine - 15 Décembre 2023(1).pdf
+
+/run/media/perubu/Tosh_4TB/Documents/WeChat Files/wxid_6761767617821/FileStorage/File/2023-12/Bienvenue dans la NHK - 3 - Tome 3.cbr
+/run/media/perubu/Tosh_4TB/Documents/WeChat Files/wxid_6761767617821/FileStorage/File/2023-12/Bienvenue dans la NHK - 3 - Tome 3(1).cbr
+
+/run/media/perubu/Tosh_4TB/Documents/WeChat Files/wxid_6761767617821/FileStorage/File/2023-12/L_Express_-_14_D_cembre_2023.pdf
+/run/media/perubu/Tosh_4TB/Documents/WeChat Files/wxid_6761767617821/FileStorage/File/2023-12/L_Express_-_14_D_cembre_2023(1).pdf
+/run/media/perubu/Tosh_4TB/Documents/07.Pratiquer_un_hobby/03.Business/Economy/L_Express_-_14_D_cembre_2023.pdf
+
+/run/media/perubu/Tosh_4TB/Documents/WeChat Files/wxid_6761767617821/FileStorage/File/2023-12/Le_Journal_de_Mickey_-_20_D_cembre_2023.pdf
+/run/media/perubu/Tosh_4TB/Documents/WeChat Files/wxid_6761767617821/FileStorage/File/2023-12/Le_Journal_de_Mickey_-_20_D_cembre_2023(1).pdf
+
+/run/media/perubu/Tosh_4TB/Documents/WeChat Files/wxid_6761767617821/FileStorage/File/2023-12/Sciences_et_Avenir_Hors-S_rie_-_Janvier-Mars_2024.pdf
+/run/media/perubu/Tosh_4TB/Documents/WeChat Files/wxid_6761767617821/FileStorage/File/2023-12/Sciences_et_Avenir_Hors-S_rie_-_Janvier-Mars_2024(1).pdf
+
+/run/media/perubu/Tosh_4TB/Documents/WeChat Files/wxid_6761767617821/FileStorage/File/2024-04/Affaires d'Etat - Jihad - 1 - Secret défense.cbr
+/run/media/perubu/Tosh_4TB/Documents/09.Lire/aa_BD/Affaires d'Etat/Affaires d'Etat - Jihad - 1 - Secret défense.cbr
+
+/run/media/perubu/Tosh_4TB/Documents/WeChat Files/wxid_6761767617821/FileStorage/File/2024-04/Affaires d'Etat - Extrême droite - 2 - Eaux troubles.cbr
+/run/media/perubu/Tosh_4TB/Documents/09.Lire/aa_BD/Affaires d'Etat/Affaires d'Etat - Extrême droite - 2 - Eaux troubles.cbr
+
+/run/media/perubu/Tosh_4TB/Documents/WeChat Files/wxid_6761767617821/FileStorage/File/2024-04/Affaires d'Etat - Extrême droite - 3 - Commando noir.cbr
+/run/media/perubu/Tosh_4TB/Documents/09.Lire/aa_BD/Affaires d'Etat/Affaires d'Etat - Extrême droite - 3 - Commando noir.cbr
+
+/run/media/perubu/Tosh_4TB/Documents/WeChat Files/wxid_6761767617821/FileStorage/File/2024-04/Affaires d'Etat - Guerre froide - 3 - Le pouvoir infiltré.cbr
+/run/media/perubu/Tosh_4TB/Documents/09.Lire/aa_BD/Affaires d'Etat/Affaires d'Etat - Guerre froide - 3 - Le pouvoir infiltré.cbr
+
+/run/media/perubu/Tosh_4TB/Documents/WeChat Files/wxid_6761767617821/FileStorage/File/2024-04/Affaires d'Etat - Extrême droite - 1 - Un homme encombrant.cbr
+/run/media/perubu/Tosh_4TB/Documents/09.Lire/aa_BD/Affaires d'Etat/Affaires d'Etat - Extrême droite - 1 - Un homme encombrant.cbr
+
+/run/media/perubu/Tosh_4TB/Documents/WeChat Files/wxid_6761767617821/FileStorage/File/2024-04/Affaires d'Etat - Guerre froide - 2 - L'ombre du KGB.cbr
+/run/media/perubu/Tosh_4TB/Documents/09.Lire/aa_BD/Affaires d'Etat/Affaires d'Etat - Guerre froide - 2 - L'ombre du KGB.cbr
+
+/run/media/perubu/Tosh_4TB/Documents/WeChat Files/wxid_6761767617821/FileStorage/File/2024-04/Affaires d'Etat - Jihad - 2 - La route de Damas.cbr
+/run/media/perubu/Tosh_4TB/Documents/09.Lire/aa_BD/Affaires d'Etat/Affaires d'Etat - Jihad - 2 - La route de Damas.cbr
+
+/run/media/perubu/Tosh_4TB/Documents/WeChat Files/wxid_6761767617821/FileStorage/File/2024-04/Affaires d'Etat - Guerre froide - 1 - Passage à l'ouest.cbr
+/run/media/perubu/Tosh_4TB/Documents/09.Lire/aa_BD/Affaires d'Etat/Affaires d'Etat - Guerre froide - 1 - Passage à l'ouest.cbr
+
+/run/media/perubu/Tosh_4TB/Documents/WeChat Files/wxid_6761767617821/FileStorage/File/2024-04/L_equipe_du_Lundi_22_Avril_2024.pdf
+/run/media/perubu/Tosh_4TB/Documents/WeChat Files/wxid_6761767617821/FileStorage/File/2024-04/L_equipe_du_Lundi_22_Avril_2024(1).pdf
+
+/run/media/perubu/Tosh_4TB/Documents/WeChat Files/wxid_6761767617821/FileStorage/File/2024-04/lib220424.pdf
+/run/media/perubu/Tosh_4TB/Documents/WeChat Files/wxid_6761767617821/FileStorage/File/2024-04/lib220424(1).pdf
+
+/run/media/perubu/Tosh_4TB/Documents/WeChat Files/wxid_6761767617821/FileStorage/File/2024-04/AI Index Report 2024.pdf
+/run/media/perubu/Tosh_4TB/Documents/03.Info_tech_n_systems/2.Main_technos/1.AI/AI Index Report 2024.pdf
+
+/run/media/perubu/Tosh_4TB/Documents/WeChat Files/wxid_6761767617821/FileStorage/File/2024-04/Saint Exupery Le Dernier Vol.pdf
+/run/media/perubu/Tosh_4TB/Documents/09.Lire/aa_lectures_en_vrac/Saint Exupery Le Dernier Vol.pdf
+
+/run/media/perubu/Tosh_4TB/Documents/WeChat Files/wxid_6761767617821/FileStorage/File/2024-04/Affaires d'Etat - Jihad - 3 - Le choix de l'épée.cbr
+/run/media/perubu/Tosh_4TB/Documents/09.Lire/aa_BD/Affaires d'Etat/Affaires d'Etat - Jihad - 3 - Le choix de l'épée.cbr
+
+/run/media/perubu/Tosh_4TB/Documents/WeChat Files/wxid_6761767617821/FileStorage/File/2024-04/Saint-Exupéry (Pratt) - Le dernier vol.cbr
+/run/media/perubu/Tosh_4TB/Documents/09.Lire/aa_lectures_en_vrac/Saint-Exupéry (Pratt) - Le dernier vol.cbr
+
+/run/media/perubu/Tosh_4TB/Documents/WeChat Files/wxid_6761767617821/FileStorage/File/2024-01/RC T1 - La Confrèrie.pdf
+/run/media/perubu/Tosh_4TB/Documents/09.Lire/aa_BD/La rose et la croix/RC T1 - La Confrèrie.pdf
+
+/run/media/perubu/Tosh_4TB/Documents/WeChat Files/wxid_6761767617821/FileStorage/File/2024-01/San Francisco - Lonely Planet.epub
+/run/media/perubu/Tosh_4TB/Documents/07.Pratiquer_un_hobby/San Francisco - Lonely Planet.epub
+
+/run/media/perubu/Tosh_4TB/Documents/WeChat Files/wxid_6761767617821/FileStorage/File/2024-01/Dilbert - 06 - Devenons riches - Scott Adams.pdf
+/run/media/perubu/Tosh_4TB/Documents/09.Lire/aa_BD/Dilbert/Dilbert - 06 - Devenons riches - Scott Adams.pdf
+
+/run/media/perubu/Tosh_4TB/Documents/WeChat Files/wxid_6761767617821/FileStorage/File/2024-01/RC T4 - La Couronne de Prusse.pdf
+/run/media/perubu/Tosh_4TB/Documents/09.Lire/aa_BD/La rose et la croix/RC T4 - La Couronne de Prusse.pdf
+
+/run/media/perubu/Tosh_4TB/Documents/WeChat Files/wxid_6761767617821/FileStorage/File/2024-01/LCA T1 - Hantise.pdf
+/run/media/perubu/Tosh_4TB/Documents/09.Lire/aa_BD/Les contes de l'Ancou/LCA T1 - Hantise.pdf
+
+/run/media/perubu/Tosh_4TB/Documents/WeChat Files/wxid_6761767617821/FileStorage/File/2024-01/Dilbert - 04 - Les nouvelles mi - Scott Adams.pdf
+/run/media/perubu/Tosh_4TB/Documents/09.Lire/aa_BD/Dilbert/Dilbert - 04 - Les nouvelles mi - Scott Adams.pdf
+
+/run/media/perubu/Tosh_4TB/Documents/WeChat Files/wxid_6761767617821/FileStorage/File/2024-01/RC T2 - Maître Dagélius.pdf
+/run/media/perubu/Tosh_4TB/Documents/09.Lire/aa_BD/La rose et la croix/RC T2 - Maître Dagélius.pdf
+
+/run/media/perubu/Tosh_4TB/Documents/WeChat Files/wxid_6761767617821/FileStorage/File/2024-01/02 - The Adventures Of Tintin In The Congo.pdf
+/run/media/perubu/Tosh_4TB/Documents/09.Lire/aa_BD/02 - The Adventures Of Tintin In The Congo.pdf
+
+/run/media/perubu/Tosh_4TB/Documents/WeChat Files/wxid_6761767617821/FileStorage/File/2024-01/San Francisco & Northern Califo - Dorling Kindersley.pdf
+/run/media/perubu/Tosh_4TB/Documents/07.Pratiquer_un_hobby/San Francisco & Northern Califo - Dorling Kindersley.pdf
+
+/run/media/perubu/Tosh_4TB/Documents/WeChat Files/wxid_6761767617821/FileStorage/File/2024-01/LCA T3 - Au Royaume des Morts.pdf
+/run/media/perubu/Tosh_4TB/Documents/09.Lire/aa_BD/Les contes de l'Ancou/LCA T3 - Au Royaume des Morts.pdf
+
+/run/media/perubu/Tosh_4TB/Documents/WeChat Files/wxid_6761767617821/FileStorage/File/2024-01/RC T5 - L'Arcane.pdf
+/run/media/perubu/Tosh_4TB/Documents/09.Lire/aa_BD/La rose et la croix/RC T5 - L'Arcane.pdf
+
+/run/media/perubu/Tosh_4TB/Documents/WeChat Files/wxid_6761767617821/FileStorage/File/2024-01/07 - TinTin The Black Island.pdf
+/run/media/perubu/Tosh_4TB/Documents/09.Lire/07 - TinTin The Black Island.pdf
+
+/run/media/perubu/Tosh_4TB/Documents/WeChat Files/wxid_6761767617821/FileStorage/File/2024-01/Le_Monde_des_Ados_-_17_Janvier_2024.pdf
+/run/media/perubu/Tosh_4TB/Documents/WeChat Files/wxid_6761767617821/FileStorage/File/2024-01/Le_Monde_des_Ados_-_17_Janvier_2024(1).pdf
+
+/run/media/perubu/Tosh_4TB/Documents/WeChat Files/wxid_6761767617821/FileStorage/File/2024-01/Les Echos Week-end - 12 Janvier 2024.pdf
+/run/media/perubu/Tosh_4TB/Documents/WeChat Files/wxid_6761767617821/FileStorage/File/2024-01/Les Echos Week-end - 12 Janvier 2024(1).pdf
+
+/run/media/perubu/Tosh_4TB/Documents/WeChat Files/wxid_6761767617821/FileStorage/File/2024-01/RC T3 - La Loge de Vienne.pdf
+/run/media/perubu/Tosh_4TB/Documents/09.Lire/aa_BD/La rose et la croix/RC T3 - La Loge de Vienne.pdf
+
+/run/media/perubu/Tosh_4TB/Documents/WeChat Files/wxid_6761767617821/FileStorage/File/2024-01/LCA T2 - Qui est mon Père.pdf
+/run/media/perubu/Tosh_4TB/Documents/09.Lire/aa_BD/Les contes de l'Ancou/LCA T2 - Qui est mon Père.pdf
+
+/run/media/perubu/Tosh_4TB/Documents/WeChat Files/wxid_6761767617821/FileStorage/File/2024-01/Dilbert - 07 - Reunissons-nous - Scott Adams.pdf
+/run/media/perubu/Tosh_4TB/Documents/09.Lire/aa_BD/Dilbert/Dilbert - 07 - Reunissons-nous - Scott Adams.pdf
+
+/run/media/perubu/Tosh_4TB/Documents/WeChat Files/wxid_6761767617821/FileStorage/File/2024-01/CSV T2 - Sur la Route de Saint Jacques.pdf
+/run/media/perubu/Tosh_4TB/Documents/09.Lire/aa_BD/Les carnets secrets du vatican/CSV T2 - Sur la Route de Saint Jacques.pdf
+
+/run/media/perubu/Tosh_4TB/Documents/WeChat Files/wxid_6761767617821/FileStorage/File/2024-01/03 - Tintin In America.pdf
+/run/media/perubu/Tosh_4TB/Documents/09.Lire/aa_BD/03 - Tintin In America.pdf
+
+/run/media/perubu/Tosh_4TB/Documents/WeChat Files/wxid_6761767617821/FileStorage/File/2024-01/Le Figaro Magazine - 26 Janvier 2024.pdf
+/run/media/perubu/Tosh_4TB/Documents/WeChat Files/wxid_6761767617821/FileStorage/File/2024-01/Le Figaro Magazine - 26 Janvier 2024(1).pdf
+
+/run/media/perubu/Tosh_4TB/Documents/WeChat Files/wxid_6761767617821/FileStorage/File/2024-01/Dilbert - 02 - Bienvenue dans l - Scott Adams.pdf
+/run/media/perubu/Tosh_4TB/Documents/09.Lire/aa_BD/Dilbert/Dilbert - 02 - Bienvenue dans l - Scott Adams.pdf
+
+/run/media/perubu/Tosh_4TB/Documents/WeChat Files/wxid_6761767617821/FileStorage/File/2024-01/Madame Figaro - 26 Janvier 2024.pdf
+/run/media/perubu/Tosh_4TB/Documents/WeChat Files/wxid_6761767617821/FileStorage/File/2024-01/Madame Figaro - 26 Janvier 2024(1).pdf
+
+/run/media/perubu/Tosh_4TB/Documents/WeChat Files/wxid_6761767617821/FileStorage/File/2024-01/Mediapart du jeudi 4 janvier 2024.pdf
+/run/media/perubu/Tosh_4TB/Documents/WeChat Files/wxid_6761767617821/FileStorage/File/2024-01/Mediapart du jeudi 4 janvier 2024(1).pdf
+
+/run/media/perubu/Tosh_4TB/Documents/WeChat Files/wxid_6761767617821/FileStorage/File/2024-01/Le journal des Français à l’étranger - Hiver 2023-2024.pdf
+/run/media/perubu/Tosh_4TB/Documents/WeChat Files/wxid_6761767617821/FileStorage/File/2024-01/Le journal des Français à l’étranger - Hiver 2023-2024(1).pdf
+
+/run/media/perubu/Tosh_4TB/Documents/WeChat Files/wxid_6761767617821/FileStorage/File/2024-01/Les Echos Week-end - 26 Janvier 2024.pdf
+/run/media/perubu/Tosh_4TB/Documents/WeChat Files/wxid_6761767617821/FileStorage/File/2024-01/Les Echos Week-end - 26 Janvier 2024(1).pdf
+
+/run/media/perubu/Tosh_4TB/Documents/WeChat Files/wxid_6761767617821/FileStorage/File/2024-01/01 - Land of the Soviets.pdf
+/run/media/perubu/Tosh_4TB/Documents/09.Lire/aa_BD/01 - Land of the Soviets.pdf
+
+/run/media/perubu/Tosh_4TB/Documents/WeChat Files/wxid_6761767617821/FileStorage/File/2024-01/04 - Cigars Of The Pharaoh 1934.pdf
+/run/media/perubu/Tosh_4TB/Documents/09.Lire/aa_BD/04 - Cigars Of The Pharaoh 1934.pdf
+
+/run/media/perubu/Tosh_4TB/Documents/WeChat Files/wxid_6761767617821/FileStorage/File/2024-01/05 - Tintin The Blue Lotus.pdf
+/run/media/perubu/Tosh_4TB/Documents/09.Lire/aa_BD/05 - Tintin The Blue Lotus.pdf
+
+/run/media/perubu/Tosh_4TB/Documents/WeChat Files/wxid_6761767617821/FileStorage/File/2024-01/L_equipe_du_Jeudi_11_Janvier_2024.pdf
+/run/media/perubu/Tosh_4TB/Documents/WeChat Files/wxid_6761767617821/FileStorage/File/2024-01/L_equipe_du_Jeudi_11_Janvier_2024(1).pdf
+
+/run/media/perubu/Tosh_4TB/Documents/WeChat Files/wxid_6761767617821/FileStorage/File/2024-01/Le_Revenu_-_26_Janvier_2024.pdf
+/run/media/perubu/Tosh_4TB/Documents/WeChat Files/wxid_6761767617821/FileStorage/File/2024-01/Le_Revenu_-_26_Janvier_2024(1).pdf
+
+/run/media/perubu/Tosh_4TB/Documents/WeChat Files/wxid_6761767617821/FileStorage/File/2024-01/CSV T3 - Sous la Montagne.pdf
+/run/media/perubu/Tosh_4TB/Documents/09.Lire/aa_BD/Les carnets secrets du vatican/CSV T3 - Sous la Montagne.pdf
+
+/run/media/perubu/Tosh_4TB/Documents/WeChat Files/wxid_6761767617821/FileStorage/File/2024-01/08 - TinTin King Ottokars Sceptre.pdf
+/run/media/perubu/Tosh_4TB/Documents/09.Lire/08 - TinTin King Ottokars Sceptre.pdf
+
+/run/media/perubu/Tosh_4TB/Documents/WeChat Files/wxid_6761767617821/FileStorage/File/2024-01/Dilbert - 01 - Les miseres de l - Scott Adams.pdf
+/run/media/perubu/Tosh_4TB/Documents/09.Lire/aa_BD/Dilbert/Dilbert - 01 - Les miseres de l - Scott Adams.pdf
+
+/run/media/perubu/Tosh_4TB/Documents/WeChat Files/wxid_6761767617821/FileStorage/File/2024-01/09 - TinTin The Crab with the Golden Claws.pdf
+/run/media/perubu/Tosh_4TB/Documents/09.Lire/09 - TinTin The Crab with the Golden Claws.pdf
+
+/run/media/perubu/Tosh_4TB/Documents/WeChat Files/wxid_6761767617821/FileStorage/File/2024-01/La loi des probabilités.cbr
+/run/media/perubu/Tosh_4TB/Documents/09.Lire/aa_BD/La loi des probabilités.cbr
+/run/media/perubu/Tosh_4TB/Downloads/La loi des probabilités.cbr
+
+/run/media/perubu/Tosh_4TB/Documents/WeChat Files/wxid_6761767617821/FileStorage/File/2024-01/L_equipe_du_Vendredi_26_Janvier_2024.PDF
+/run/media/perubu/Tosh_4TB/Documents/WeChat Files/wxid_6761767617821/FileStorage/File/2024-01/L_equipe_du_Vendredi_26_Janvier_2024(1).PDF
+
+/run/media/perubu/Tosh_4TB/Documents/WeChat Files/wxid_6761767617821/FileStorage/File/2024-01/Dilbert - 03 - Comment devenir - Scott Adams.pdf
+/run/media/perubu/Tosh_4TB/Documents/09.Lire/aa_BD/Dilbert/Dilbert - 03 - Comment devenir - Scott Adams.pdf
+
+/run/media/perubu/Tosh_4TB/Documents/WeChat Files/wxid_6761767617821/FileStorage/File/2024-01/CSV T4 - Les Tenailles.pdf
+/run/media/perubu/Tosh_4TB/Documents/09.Lire/aa_BD/Les carnets secrets du vatican/CSV T4 - Les Tenailles.pdf
+
+/run/media/perubu/Tosh_4TB/Documents/WeChat Files/wxid_6761767617821/FileStorage/File/2024-01/CSV T5 - Le Bâton de Moïse.pdf
+/run/media/perubu/Tosh_4TB/Documents/09.Lire/aa_BD/Les carnets secrets du vatican/CSV T5 - Le Bâton de Moïse.pdf
+
+/run/media/perubu/Tosh_4TB/Documents/WeChat Files/wxid_6761767617821/FileStorage/File/2024-01/Aya de Yopougon T07 - 2022.pdf
+/run/media/perubu/Tosh_4TB/Documents/09.Lire/aa_BD/Aya de Yopougon T07 - 2022.pdf
+
+/run/media/perubu/Tosh_4TB/Documents/WeChat Files/wxid_6761767617821/FileStorage/File/2024-01/Tintin in America (The Adventures of Tintin 3) (Hergé).pdf
+/run/media/perubu/Tosh_4TB/Documents/09.Lire/aa_BD/Tintin in America (The Adventures of Tintin 3) (Hergé).pdf
+
+/run/media/perubu/Tosh_4TB/Documents/WeChat Files/wxid_6761767617821/FileStorage/File/2024-01/Dilbert - 08 - Honni soit qui s - Scott Adams.pdf
+/run/media/perubu/Tosh_4TB/Documents/09.Lire/aa_BD/Dilbert/Dilbert - 08 - Honni soit qui s - Scott Adams.pdf
+
+/run/media/perubu/Tosh_4TB/Documents/WeChat Files/wxid_6761767617821/FileStorage/File/2024-01/1324-epstein-documents-943-pages.pdf
+/run/media/perubu/Tosh_4TB/Documents/WeChat Files/wxid_6761767617821/FileStorage/File/2024-01/1324-epstein-documents-943-pages(1).pdf
+/run/media/perubu/Tosh_4TB/Documents/09.Lire/1324-epstein-documents-943-pages.pdf
+
+/run/media/perubu/Tosh_4TB/Documents/WeChat Files/wxid_6761767617821/FileStorage/File/2024-01/Dilbert - 05 - Y a-t-il une vie - Scott Adams.pdf
+/run/media/perubu/Tosh_4TB/Documents/09.Lire/aa_BD/Dilbert/Dilbert - 05 - Y a-t-il une vie - Scott Adams.pdf
+
+/run/media/perubu/Tosh_4TB/Documents/WeChat Files/wxid_6761767617821/FileStorage/File/2024-01/San Francisco 10 - Full PDF eBo - Lonely Planet.pdf
+/run/media/perubu/Tosh_4TB/Documents/07.Pratiquer_un_hobby/San Francisco 10 - Full PDF eBo - Lonely Planet.pdf
+
+/run/media/perubu/Tosh_4TB/Documents/t0/t1/t/jic/Videos/Videos on iPhone/五星红旗迎风飘扬 09 标清-1.m4v
+/run/media/perubu/Tosh_4TB/Documents/04.Monde_chinois/Présentation sur ma vie en Chine/2 acteur/《五星红旗迎风飘扬》/五星红旗迎风飘扬 09 标清-1 (2014_02_06 02_48_06 UTC).m4v
+
+/run/media/perubu/Tosh_4TB/Documents/t0/t1/t/15_films_reportages_videos/2 films&videos/films à voir/Days of Being Wild [1990].mkv
+/run/media/perubu/Tosh_4TB/Documents/08.Regarder_un_film/films à voir/ZH/real. 王家衛 - Wong Kar-Wai/Days of being wild/Days of Being Wild [1990].mkv
+
+/run/media/perubu/Tosh_4TB/Documents/t0/t1/t/15_films_reportages_videos/_Videos/La graine et le mulet/VIDEO_TS/VTS_02_7.VOB
+/run/media/perubu/Tosh_4TB/Documents/t0/t1/t/15_films_reportages_videos/_Videos/La graine et le mulet/VIDEO_TS/VTS_02_7 (1).VOB
+
+/run/media/perubu/Tosh_4TB/Documents/t0/t1/t/_Downloads/[Gilles_Degols,_Pierre_Alexis,_Hugues_Bersini]_App.pdf
+/run/media/perubu/Tosh_4TB/Documents/03.Info_tech_n_systems/2.Main_technos/2.Python/Study/learning_materials/stock/Django/Django [Gilles_Degols,_Pierre_Alexis,_Hugues_Bersini]_App.pdf
+
+/run/media/perubu/Tosh_4TB/Documents/t0/t1/t/download from NOC_evaluate_n_delete/Historia_Special_-_09_2019_-_10_2019.pdf
+/run/media/perubu/Tosh_4TB/Documents/07.Pratiquer_un_hobby/12.Histoire_géographie/Histoire/Historia_Special_-_09_2019_-_10_2019.pdf
+
+/run/media/perubu/Tosh_4TB/Documents/t0/t1/t/download from NOC_evaluate_n_delete/History_of_the_World_Map_by_Map_DK.pdf
+/run/media/perubu/Tosh_4TB/Documents/07.Pratiquer_un_hobby/12.Histoire_géographie/Histoire/DK Publishing - History of the World Map by Map-DK Publishing (Dorling Kindersley) (2018).pdf
+
+/run/media/perubu/Tosh_4TB/Documents/t0/t1/t/10_dance/Tango/2. Mike/999 Misc/Single Axis Turn to the Right & Left _ Argentine Tango.mp4
+/run/media/perubu/Tosh_4TB/Documents/07.Pratiquer_un_hobby/01.Tango/Tango_redmi/3.colgada - single axis turn to the right & left/28 Single Axis Turn to the Right & Left _ Argentine Tango.mp4
+
+/run/media/perubu/Tosh_4TB/Documents/t0/t1/t/10_dance/Tango/2. Mike/Parada/How to Do the Parada aka The Stop _ Argentine Tango.mp4
+/run/media/perubu/Tosh_4TB/Documents/07.Pratiquer_un_hobby/01.Tango/Tango_redmi/1.rebote parada y pasada/11 How to Do the Parada aka The Stop _ Argentine Tango.mp4
+
+/run/media/perubu/Tosh_4TB/Documents/t0/t1/t/10_dance/Tango/2. Mike/1.2 Cross & Box, Salida/4. How to Walk in Parallel & Cross System _ Argentine Tango.mp4
+/run/media/perubu/Tosh_4TB/Documents/07.Pratiquer_un_hobby/01.Tango/Tango_redmi/1.sistema cruzado, incluyendo rebotes/30 How to Walk in Parallel & Cross System _ Argentine Tango.mp4
+
+/run/media/perubu/Tosh_4TB/Documents/10.Ecouter_et_chanter/musiques/Yoga Nidra For Manifesting Your Intentions - Guided Meditation WIth Alpha_Theta_Delta Brainwaves [iEw5BkK9K9A].opus
+/run/media/perubu/Tosh_4TB/Documents/10.Ecouter_et_chanter/pj's_portable/Yoga Nidra For Manifesting Your Intentions - Guided Meditation WIth Alpha_Theta_Delta Brainwaves [iEw5BkK9K9A].opus
+
+/run/media/perubu/Tosh_4TB/Documents/10.Ecouter_et_chanter/pj's_portable/Hilliard Ensemble - Renaissance Madrigals [DIZDxaF511I].opus
+/run/media/perubu/Tosh_4TB/Documents/10.Ecouter_et_chanter/musiques/Hilliard Ensemble - Renaissance Madrigals [DIZDxaF511I].opus
+
+/run/media/perubu/Tosh_4TB/Documents/08.Regarder_un_film/films à voir/FR/Calmos.avi/Calmos.avi
+/run/media/perubu/Tosh_4TB/Downloads/Calmos.avi/Calmos.avi
+
+/run/media/perubu/Tosh_4TB/Documents/08.Regarder_un_film/traduire des subs (todo finaliser)/Le Bureau Des Legendes S04E02.mp4
+/run/media/perubu/Tosh_4TB/Documents/08.Regarder_un_film/traduire des subs (todo finaliser)/input.mp4
+
+/run/media/perubu/Tosh_4TB/Documents/08.Regarder_un_film/films déjà vu/France/Madame Bovary (1991)/mme_bo.mp4
+/run/media/perubu/Tosh_4TB/Documents/08.Regarder_un_film/films déjà vu/France/Madame Bovary (1991)/Bovary par Rochefort/mme_bo.mp4
+
+/run/media/perubu/Tosh_4TB/Documents/09.Lire/Business_HBR/HBR/Harvard Business Review USA 11.12 2020.pdf
+/run/media/perubu/Tosh_4TB/Documents/09.Lire/Business_HBR/HBR/Harvard Business Review USA 11.12 2020_downmagaz.net.pdf
+
+/run/media/perubu/Tosh_4TB/Documents/09.Lire/Business_HBR/HBR/2020-10-01HarvardBusinessReviewOnPoint_UserUpload.Net.pdf
+/run/media/perubu/Tosh_4TB/Documents/09.Lire/Business_HBR/HBR/1_2020-10-01HarvardBusinessReviewOnPoint_UserUpload.Net.pdf
+
+/run/media/perubu/Tosh_4TB/Documents/09.Lire/Kessel_Joseph/Kessel, un lion_Arte_2019_09_29_22_51.mp4
+/run/media/perubu/Tosh_4TB/Documents/t0/t1/t/15_films_reportages_videos/Videos captvty/Kessel, un lion_Arte_2019_09_29_22_51.mp4
+
+/run/media/perubu/Tosh_4TB/Documents/09.Lire/aa_BD/Largo_Winch/Largo_Winch_Tome_06_Dutch_Connection_fr.downmagaz.net.pdf
+/run/media/perubu/Tosh_4TB/Downloads/Largo_Winch/Largo_Winch_Tome_06_Dutch_Connection_fr.downmagaz.net.pdf
+
+/run/media/perubu/Tosh_4TB/Documents/09.Lire/aa_BD/Largo_Winch/Largo_Winch_Tome_02_Le_groupe_W_fr.downmagaz.net.pdf
+/run/media/perubu/Tosh_4TB/Downloads/Largo_Winch/Largo_Winch_Tome_02_Le_groupe_W_fr.downmagaz.net.pdf
+
+/run/media/perubu/Tosh_4TB/Documents/09.Lire/aa_BD/Largo_Winch/Largo_Winch_Tome_08 - Lheure du Tigre (Philippe Francq, Jean Van Hamme) (Z-Library).pdf
+/run/media/perubu/Tosh_4TB/Downloads/Largo_Winch/Largo_Winch_Tome_08 - Lheure du Tigre (Philippe Francq, Jean Van Hamme) (Z-Library).pdf
+
+/run/media/perubu/Tosh_4TB/Documents/09.Lire/aa_BD/Largo_Winch/Largo Winch - Diptyque 310 (Tomes 5 et 6) (Philippe Francq, Jean Van Hamme) (Z-Library).pdf
+/run/media/perubu/Tosh_4TB/Downloads/Largo_Winch/Largo Winch - Diptyque 310 (Tomes 5 et 6) (Philippe Francq, Jean Van Hamme) (Z-Library).pdf
+
+/run/media/perubu/Tosh_4TB/Documents/09.Lire/aa_BD/Largo_Winch/Largo_Winch_Tome_12_Shadow_fr.downmagaz.net.pdf
+/run/media/perubu/Tosh_4TB/Downloads/Largo_Winch/Largo_Winch_Tome_12_Shadow_fr.downmagaz.net.pdf
+
+/run/media/perubu/Tosh_4TB/Documents/09.Lire/aa_BD/Largo_Winch/Largo_Winch_Tome_07_La_Forteresse_de_Makiking_fr.downmagaz.net.pdf
+/run/media/perubu/Tosh_4TB/Downloads/Largo_Winch/Largo_Winch_Tome_07_La_Forteresse_de_Makiking_fr.downmagaz.net.pdf
+
+/run/media/perubu/Tosh_4TB/Documents/09.Lire/aa_BD/Largo_Winch/Largo_Winch_Tome_14_La_loi_du_dollar_fr.downmagaz.net.pdf
+/run/media/perubu/Tosh_4TB/Downloads/Largo_Winch/Largo_Winch_Tome_14_La_loi_du_dollar_fr.downmagaz.net.pdf
+
+/run/media/perubu/Tosh_4TB/Documents/09.Lire/aa_BD/Largo_Winch/Largo_Winch_Tome_13_Le_Prix_de_l'argent_fr.downmagaz.net.pdf
+/run/media/perubu/Tosh_4TB/Downloads/Largo_Winch/Largo_Winch_Tome_13_Le_Prix_de_l'argent_fr.downmagaz.net.pdf
+
+/run/media/perubu/Tosh_4TB/Documents/09.Lire/aa_BD/Largo_Winch/Largo Winch - Tome 22 - Les voiles écarlates (Philippe Francq, Éric Giacometti) (Z-Library).pdf
+/run/media/perubu/Tosh_4TB/Downloads/Largo_Winch/Largo Winch - Tome 22 - Les voiles écarlates (Philippe Francq, Éric Giacometti) (Z-Library).pdf
+
+/run/media/perubu/Tosh_4TB/Documents/09.Lire/aa_BD/Largo_Winch/Largo Winch - Diptyque 510 (Tomes 9 et 10) (Philippe Francq, Jean Van Hamme) (Z-Library).pdf
+/run/media/perubu/Tosh_4TB/Downloads/Largo_Winch/Largo Winch - Diptyque 510 (Tomes 9 et 10) (Philippe Francq, Jean Van Hamme) (Z-Library).pdf
+
+/run/media/perubu/Tosh_4TB/Documents/09.Lire/aa_BD/Largo_Winch/Largo_Winch_Tome_03_O.P.A._fr.downmagaz.net.pdf
+/run/media/perubu/Tosh_4TB/Downloads/Largo_Winch/Largo_Winch_Tome_03_O.P.A._fr.downmagaz.net.pdf
+
+/run/media/perubu/Tosh_4TB/Documents/09.Lire/aa_BD/Largo_Winch/Largo Winch - Tome 21 - Létoile du matin (Philippe Francq, Eric Giacometti) (Z-Library).pdf
+/run/media/perubu/Tosh_4TB/Downloads/Largo_Winch/Largo Winch - Tome 21 - Létoile du matin (Philippe Francq, Eric Giacometti) (Z-Library).pdf
+
+/run/media/perubu/Tosh_4TB/Documents/09.Lire/aa_BD/Largo_Winch/Largo Winch - Diptyque 210 (Tomes 3 et 4) (Philippe Francq, Jean Van Hamme) (Z-Library).pdf
+/run/media/perubu/Tosh_4TB/Downloads/Largo_Winch/Largo Winch - Diptyque 210 (Tomes 3 et 4) (Philippe Francq, Jean Van Hamme) (Z-Library).pdf
+
+/run/media/perubu/Tosh_4TB/Documents/09.Lire/aa_BD/Largo_Winch/Largo_Winch_Tome_01_L'Héritier_fr.downmagaz.net.pdf
+/run/media/perubu/Tosh_4TB/Downloads/Largo_Winch/Largo_Winch_Tome_01_L'Héritier_fr.downmagaz.net.pdf
+
+/run/media/perubu/Tosh_4TB/Documents/09.Lire/aa_BD/Largo_Winch/Largo Winch - Diptyque 110 (Tomes 1 et 2) (Philippe Francq, Jean Van Hamme) (Z-Library).pdf
+/run/media/perubu/Tosh_4TB/Downloads/Largo_Winch/Largo Winch - Diptyque 110 (Tomes 1 et 2) (Philippe Francq, Jean Van Hamme) (Z-Library).pdf
+
+/run/media/perubu/Tosh_4TB/Documents/09.Lire/aa_BD/Largo_Winch/Largo_Winch_Tome_11 - Golden Gate (Philippe Francq, Jean Van Hamme) (Z-Library).pdf
+/run/media/perubu/Tosh_4TB/Downloads/Largo_Winch/Largo_Winch_Tome_11 - Golden Gate (Philippe Francq, Jean Van Hamme) (Z-Library).pdf
+
+/run/media/perubu/Tosh_4TB/Documents/09.Lire/aa_BD/Largo_Winch/Largo Winch - Tome 05 - H (Philippe Francq, Jean Van Hamme) (Z-Library).pdf
+/run/media/perubu/Tosh_4TB/Downloads/Largo_Winch/Largo Winch - Tome 5 - H (Philippe Francq, Jean Van Hamme) (Z-Library).pdf
+
+/run/media/perubu/Tosh_4TB/Documents/09.Lire/aa_BD/Largo_Winch/Largo Winch - Diptyque 1010 (Tomes 19 et 20) (Philippe Francq, Jean van Hamme) (Z-Library).pdf
+/run/media/perubu/Tosh_4TB/Downloads/Largo_Winch/Largo Winch - Diptyque 1010 (Tomes 19 et 20) (Philippe Francq, Jean van Hamme) (Z-Library).pdf
+
+/run/media/perubu/Tosh_4TB/Documents/09.Lire/aa_lectures_en_vrac/Thématiques/Apprendre/Thriving_in_a_remote_developer_environment.mp3
+/run/media/perubu/Tosh_4TB/Documents/09.Lire/aa_lectures_en_vrac/Thriving_in_a_remote_developer_environment.mp3
+
+/run/media/perubu/Tosh_4TB/Documents/09.Lire/aa_lectures_en_vrac/Thématiques/Apprendre/Heinz_Wismann_philosophe_des_langues.mp3
+/run/media/perubu/Tosh_4TB/Documents/09.Lire/Wismann-Heinz/Heinz_Wismann_philosophe_des_langues.mp3
+
+/run/media/perubu/Tosh_4TB/Documents/09.Lire/aa_lectures_en_vrac/Vinyasa upward facing dog Ty Landrum zh_subs.mp4
+/run/media/perubu/Tosh_4TB/Documents/07.Pratiquer_un_hobby/02.Sport_yoga_méditation/Yoga/Vinyasa zh_subs.mp4
+
+/run/media/perubu/Tosh_4TB/Documents/09.Lire/aa_lectures_en_vrac/TRONE-Runner_s_World_pour_les_coureurs_N_14_-_Avril-Juin_2020-compressed.pdf
+/run/media/perubu/Tosh_4TB/Documents/t0/t1/t/12_sports_yoga/Run course/TRONE-Runner_s_World_pour_les_coureurs_N_14_-_Avril-Juin_2020-compressed.pdf
+
+/run/media/perubu/Tosh_4TB/Documents/09.Lire/aa_lectures_en_vrac/lectures & videos/Magazine TELERAMA N.3637 du 28 Septembre 4 Octobre 2019.pdf
+/run/media/perubu/Tosh_4TB/Downloads/pj_docs/journaux & magazines/Magazine TELERAMA N.3637 du 28 Septembre 4 Octobre 2019.pdf
+
+/run/media/perubu/Tosh_4TB/Documents/09.Lire/aa_lectures_en_vrac/lectures & videos/Magazine MARIS PATCH N.3672 du 26 Septembre au 2 Octobre 2019.pdf
+/run/media/perubu/Tosh_4TB/Downloads/pj_docs/journaux & magazines/Magazine MARIS PATCH N.3672 du 26 Septembre au 2 Octobre 2019.pdf
+
+/run/media/perubu/Tosh_4TB/Documents/09.Lire/aa_lectures_en_vrac/_Books/Bouquins, polars, podcasts/Hergé Tintin/05-Le-Lotus-Bleu.pdf
+/run/media/perubu/Tosh_4TB/Documents/09.Lire/aa_BD/Tintin/Tintin 05 - Le lotus bleu.pdf
+
+/run/media/perubu/Tosh_4TB/Documents/09.Lire/aa_lectures_en_vrac/journaux_magazines_par_titres/ HBR Harvard Business Review/Harvard Business Review.pdf
+/run/media/perubu/Tosh_4TB/Documents/09.Lire/Business_HBR/HBR/Harvard Business Review.pdf
+
+/run/media/perubu/Tosh_4TB/Documents/09.Lire/aa_lectures_en_vrac/Calibre Library/Unknown/097[Magnus] Les 110 pilules d'apres (16)/097[Magnus] Les 110 pilules d'a - Unknown.pdf
+/run/media/perubu/Tosh_4TB/Downloads/Downloads/Les 110 pilules dapres Jin Ping Mei (Magnus) (Z-Library).pdf
+
+/run/media/perubu/Tosh_4TB/Documents/09.Lire/aa_lectures_en_vrac/The_Mythology_Book.epub
+/run/media/perubu/Tosh_4TB/Documents/09.Lire/aa_lectures_en_vrac/The Mythology Book - DK.epub
+
+/run/media/perubu/Tosh_4TB/Documents/07.Pratiquer_un_hobby/05.Languages/Français/MOOC_Renforcer_ses_compétences_orthographiques/course-v1unicaen48002session04_1585768402.mp4
+/run/media/perubu/Tosh_4TB/Documents/07.Pratiquer_un_hobby/05.Languages/Français/MOOC_Renforcer_ses_compétences_orthographiques/1/1.1 Les accents.mp4
+
+/run/media/perubu/Tosh_4TB/Documents/07.Pratiquer_un_hobby/05.Languages/Français/MOOC_Renforcer_ses_compétences_orthographiques/course-v1unicaen48002session04_1585768422.mp4
+/run/media/perubu/Tosh_4TB/Documents/07.Pratiquer_un_hobby/05.Languages/Français/MOOC_Renforcer_ses_compétences_orthographiques/1/1.4 Le trait d'union.mp4
+
+/run/media/perubu/Tosh_4TB/Documents/07.Pratiquer_un_hobby/05.Languages/Français/MOOC_Renforcer_ses_compétences_orthographiques/course-v1unicaen48002session04_1585768409.mp4
+/run/media/perubu/Tosh_4TB/Documents/07.Pratiquer_un_hobby/05.Languages/Français/MOOC_Renforcer_ses_compétences_orthographiques/1/1.2 L'accent circonflexe.mp4
+
+/run/media/perubu/Tosh_4TB/Documents/07.Pratiquer_un_hobby/05.Languages/Français/MOOC_Renforcer_ses_compétences_orthographiques/course-v1unicaen48002session04_1585768429.mp4
+/run/media/perubu/Tosh_4TB/Documents/07.Pratiquer_un_hobby/05.Languages/Français/MOOC_Renforcer_ses_compétences_orthographiques/1/1.5 La majuscule.mp4
+
+/run/media/perubu/Tosh_4TB/Documents/07.Pratiquer_un_hobby/05.Languages/Français/MOOC_Renforcer_ses_compétences_orthographiques/course-v1unicaen48002session04_1585768416.mp4
+/run/media/perubu/Tosh_4TB/Documents/07.Pratiquer_un_hobby/05.Languages/Français/MOOC_Renforcer_ses_compétences_orthographiques/1/1.3 Le tréma.mp4
+
+/run/media/perubu/Tosh_4TB/Documents/07.Pratiquer_un_hobby/01.Tango/How to Do the Carousel aka Le Calecita ｜ Argentine Tango [OmgKDnA56Uo].webm
+/run/media/perubu/Tosh_4TB/Documents/07.Pratiquer_un_hobby/01.Tango/Tango_redmi/2.calesita/How to Do the Carousel aka Le Calecita ｜ Argentine Tango [OmgKDnA56Uo].webm
+
+/run/media/perubu/Tosh_4TB/Documents/07.Pratiquer_un_hobby/01.Tango/Tango_hd/inTango/VID_20230806_171028.mp4
+/run/media/perubu/Tosh_4TB/Documents/07.Pratiquer_un_hobby/01.Tango/Tango_hd/inTango2/VID_20230806_171028.mp4
+/run/media/perubu/Tosh_4TB/Documents/07.Pratiquer_un_hobby/01.Tango/Tango_hd/inTango2/input.mp4
+
+/run/media/perubu/Tosh_4TB/Documents/07.Pratiquer_un_hobby/02.Sport_yoga_méditation/Yoga/Ty yoga workshop.webm
+/run/media/perubu/Tosh_4TB/Documents/09.Lire/aa_lectures_en_vrac/Vinyasa ｜ Upward Facing Dog ｜ Ty Landrum [z9SR5McofkA].webm
+
+/run/media/perubu/Tosh_4TB/Documents/07.Pratiquer_un_hobby/02.Sport_yoga_méditation/the Flow of Breath long.zh.mp4
+/run/media/perubu/Tosh_4TB/Documents/07.Pratiquer_un_hobby/02.Sport_yoga_méditation/Yoga/the Flow of Breath long.zh.mp4
+
+/run/media/perubu/Tosh_4TB/Documents/07.Pratiquer_un_hobby/02.Sport_yoga_méditation/sexo/Exercising The Penis How To Make Your Most Prized Organ Bigger, Harder  Healthier (Kemmer Aaron) (Z-Library).pdf
+/run/media/perubu/Tosh_4TB/Downloads/Downloads/Exercising The Penis How To Make Your Most Prized Organ Bigger, Harder  Healthier (Kemmer Aaron) (Z-Library).pdf
+
+/run/media/perubu/Tosh_4TB/Documents/07.Pratiquer_un_hobby/12.Histoire_géographie/Histoire/Sp_cial_Histoire_-_Septembre-Novembre_2020b.pdf
+/run/media/perubu/Tosh_4TB/Documents/07.Pratiquer_un_hobby/12.Histoire_géographie/Histoire/1_Sp_cial_Histoire_-_Septembre-Novembre_2020b.pdf
+/run/media/perubu/Tosh_4TB/Documents/07.Pratiquer_un_hobby/12.Histoire_géographie/Histoire/2_Sp_cial_Histoire_-_Septembre-Novembre_2020b.pdf
+
+/run/media/perubu/Tosh_4TB/Documents/07.Pratiquer_un_hobby/12.Histoire_géographie/Histoire/Geo_Histoire_Hors-S_rie_-_Novembre-D_cembre_2020.pdf
+/run/media/perubu/Tosh_4TB/Documents/07.Pratiquer_un_hobby/12.Histoire_géographie/Géographie/Geo_Histoire_Hors-S_rie_-_Novembre-D_cembre_2020.pdf
+/run/media/perubu/Tosh_4TB/Documents/07.Pratiquer_un_hobby/12.Histoire_géographie/Géographie/1_Geo_Histoire_Hors-S_rie_-_Novembre-D_cembre_2020.pdf
+/run/media/perubu/Tosh_4TB/Documents/07.Pratiquer_un_hobby/12.Histoire_géographie/Géographie/2_Geo_Histoire_Hors-S_rie_-_Novembre-D_cembre_2020.pdf
+/run/media/perubu/Tosh_4TB/Documents/07.Pratiquer_un_hobby/12.Histoire_géographie/Géographie/3_Geo_Histoire_Hors-S_rie_-_Novembre-D_cembre_2020.pdf
+
+/run/media/perubu/Tosh_4TB/Documents/07.Pratiquer_un_hobby/12.Histoire_géographie/Géographie/National Geographic Traveller - March 2020 UK.pdf
+/run/media/perubu/Tosh_4TB/Documents/09.Lire/aa_lectures_en_vrac/journaux_magazines_par_titres/National Geographic & Geo/National Geographic Traveller - March 2020 UK.pdf
+
+/run/media/perubu/Tosh_4TB/Documents/07.Pratiquer_un_hobby/03.Business/Misc/L’argent, le pouvoir, l’art_Arte_2019_09_29_05_09.mp4
+/run/media/perubu/Tosh_4TB/Documents/t0/t1/t/15_films_reportages_videos/Videos captvty/L’argent, le pouvoir, l’art_Arte_2019_09_29_05_09.mp4
+
+/run/media/perubu/Tosh_4TB/Documents/07.Pratiquer_un_hobby/03.Business/Finance_hobby/Analyse_financière_MOOC/S5_-_l'analyse_dynamique/S5-5 Présentation du tableau des experts comptables.mp4
+/run/media/perubu/Tosh_4TB/Downloads/Analyse_financière_MOOC/S5 - l'analyse dynamique/S5-5 Présentation du tableau des experts comptables.mp4
+
+/run/media/perubu/Tosh_4TB/Documents/07.Pratiquer_un_hobby/03.Business/Finance_hobby/Analyse_financière_MOOC/S5_-_l'analyse_dynamique/S5-6 Présentation du tableau de la Banque de France.mp4
+/run/media/perubu/Tosh_4TB/Downloads/Analyse_financière_MOOC/S5 - l'analyse dynamique/S5-6 Présentation du tableau de la Banque de France.mp4
+
+/run/media/perubu/Tosh_4TB/Documents/07.Pratiquer_un_hobby/03.Business/Finance_hobby/Analyse_financière_MOOC/S5_-_l'analyse_dynamique/S5-3 Etude de l excédent de trésorerie d exploitation.mp4
+/run/media/perubu/Tosh_4TB/Downloads/Analyse_financière_MOOC/S5 - l'analyse dynamique/S5-3 Etude de l excédent de trésorerie d exploitation.mp4
+
+/run/media/perubu/Tosh_4TB/Documents/07.Pratiquer_un_hobby/03.Business/Finance_hobby/Analyse_financière_MOOC/S5_-_l'analyse_dynamique/S5-2 Du bilan avec le tableau de financement - bas du tableau.mp4
+/run/media/perubu/Tosh_4TB/Downloads/Analyse_financière_MOOC/S5 - l'analyse dynamique/S5-2 Du bilan avec le tableau de financement - bas du tableau.mp4
+
+/run/media/perubu/Tosh_4TB/Documents/07.Pratiquer_un_hobby/03.Business/Finance_hobby/Analyse_financière_MOOC/S5_-_l'analyse_dynamique/S5-4 Les tableaux de flux de trésorerie - objectifs, structure, ....mp4
+/run/media/perubu/Tosh_4TB/Downloads/Analyse_financière_MOOC/S5 - l'analyse dynamique/S5-4 Les tableaux de flux de trésorerie - objectifs, structure, ....mp4
+
+/run/media/perubu/Tosh_4TB/Documents/07.Pratiquer_un_hobby/03.Business/Finance_hobby/Analyse_financière_MOOC/S6_-_les_investissements_et_leur_rentabilité/S6-3 La rentabilité des investissements - principes généraux, cash-flows.mp4
+/run/media/perubu/Tosh_4TB/Downloads/Analyse_financière_MOOC/S6 - les investissements et leur rentabilité/S6-3 La rentabilité des investissements - principes généraux, cash-flows.mp4
+
+/run/media/perubu/Tosh_4TB/Documents/07.Pratiquer_un_hobby/03.Business/Finance_hobby/Analyse_financière_MOOC/S6_-_les_investissements_et_leur_rentabilité/S6-1 La rentabilité économique - l'activité éco de l entreprise est-elle rentable.mp4
+/run/media/perubu/Tosh_4TB/Downloads/Analyse_financière_MOOC/S6 - les investissements et leur rentabilité/S6-1 La rentabilité économique - l'activité éco de l entreprise est-elle rentable.mp4
+
+/run/media/perubu/Tosh_4TB/Documents/07.Pratiquer_un_hobby/03.Business/Finance_hobby/Analyse_financière_MOOC/S1_-_analyse_du_bilan/s1-1-introduction-à-l-analyse-financière.mp4
+/run/media/perubu/Tosh_4TB/Downloads/Analyse_financière_MOOC/S1 - analyse du bilan/s1-1-introduction-à-l-analyse-financière.mp4
+
+/run/media/perubu/Tosh_4TB/Documents/07.Pratiquer_un_hobby/03.Business/Finance_hobby/Analyse_financière_MOOC/S1_-_analyse_du_bilan/s1-3-la-construction-du-bilan-fonctionnel.mp4
+/run/media/perubu/Tosh_4TB/Downloads/Analyse_financière_MOOC/S1 - analyse du bilan/s1-3-la-construction-du-bilan-fonctionnel.mp4
+
+/run/media/perubu/Tosh_4TB/Documents/07.Pratiquer_un_hobby/03.Business/Finance_hobby/Analyse_financière_MOOC/S1_-_analyse_du_bilan/s1-5-analyse-du-bilan-fonctionel-2.mp4
+/run/media/perubu/Tosh_4TB/Downloads/Analyse_financière_MOOC/S1 - analyse du bilan/s1-5-analyse-du-bilan-fonctionel-2.mp4
+
+/run/media/perubu/Tosh_4TB/Documents/07.Pratiquer_un_hobby/03.Business/Finance_hobby/Analyse_financière_MOOC/S1_-_analyse_du_bilan/s1-6-cas-pratique.mp4
+/run/media/perubu/Tosh_4TB/Downloads/Analyse_financière_MOOC/S1 - analyse du bilan/s1-6-cas-pratique.mp4
+
+/run/media/perubu/Tosh_4TB/Documents/07.Pratiquer_un_hobby/03.Business/Finance_hobby/Analyse_financière_MOOC/S1_-_analyse_du_bilan/s1-4-analyse-du-bilan-fonctionel-1.mp4
+/run/media/perubu/Tosh_4TB/Downloads/Analyse_financière_MOOC/S1 - analyse du bilan/s1-4-analyse-du-bilan-fonctionel-1.mp4
+
+/run/media/perubu/Tosh_4TB/Documents/07.Pratiquer_un_hobby/03.Business/Finance_hobby/Analyse_financière_MOOC/S1_-_analyse_du_bilan/s1-2-les-documents-comptables.mp4
+/run/media/perubu/Tosh_4TB/Downloads/Analyse_financière_MOOC/S1 - analyse du bilan/s1-2-les-documents-comptables.mp4
+
+/run/media/perubu/Tosh_4TB/Documents/07.Pratiquer_un_hobby/03.Business/Finance_hobby/Analyse_financière_MOOC/S3a_-_rédaction_d'un_diagnostic_financier/S3-1 Comment rédiger un diagnostic financier.mp4
+/run/media/perubu/Tosh_4TB/Downloads/Analyse_financière_MOOC/S3a - rédaction d'un diagnostic financier/S3-1 Comment rédiger un diagnostic financier.mp4
+
+/run/media/perubu/Tosh_4TB/Documents/07.Pratiquer_un_hobby/03.Business/Finance_hobby/Analyse_financière_MOOC/S3a_-_rédaction_d'un_diagnostic_financier/S3-4 L'effet de ciseaux.mp4
+/run/media/perubu/Tosh_4TB/Downloads/Analyse_financière_MOOC/S3a - rédaction d'un diagnostic financier/S3-4 L'effet de ciseaux.mp4
+
+/run/media/perubu/Tosh_4TB/Documents/07.Pratiquer_un_hobby/03.Business/Finance_hobby/Analyse_financière_MOOC/S3a_-_rédaction_d'un_diagnostic_financier/S3-2 L'utilité des ratios - ratios de structure.mp4
+/run/media/perubu/Tosh_4TB/Downloads/Analyse_financière_MOOC/S3a - rédaction d'un diagnostic financier/S3-2 L'utilité des ratios - ratios de structure.mp4
+
+/run/media/perubu/Tosh_4TB/Documents/07.Pratiquer_un_hobby/03.Business/Finance_hobby/Analyse_financière_MOOC/S2_-_analyse_du_compte_de_résultat/s2-2-soldes-de-création-de-richesses.mp4
+/run/media/perubu/Tosh_4TB/Downloads/Analyse_financière_MOOC/S2 - analyse du compte de résultat/s2-2-soldes-de-création-de-richesses.mp4
+
+/run/media/perubu/Tosh_4TB/Documents/07.Pratiquer_un_hobby/03.Business/Finance_hobby/Analyse_financière_MOOC/S2_-_analyse_du_compte_de_résultat/s2-4-la-richesse-dédiée-à-la-finance.mp4
+/run/media/perubu/Tosh_4TB/Downloads/Analyse_financière_MOOC/S2 - analyse du compte de résultat/s2-4-la-richesse-dédiée-à-la-finance.mp4
+
+/run/media/perubu/Tosh_4TB/Documents/07.Pratiquer_un_hobby/03.Business/Finance_hobby/Analyse_financière_MOOC/S2_-_analyse_du_compte_de_résultat/s2-6-la-capacité-d'autofinancement 2.mp4
+/run/media/perubu/Tosh_4TB/Downloads/Analyse_financière_MOOC/S2 - analyse du compte de résultat/s2-6-la-capacité-d'autofinancement 2.mp4
+
+/run/media/perubu/Tosh_4TB/Documents/07.Pratiquer_un_hobby/03.Business/Finance_hobby/Analyse_financière_MOOC/S2_-_analyse_du_compte_de_résultat/s2-5-analyse-du-compte-de-résultat-cas-pratique.mp4
+/run/media/perubu/Tosh_4TB/Downloads/Analyse_financière_MOOC/S2 - analyse du compte de résultat/s2-5-analyse-du-compte-de-résultat-cas-pratique.mp4
+
+/run/media/perubu/Tosh_4TB/Documents/07.Pratiquer_un_hobby/03.Business/Finance_hobby/Analyse_financière_MOOC/S2_-_analyse_du_compte_de_résultat/s2-6-la-capacité-d'autofinancement.mp4
+/run/media/perubu/Tosh_4TB/Downloads/Analyse_financière_MOOC/S2 - analyse du compte de résultat/s2-6-la-capacité-d'autofinancement.mp4
+
+/run/media/perubu/Tosh_4TB/Documents/07.Pratiquer_un_hobby/03.Business/Finance_hobby/Analyse_financière_MOOC/S2_-_analyse_du_compte_de_résultat/s2-1-structuration-du-compte-de-résultat-en-soldes.mp4
+/run/media/perubu/Tosh_4TB/Downloads/Analyse_financière_MOOC/S2 - analyse du compte de résultat/s2-1-structuration-du-compte-de-résultat-en-soldes.mp4
+
+/run/media/perubu/Tosh_4TB/Documents/07.Pratiquer_un_hobby/03.Business/Finance_hobby/Analyse_financière_MOOC/S2_-_analyse_du_compte_de_résultat/s2-3-la-richesse-dédiée-à-l'activité-économique.mp4
+/run/media/perubu/Tosh_4TB/Downloads/Analyse_financière_MOOC/S2 - analyse du compte de résultat/s2-3-la-richesse-dédiée-à-l'activité-économique.mp4
+
+/run/media/perubu/Tosh_4TB/Documents/07.Pratiquer_un_hobby/03.Business/Finance_hobby/Analyse_financière_MOOC/S4_-_analyse_statique_renforcée/S4-2 Retraitement de la CAF.mp4
+/run/media/perubu/Tosh_4TB/Downloads/Analyse_financière_MOOC/S4 - analyse statique renforcée/S4-2 Retraitement de la CAF.mp4
+
+/run/media/perubu/Tosh_4TB/Documents/07.Pratiquer_un_hobby/03.Business/Finance_hobby/Analyse_financière_MOOC/livres/La gestion dentreprise pas à pas (Philippe Guillermic) (Z-Library).pdf
+/run/media/perubu/Tosh_4TB/Downloads/Analyse_financière_MOOC/livres/La gestion dentreprise pas à pas (Philippe Guillermic) (Z-Library).pdf
+
+/run/media/perubu/Tosh_4TB/Documents/07.Pratiquer_un_hobby/03.Business/Finance_hobby/Analyse_financière_MOOC/livres/La Comptabilité Pas à Pas Edition 2015-2016 (Philippe Guillermic) (Z-Library).pdf
+/run/media/perubu/Tosh_4TB/Downloads/Analyse_financière_MOOC/livres/La Comptabilité Pas à Pas Edition 2015-2016 (Philippe Guillermic) (Z-Library).pdf
+
+/run/media/perubu/Tosh_4TB/Documents/07.Pratiquer_un_hobby/03.Business/Finance_hobby/Analyse_financière_MOOC/livres/Management des achats et de la supply chain - 2e édition (David Doriol  Thierry Sauvage) (Z-Library).pdf
+/run/media/perubu/Tosh_4TB/Downloads/Analyse_financière_MOOC/livres/Management des achats et de la supply chain - 2e édition (David Doriol  Thierry Sauvage) (Z-Library).pdf
+
+/run/media/perubu/Tosh_4TB/Documents/07.Pratiquer_un_hobby/10.Politics-religions/Misc/13h15, le samedi... - Jacques Chirac, l'insatiable_France 2_2019_09_28_13_21.ts
+/run/media/perubu/Tosh_4TB/Documents/t0/t1/t/15_films_reportages_videos/Videos captvty/13h15, le samedi... - Jacques Chirac, l'insatiable_France 2_2019_09_28_13_21.ts
+
+/run/media/perubu/Tosh_4TB/Documents/03.Info_tech_n_systems/4.Systems_install_+_maintenance/Redmi Note 9 Pro/Ovitalmap.apk
+/run/media/perubu/Tosh_4TB/Documents/03.Info_tech_n_systems/4.Systems_install_+_maintenance/Redmi Pad SE/ovitalmap.apk
+
+/run/media/perubu/Tosh_4TB/Documents/03.Info_tech_n_systems/3.Other_technos/AI/Harvard Business Review USA 09.10 2023_downmagaz.net.pdf
+/run/media/perubu/Tosh_4TB/Documents/WeChat Files/wxid_6761767617821/FileStorage/File/2024-02/Harvard Business Review USA 09.10 2023_downmagaz.net.pdf
+/run/media/perubu/Tosh_4TB/Documents/07.Pratiquer_un_hobby/Harvard Business Review USA 09.10 2023_downmagaz.net.pdf
+
+/run/media/perubu/Tosh_4TB/Documents/03.Info_tech_n_systems/3.Other_technos/0.competitive_programming_n_learn_to_code/Head_First_Learn_to_Code.pdf
+/run/media/perubu/Tosh_4TB/Documents/t0/t1/t/Major technologies/Misc/Head_First_Learn_to_Code.pdf
+/run/media/perubu/Tosh_4TB/Downloads/pj_docs/pj_books/code_books/misc/Head_First_Learn_to_Code.pdf
+
+/run/media/perubu/Tosh_4TB/Documents/03.Info_tech_n_systems/3.Other_technos/0.competitive_programming_n_learn_to_code/Head_First_Software_Development.pdf
+/run/media/perubu/Tosh_4TB/Documents/t0/t1/t/Major technologies/Misc/Head_First_Software_Development.pdf
+
+/run/media/perubu/Tosh_4TB/Documents/03.Info_tech_n_systems/2.Main_technos/1.Vim/Books/stock/nvim-win64.zip
+/run/media/perubu/Tosh_4TB/Documents/t0/t1/t/Major technologies/0.VIM/stock/nvim-win64.zip
+
+/run/media/perubu/Tosh_4TB/Documents/03.Info_tech_n_systems/2.Main_technos/2.Linux/Books/stock/internet/Linux Magazine HS10 - Fr - Completez l'installation de votre serveur internet.cbz
+/run/media/perubu/Tosh_4TB/Documents/t0/t1/t/Major technologies/0.Linux/stock/internet/Linux Magazine HS10 - Fr - Completez l'installation de votre serveur internet.cbz
+
+/run/media/perubu/Tosh_4TB/Documents/03.Info_tech_n_systems/2.Main_technos/2.Linux/Books/stock/internet/Linux Magazine HS10 - Fr - Completez l'installation de votre serveur internet.pdf
+/run/media/perubu/Tosh_4TB/Documents/t0/t1/t/Major technologies/0.Linux/stock/internet/Linux Magazine HS10 - Fr - Completez l'installation de votre serveur internet.pdf
+
+/run/media/perubu/Tosh_4TB/Documents/03.Info_tech_n_systems/2.Main_technos/2.Linux/Books/stock/magazines/Linux_User_Developer_Issue_167_20160.pdf
+/run/media/perubu/Tosh_4TB/Documents/t0/t1/t/Major technologies/0.Linux/stock/magazines/Linux_User_Developer_Issue_167_20160.pdf
+
+/run/media/perubu/Tosh_4TB/Documents/03.Info_tech_n_systems/2.Main_technos/2.Linux/Books/stock/magazines/Linux_Voice_-_June_2016.pdf
+/run/media/perubu/Tosh_4TB/Documents/t0/t1/t/Major technologies/0.Linux/stock/magazines/Linux_Voice_-_June_2016.pdf
+
+/run/media/perubu/Tosh_4TB/Documents/03.Info_tech_n_systems/2.Main_technos/2.Linux/Books/stock/magazines/Linux_User_Developer_Issue_177_2017.pdf
+/run/media/perubu/Tosh_4TB/Documents/t0/t1/t/Major technologies/0.Linux/stock/magazines/Linux_User_Developer_Issue_177_2017.pdf
+
+/run/media/perubu/Tosh_4TB/Documents/03.Info_tech_n_systems/2.Main_technos/2.Linux/Books/stock/magazines/Linux_Format_UK_January_2017.pdf
+/run/media/perubu/Tosh_4TB/Documents/t0/t1/t/Major technologies/0.Linux/stock/magazines/Linux_Format_UK_January_2017.pdf
+
+/run/media/perubu/Tosh_4TB/Documents/03.Info_tech_n_systems/2.Main_technos/2.Linux/Books/stock/distributions/Ubuntu.Made.Easy.A.Project-Based.Introduction.to.Linux.pdf
+/run/media/perubu/Tosh_4TB/Documents/t0/t1/t/Major technologies/0.Linux/stock/distributions/Ubuntu.Made.Easy.A.Project-Based.Introduction.to.Linux.pdf
+
+/run/media/perubu/Tosh_4TB/Documents/03.Info_tech_n_systems/2.Main_technos/2.Linux/Books/stock/distributions/openSUSE Linux.pdf
+/run/media/perubu/Tosh_4TB/Documents/t0/t1/t/Major technologies/0.Linux/stock/distributions/openSUSE Linux.pdf
+
+/run/media/perubu/Tosh_4TB/Documents/03.Info_tech_n_systems/2.Main_technos/2.Linux/Books/stock/distributions/Linux_Mint_Essentials.pdf
+/run/media/perubu/Tosh_4TB/Documents/t0/t1/t/Major technologies/0.Linux/stock/distributions/Linux_Mint_Essentials.pdf
+
+/run/media/perubu/Tosh_4TB/Documents/03.Info_tech_n_systems/2.Main_technos/2.Linux/Books/stock/raspberry/Linux_User_Developer--Raspberry-PI-2.pdf
+/run/media/perubu/Tosh_4TB/Documents/t0/t1/t/Major technologies/0.Linux/stock/raspberry/Linux_User_Developer--Raspberry-PI-2.pdf
+
+/run/media/perubu/Tosh_4TB/Documents/03.Info_tech_n_systems/2.Main_technos/2.Linux/Books/stock/raspberry/Linux.User._.Developer_Build.a.Raspberry.PI.Robot.pdf
+/run/media/perubu/Tosh_4TB/Documents/t0/t1/t/Major technologies/0.Linux/stock/raspberry/Linux.User._.Developer_Build.a.Raspberry.PI.Robot.pdf
+
+/run/media/perubu/Tosh_4TB/Documents/03.Info_tech_n_systems/2.Main_technos/2.Linux/Books/stock/administration/UNIX_and_Linux_System_Administration_Handbook_(5th_Ed)/UNIX and Linux System Administration Handbook (5th Ed)(gnv64).pdf
+/run/media/perubu/Tosh_4TB/Documents/t0/t1/t/Major technologies/0.Linux/stock/administration/UNIX and Linux System Administration Handbook (5th Ed)/UNIX and Linux System Administration Handbook (5th Ed)(gnv64).pdf
+
+/run/media/perubu/Tosh_4TB/Documents/03.Info_tech_n_systems/2.Main_technos/2.Linux/Books/stock/tutorials/LINUXACADEMY_POWERSHELL_ESSENTIALS_TUTORIAL-OXBRiDGE/oxbridge_lpet.r14
+/run/media/perubu/Tosh_4TB/Documents/t0/t1/t/Major technologies/0.Linux/stock/tutorials/LINUXACADEMY_POWERSHELL_ESSENTIALS_TUTORIAL-OXBRiDGE/oxbridge_lpet.r14
+
+/run/media/perubu/Tosh_4TB/Documents/03.Info_tech_n_systems/2.Main_technos/2.Linux/Books/stock/tutorials/LINUXACADEMY_POWERSHELL_ESSENTIALS_TUTORIAL-OXBRiDGE/oxbridge_lpet.r18
+/run/media/perubu/Tosh_4TB/Documents/t0/t1/t/Major technologies/0.Linux/stock/tutorials/LINUXACADEMY_POWERSHELL_ESSENTIALS_TUTORIAL-OXBRiDGE/oxbridge_lpet.r18
+
+/run/media/perubu/Tosh_4TB/Documents/03.Info_tech_n_systems/2.Main_technos/2.Linux/Books/stock/tutorials/LINUXACADEMY_POWERSHELL_ESSENTIALS_TUTORIAL-OXBRiDGE/oxbridge_lpet.rar
+/run/media/perubu/Tosh_4TB/Documents/t0/t1/t/Major technologies/0.Linux/stock/tutorials/LINUXACADEMY_POWERSHELL_ESSENTIALS_TUTORIAL-OXBRiDGE/oxbridge_lpet.rar
+
+/run/media/perubu/Tosh_4TB/Documents/03.Info_tech_n_systems/2.Main_technos/2.Linux/Books/stock/tutorials/LINUXACADEMY_POWERSHELL_ESSENTIALS_TUTORIAL-OXBRiDGE/oxbridge_lpet.r09
+/run/media/perubu/Tosh_4TB/Documents/t0/t1/t/Major technologies/0.Linux/stock/tutorials/LINUXACADEMY_POWERSHELL_ESSENTIALS_TUTORIAL-OXBRiDGE/oxbridge_lpet.r09
+
+/run/media/perubu/Tosh_4TB/Documents/03.Info_tech_n_systems/2.Main_technos/2.Linux/Books/stock/tutorials/LINUXACADEMY_POWERSHELL_ESSENTIALS_TUTORIAL-OXBRiDGE/oxbridge_lpet.r02
+/run/media/perubu/Tosh_4TB/Documents/t0/t1/t/Major technologies/0.Linux/stock/tutorials/LINUXACADEMY_POWERSHELL_ESSENTIALS_TUTORIAL-OXBRiDGE/oxbridge_lpet.r02
+
+/run/media/perubu/Tosh_4TB/Documents/03.Info_tech_n_systems/2.Main_technos/2.Linux/Books/stock/tutorials/LINUXACADEMY_POWERSHELL_ESSENTIALS_TUTORIAL-OXBRiDGE/oxbridge_lpet.r13
+/run/media/perubu/Tosh_4TB/Documents/t0/t1/t/Major technologies/0.Linux/stock/tutorials/LINUXACADEMY_POWERSHELL_ESSENTIALS_TUTORIAL-OXBRiDGE/oxbridge_lpet.r13
+
+/run/media/perubu/Tosh_4TB/Documents/03.Info_tech_n_systems/2.Main_technos/2.Linux/Books/stock/tutorials/LINUXACADEMY_POWERSHELL_ESSENTIALS_TUTORIAL-OXBRiDGE/oxbridge_lpet.r00
+/run/media/perubu/Tosh_4TB/Documents/t0/t1/t/Major technologies/0.Linux/stock/tutorials/LINUXACADEMY_POWERSHELL_ESSENTIALS_TUTORIAL-OXBRiDGE/oxbridge_lpet.r00
+
+/run/media/perubu/Tosh_4TB/Documents/03.Info_tech_n_systems/2.Main_technos/2.Linux/Books/stock/tutorials/LINUXACADEMY_POWERSHELL_ESSENTIALS_TUTORIAL-OXBRiDGE/oxbridge_lpet.r19
+/run/media/perubu/Tosh_4TB/Documents/t0/t1/t/Major technologies/0.Linux/stock/tutorials/LINUXACADEMY_POWERSHELL_ESSENTIALS_TUTORIAL-OXBRiDGE/oxbridge_lpet.r19
+
+/run/media/perubu/Tosh_4TB/Documents/03.Info_tech_n_systems/2.Main_technos/2.Linux/Books/stock/tutorials/LINUXACADEMY_POWERSHELL_ESSENTIALS_TUTORIAL-OXBRiDGE/oxbridge_lpet.r07
+/run/media/perubu/Tosh_4TB/Documents/t0/t1/t/Major technologies/0.Linux/stock/tutorials/LINUXACADEMY_POWERSHELL_ESSENTIALS_TUTORIAL-OXBRiDGE/oxbridge_lpet.r07
+
+/run/media/perubu/Tosh_4TB/Documents/03.Info_tech_n_systems/2.Main_technos/2.Linux/Books/stock/tutorials/LINUXACADEMY_POWERSHELL_ESSENTIALS_TUTORIAL-OXBRiDGE/oxbridge_lpet.r11
+/run/media/perubu/Tosh_4TB/Documents/t0/t1/t/Major technologies/0.Linux/stock/tutorials/LINUXACADEMY_POWERSHELL_ESSENTIALS_TUTORIAL-OXBRiDGE/oxbridge_lpet.r11
+
+/run/media/perubu/Tosh_4TB/Documents/03.Info_tech_n_systems/2.Main_technos/2.Linux/Books/stock/tutorials/LINUXACADEMY_POWERSHELL_ESSENTIALS_TUTORIAL-OXBRiDGE/oxbridge_lpet.r06
+/run/media/perubu/Tosh_4TB/Documents/t0/t1/t/Major technologies/0.Linux/stock/tutorials/LINUXACADEMY_POWERSHELL_ESSENTIALS_TUTORIAL-OXBRiDGE/oxbridge_lpet.r06
+
+/run/media/perubu/Tosh_4TB/Documents/03.Info_tech_n_systems/2.Main_technos/2.Linux/Books/stock/tutorials/LINUXACADEMY_POWERSHELL_ESSENTIALS_TUTORIAL-OXBRiDGE/oxbridge_lpet.r04
+/run/media/perubu/Tosh_4TB/Documents/t0/t1/t/Major technologies/0.Linux/stock/tutorials/LINUXACADEMY_POWERSHELL_ESSENTIALS_TUTORIAL-OXBRiDGE/oxbridge_lpet.r04
+
+/run/media/perubu/Tosh_4TB/Documents/03.Info_tech_n_systems/2.Main_technos/2.Linux/Books/stock/tutorials/LINUXACADEMY_POWERSHELL_ESSENTIALS_TUTORIAL-OXBRiDGE/oxbridge_lpet.r17
+/run/media/perubu/Tosh_4TB/Documents/t0/t1/t/Major technologies/0.Linux/stock/tutorials/LINUXACADEMY_POWERSHELL_ESSENTIALS_TUTORIAL-OXBRiDGE/oxbridge_lpet.r17
+
+/run/media/perubu/Tosh_4TB/Documents/03.Info_tech_n_systems/2.Main_technos/2.Linux/Books/stock/tutorials/LINUXACADEMY_POWERSHELL_ESSENTIALS_TUTORIAL-OXBRiDGE/oxbridge_lpet.r15
+/run/media/perubu/Tosh_4TB/Documents/t0/t1/t/Major technologies/0.Linux/stock/tutorials/LINUXACADEMY_POWERSHELL_ESSENTIALS_TUTORIAL-OXBRiDGE/oxbridge_lpet.r15
+
+/run/media/perubu/Tosh_4TB/Documents/03.Info_tech_n_systems/2.Main_technos/2.Linux/Books/stock/tutorials/LINUXACADEMY_POWERSHELL_ESSENTIALS_TUTORIAL-OXBRiDGE/oxbridge_lpet.r08
+/run/media/perubu/Tosh_4TB/Documents/t0/t1/t/Major technologies/0.Linux/stock/tutorials/LINUXACADEMY_POWERSHELL_ESSENTIALS_TUTORIAL-OXBRiDGE/oxbridge_lpet.r08
+
+/run/media/perubu/Tosh_4TB/Documents/03.Info_tech_n_systems/2.Main_technos/2.Linux/Books/stock/tutorials/LINUXACADEMY_POWERSHELL_ESSENTIALS_TUTORIAL-OXBRiDGE/oxbridge_lpet.r01
+/run/media/perubu/Tosh_4TB/Documents/t0/t1/t/Major technologies/0.Linux/stock/tutorials/LINUXACADEMY_POWERSHELL_ESSENTIALS_TUTORIAL-OXBRiDGE/oxbridge_lpet.r01
+
+/run/media/perubu/Tosh_4TB/Documents/03.Info_tech_n_systems/2.Main_technos/2.Linux/Books/stock/tutorials/LINUXACADEMY_POWERSHELL_ESSENTIALS_TUTORIAL-OXBRiDGE/oxbridge_lpet.r05
+/run/media/perubu/Tosh_4TB/Documents/t0/t1/t/Major technologies/0.Linux/stock/tutorials/LINUXACADEMY_POWERSHELL_ESSENTIALS_TUTORIAL-OXBRiDGE/oxbridge_lpet.r05
+
+/run/media/perubu/Tosh_4TB/Documents/03.Info_tech_n_systems/2.Main_technos/2.Linux/Books/stock/tutorials/LINUXACADEMY_POWERSHELL_ESSENTIALS_TUTORIAL-OXBRiDGE/oxbridge_lpet.r12
+/run/media/perubu/Tosh_4TB/Documents/t0/t1/t/Major technologies/0.Linux/stock/tutorials/LINUXACADEMY_POWERSHELL_ESSENTIALS_TUTORIAL-OXBRiDGE/oxbridge_lpet.r12
+
+/run/media/perubu/Tosh_4TB/Documents/03.Info_tech_n_systems/2.Main_technos/2.Linux/Books/stock/tutorials/LINUXACADEMY_POWERSHELL_ESSENTIALS_TUTORIAL-OXBRiDGE/oxbridge_lpet.r03
+/run/media/perubu/Tosh_4TB/Documents/t0/t1/t/Major technologies/0.Linux/stock/tutorials/LINUXACADEMY_POWERSHELL_ESSENTIALS_TUTORIAL-OXBRiDGE/oxbridge_lpet.r03
+
+/run/media/perubu/Tosh_4TB/Documents/03.Info_tech_n_systems/2.Main_technos/2.Linux/Books/stock/tutorials/LINUXACADEMY_POWERSHELL_ESSENTIALS_TUTORIAL-OXBRiDGE/oxbridge_lpet.r16
+/run/media/perubu/Tosh_4TB/Documents/t0/t1/t/Major technologies/0.Linux/stock/tutorials/LINUXACADEMY_POWERSHELL_ESSENTIALS_TUTORIAL-OXBRiDGE/oxbridge_lpet.r16
+
+/run/media/perubu/Tosh_4TB/Documents/03.Info_tech_n_systems/2.Main_technos/2.Linux/Books/stock/tutorials/LINUXACADEMY_POWERSHELL_ESSENTIALS_TUTORIAL-OXBRiDGE/oxbridge_lpet.r10
+/run/media/perubu/Tosh_4TB/Documents/t0/t1/t/Major technologies/0.Linux/stock/tutorials/LINUXACADEMY_POWERSHELL_ESSENTIALS_TUTORIAL-OXBRiDGE/oxbridge_lpet.r10
+
+/run/media/perubu/Tosh_4TB/Documents/03.Info_tech_n_systems/2.Main_technos/2.Linux/Books/stock/tutorials/Linux_Pro.pdf
+/run/media/perubu/Tosh_4TB/Documents/t0/t1/t/Major technologies/0.Linux/stock/tutorials/Linux_Pro.pdf
+
+/run/media/perubu/Tosh_4TB/Documents/03.Info_tech_n_systems/2.Main_technos/2.Linux/Books/stock/hacker/Hacking_Exposed._Linux_Security_Secrets___Solutions.pdf
+/run/media/perubu/Tosh_4TB/Documents/t0/t1/t/Major technologies/0.Linux/stock/hacker/Hacking_Exposed._Linux_Security_Secrets___Solutions.pdf
+
+/run/media/perubu/Tosh_4TB/Documents/03.Info_tech_n_systems/2.Main_technos/2.Linux/Books/stock/certifications/CompTIA_Linux-LPIC-1_Certification_All-in-One_Exam_Guide.epub
+/run/media/perubu/Tosh_4TB/Documents/t0/t1/t/Major technologies/0.Linux/stock/certifications/CompTIA_Linux-LPIC-1_Certification_All-in-One_Exam_Guide.epub
+
+/run/media/perubu/Tosh_4TB/Documents/03.Info_tech_n_systems/2.Main_technos/2.Linux/Books/stock/certifications/Linux LPIC IA exam preparation.pdf
+/run/media/perubu/Tosh_4TB/Documents/t0/t1/t/Major technologies/0.Linux/stock/certifications/Linux LPIC IA exam preparation.pdf
+
+/run/media/perubu/Tosh_4TB/Documents/03.Info_tech_n_systems/2.Main_technos/2.Linux/Books/stock/bash/Working with Linux - Quick Hacks for the Command Line (2017).epub
+/run/media/perubu/Tosh_4TB/Documents/t0/t1/t/Major technologies/0.Linux/stock/bash/Working with Linux - Quick Hacks for the Command Line (2017).epub
+
+/run/media/perubu/Tosh_4TB/Documents/03.Info_tech_n_systems/2.Main_technos/2.Linux/Books/stock/bash/Mastering_Linux_Shell_Scripting.rar
+/run/media/perubu/Tosh_4TB/Documents/t0/t1/t/Major technologies/0.Linux/stock/bash/Mastering_Linux_Shell_Scripting.rar
+
+/run/media/perubu/Tosh_4TB/Documents/03.Info_tech_n_systems/2.Main_technos/2.Linux/Books/stock/bash/A_Practical_Guide_to_Linux_Commands__Editors__and_Shell_Programming_Third_Edition.pdf
+/run/media/perubu/Tosh_4TB/Documents/t0/t1/t/Major technologies/0.Linux/stock/bash/A_Practical_Guide_to_Linux_Commands__Editors__and_Shell_Programming_Third_Edition.pdf
+
+/run/media/perubu/Tosh_4TB/Documents/03.Info_tech_n_systems/2.Main_technos/2.Linux/Books/stock/bash/03-linux-command-line/029-hard-links.mp4
+/run/media/perubu/Tosh_4TB/Documents/t0/t1/t/Major technologies/0.Linux/stock/bash/03-linux-command-line/029-hard-links.mp4
+
+/run/media/perubu/Tosh_4TB/Documents/03.Info_tech_n_systems/2.Main_technos/2.Linux/Books/stock/bash/03-linux-command-line/026-file-compression-using-gzip-bzip2.mp4
+/run/media/perubu/Tosh_4TB/Documents/t0/t1/t/Major technologies/0.Linux/stock/bash/03-linux-command-line/026-file-compression-using-gzip-bzip2.mp4
+
+/run/media/perubu/Tosh_4TB/Documents/03.Info_tech_n_systems/2.Main_technos/2.Linux/Books/stock/programming/Guide.to.Assembly.Language.Programming.in.Linux.pdf
+/run/media/perubu/Tosh_4TB/Documents/t0/t1/t/Major technologies/0.Linux/stock/programming/Guide.to.Assembly.Language.Programming.in.Linux.pdf
+
+/run/media/perubu/Tosh_4TB/Documents/03.Info_tech_n_systems/2.Main_technos/2.Linux/Books/stock/programming/Programming_Linux__Tips__Tricks___Hacks__2015_.pdf
+/run/media/perubu/Tosh_4TB/Documents/t0/t1/t/Major technologies/0.Linux/stock/programming/Programming_Linux__Tips__Tricks___Hacks__2015_.pdf
+
+/run/media/perubu/Tosh_4TB/Documents/03.Info_tech_n_systems/2.Main_technos/2.Linux/Books/stock/programming/Assembly_Language_Step_By_Step__3rd_Edition_Programming_With_Linux.pdf
+/run/media/perubu/Tosh_4TB/Documents/t0/t1/t/Major technologies/0.Linux/stock/programming/Assembly_Language_Step_By_Step__3rd_Edition_Programming_With_Linux.pdf
+
+/run/media/perubu/Tosh_4TB/Documents/03.Info_tech_n_systems/2.Main_technos/2.Linux/Books/stock/programming/Embedded_Linux_development_with_Eclipse.pdf
+/run/media/perubu/Tosh_4TB/Documents/t0/t1/t/Major technologies/0.Linux/stock/programming/Embedded_Linux_development_with_Eclipse.pdf
+
+/run/media/perubu/Tosh_4TB/Documents/03.Info_tech_n_systems/2.Main_technos/2.Linux/Books/Linux.Format.August.2022.pdf
+/run/media/perubu/Tosh_4TB/Documents/09.Lire/aa_lectures_en_vrac/Read_n_dump_pj/Linux.Format.August.2022.pdf
+
+/run/media/perubu/Tosh_4TB/Documents/03.Info_tech_n_systems/2.Main_technos/2.Linux/Books/Linux_Command_Line_and_Shell_Scripting_Techniques.rar
+/run/media/perubu/Tosh_4TB/Documents/09.Lire/aa_lectures_en_vrac/Read_n_dump_pj/Linux_Command_Line_and_Shell_Scripting_Techniques.rar
+
+/run/media/perubu/Tosh_4TB/Documents/03.Info_tech_n_systems/2.Main_technos/2.Linux/Books/Linux Format UK - April 2022.pdf
+/run/media/perubu/Tosh_4TB/Documents/09.Lire/aa_lectures_en_vrac/Read_n_dump_pj/Linux Format UK - April 2022.pdf
+
+/run/media/perubu/Tosh_4TB/Documents/03.Info_tech_n_systems/2.Main_technos/2.Linux/Books/Linux Format UK 12.2021.pdf
+/run/media/perubu/Tosh_4TB/Documents/09.Lire/aa_lectures_en_vrac/Read_n_dump_pj/Linux Format UK 12.2021.pdf
+
+/run/media/perubu/Tosh_4TB/Documents/03.Info_tech_n_systems/2.Main_technos/2.Linux/The Complete Linux Coding Manual - 18th Edition, 2023_downmagaz.net.pdf
+/run/media/perubu/Tosh_4TB/Downloads/Downloads/The Complete Linux Coding Manual - 18th Edition, 2023_downmagaz.net.pdf
+
+/run/media/perubu/Tosh_4TB/Documents/03.Info_tech_n_systems/2.Main_technos/2.Linux/learning_tree-pj_deliverables/move_pics_n_vids_DCIM-hd/Sample/VID_20220911_082730.mp4
+/run/media/perubu/Tosh_4TB/Documents/03.Info_tech_n_systems/2.Main_technos/2.Linux/learning_tree-pj_deliverables/move_pics_n_vids_DCIM-hd/to_dir/2022-09-11/VID_20220911_082730.mp4
+
+/run/media/perubu/Tosh_4TB/Documents/03.Info_tech_n_systems/2.Main_technos/2.Linux/learning_tree-pj_deliverables/move_pics_n_vids_DCIM-hd/Sample/VID_20220911_100646.mp4
+/run/media/perubu/Tosh_4TB/Documents/03.Info_tech_n_systems/2.Main_technos/2.Linux/learning_tree-pj_deliverables/move_pics_n_vids_DCIM-hd/to_dir/2022-09-11/VID_20220911_100646.mp4
+
+/run/media/perubu/Tosh_4TB/Documents/03.Info_tech_n_systems/2.Main_technos/2.Linux/The Complete Guide To Linux Ed1 2023_downmagaz.net.pdf
+/run/media/perubu/Tosh_4TB/Downloads/Downloads/The Complete Guide To Linux Ed1 2023_downmagaz.net.pdf
+
+/run/media/perubu/Tosh_4TB/Documents/03.Info_tech_n_systems/2.Main_technos/2.Linux/LosslessCut-linux-x64.tar.bz2
+/run/media/perubu/Tosh_4TB/Downloads/Downloads/LosslessCut-linux-x64.tar.bz2
+
+/run/media/perubu/Tosh_4TB/Documents/03.Info_tech_n_systems/2.Main_technos/3.architecture/Head_First_Design_Patterns.pdf
+/run/media/perubu/Tosh_4TB/Documents/t0/t1/t/Major technologies/0.Design_patterns/Head_First_Design_Patterns.pdf
+
+/run/media/perubu/Tosh_4TB/Documents/03.Info_tech_n_systems/2.Main_technos/3.architecture/Head_First_object-oriented_analysis_and_design.pdf
+/run/media/perubu/Tosh_4TB/Documents/t0/t1/t/Major technologies/Misc/Head_First_object-oriented_analysis_and_design.pdf
+
+/run/media/perubu/Tosh_4TB/Documents/03.Info_tech_n_systems/2.Main_technos/3.Html_CSS/Head_First_HTML_and_CSS._2nd_edition.pdf
+/run/media/perubu/Tosh_4TB/Documents/t0/t1/t/Major technologies/Misc/Head_First_HTML_and_CSS._2nd_edition.pdf
+/run/media/perubu/Tosh_4TB/Downloads/pj_docs/pj_books/code_books/misc/Head_First_HTML_and_CSS._2nd_edition.pdf
+
+/run/media/perubu/Tosh_4TB/Documents/03.Info_tech_n_systems/2.Main_technos/3.TCP_IP_networks/Head_First_Networking.pdf
+/run/media/perubu/Tosh_4TB/Documents/t0/t1/t/Major technologies/Misc/Head_First_Networking.pdf
+
+/run/media/perubu/Tosh_4TB/Documents/03.Info_tech_n_systems/2.Main_technos/2.Python/Books/Python-Tricks-and-Tips-Aug-2022.pdf
+/run/media/perubu/Tosh_4TB/Documents/09.Lire/aa_lectures_en_vrac/Read_n_dump_pj/Python-Tricks-and-Tips-Aug-2022.pdf
+
+/run/media/perubu/Tosh_4TB/Documents/03.Info_tech_n_systems/2.Main_technos/2.Python/Study/learning_materials/stock/Head_First_Python__A_Brain-Friendly_Guide.pdf
+/run/media/perubu/Tosh_4TB/Documents/09.Lire/aa_lectures_en_vrac/_Books/books/Head_First_Python__A_Brain-Friendly_Guide.pdf
+
+/run/media/perubu/Tosh_4TB/Documents/03.Info_tech_n_systems/2.Main_technos/2.Python/Study/learning_materials/stock/plan_b/plan_c/Advanced Python or Understanding Python.mp4
+/run/media/perubu/Tosh_4TB/Documents/t0/t1/t/Major technologies/3.Python/stock/plan_b/plan_c/Advanced Python or Understanding Python.mp4
+
+/run/media/perubu/Tosh_4TB/Documents/03.Info_tech_n_systems/2.Main_technos/2.Python/MOOC_Python3/wip_course.old/data/cities_world.json
+/run/media/perubu/Tosh_4TB/Documents/03.Info_tech_n_systems/2.Main_technos/2.Python/MOOC_Python3/course_ori/data/cities_world.json
+/run/media/perubu/Tosh_4TB/Documents/03.Info_tech_n_systems/2.Main_technos/2.Python/MOOC_Python3/wip_course/data/cities_world.json
+
+/run/media/perubu/Tosh_4TB/Documents/03.Info_tech_n_systems/2.Main_technos/2.Python/MOOC_Python3/wip_course.old/data/cities_europe.json
+/run/media/perubu/Tosh_4TB/Documents/03.Info_tech_n_systems/2.Main_technos/2.Python/MOOC_Python3/course_ori/data/cities_europe.json
+/run/media/perubu/Tosh_4TB/Documents/03.Info_tech_n_systems/2.Main_technos/2.Python/MOOC_Python3/wip_course/data/cities_europe.json
+
+/run/media/perubu/Tosh_4TB/Documents/04.Monde_chinois/Photos_n__vidéos/La NBA, la Chine, et la liberté d'expression_France 24_2019_10_09_14_46.mp4
+/run/media/perubu/Tosh_4TB/Documents/t0/t1/t/15_films_reportages_videos/Videos captvty/La NBA, la Chine, et la liberté d'expression_France 24_2019_10_09_14_46.mp4
+
+/run/media/perubu/Tosh_4TB/Documents/04.Monde_chinois/Photos_n__vidéos/GEO Reportage - La médecine tibétaine, l'art de guérir_Arte_2019_09_29_11_43.mp4
+/run/media/perubu/Tosh_4TB/Documents/t0/t1/t/15_films_reportages_videos/Videos captvty/GEO Reportage - La médecine tibétaine, l'art de guérir_Arte_2019_09_29_11_43.mp4
+
+/run/media/perubu/Tosh_4TB/Documents/04.Monde_chinois/Photos_n__vidéos/La Chine au fil du Yangtsé (2-5) - Le mariage à tout prix_Arte_2019_10_08_17_37.mp4
+/run/media/perubu/Tosh_4TB/Documents/t0/t1/t/15_films_reportages_videos/Videos captvty/La Chine au fil du Yangtsé (2-5) - Le mariage à tout prix_Arte_2019_10_08_17_37.mp4
+
+/run/media/perubu/Tosh_4TB/Documents/04.Monde_chinois/Photos_n__vidéos/La Chine au fil du Yangtsé (1-5) - Le rêve chinois_Arte_2019_10_07_17_38.mp4
+/run/media/perubu/Tosh_4TB/Documents/t0/t1/t/15_films_reportages_videos/Videos captvty/La Chine au fil du Yangtsé (1-5) - Le rêve chinois_Arte_2019_10_07_17_38.mp4
+
+/run/media/perubu/Tosh_4TB/Documents/04.Monde_chinois/Photos_n__vidéos/La Chine au fil du Yangtsé (3-5) - L’esprit de Mao_Arte_2019_10_09_17_38.mp4
+/run/media/perubu/Tosh_4TB/Documents/t0/t1/t/15_films_reportages_videos/Videos captvty/La Chine au fil du Yangtsé (3-5) - L’esprit de Mao_Arte_2019_10_09_17_38.mp4
+
+/run/media/perubu/Tosh_4TB/Documents/02.Pro/1.TST/lbl_factory_data/_data_not_used_by_the_program/contracts/A906019-001 宁波美铭 LED灯 包装资料 Feb.26, 2019 TY.pdf
+/run/media/perubu/Tosh_4TB/Documents/02.Pro/1.TST/lbl_factory_data/data/A906019/A906019-001 宁波美铭 LED灯 包装资料 Feb.26, 2019 TY.pdf
+
+/run/media/perubu/Tosh_4TB/Documents/11.Se_distraire/voir et jeter/PDFs/National_Geographic_Traveler_France_-_Janvier-Mars_2021.pdf
+/run/media/perubu/Tosh_4TB/Documents/07.Pratiquer_un_hobby/12.Histoire_géographie/Géographie/National_Geographic_Traveler_France_-_Janvier-Mars_2021.pdf
+
+/run/media/perubu/Tosh_4TB/Documents/11.Se_distraire/voir et jeter/PDFs/Science_Magazine_-_Janvier-Mars_2021r.pdf
+/run/media/perubu/Tosh_4TB/Documents/07.Pratiquer_un_hobby/07.Philo_et_psycho/Hypnose/Science_Magazine_-_Janvier-Mars_2021r.pdf
+
+/run/media/perubu/Tosh_4TB/Tutos/Linux/How to Install My Version of Linux [szbN-g0FMC8].webm
+/run/media/perubu/Tosh_4TB/Documents/03.Info_tech_n_systems/2.Main_technos/2.Linux/Books/How to Install My Version of Linux [szbN-g0FMC8].webm
+
