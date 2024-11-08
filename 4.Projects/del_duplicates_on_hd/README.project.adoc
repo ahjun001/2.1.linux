@@ -1,0 +1,53 @@
+// README.project.adoc
+= Maintain Toshiba 4TB external HD
+:backend: asciidoctor
+:github-flavored:  // enables GitHub-specific features like tables, task lists, and fenced code blocks
+ifndef::env-github[:icons: font]
+ifdef::env-github[]
+// Naughty Waco Temps
+:note-caption: :paperclip:
+:tip-caption: :bulb:
+:warning-caption: :warning:
+:caution-caption: :fire:
+:important-caption: :exclamation:
+endif::[]
+:toc: // gets a ToC after the title
+:toclevels: 2
+// :sectnums: // gets ToC sections to be numbered
+:sectnumlevels: 3 // max # of numbering levels
+
+== Summary
+
+With many machines, and many OS and VM on each machines, keeping documents is best done on an external disk. Here Toshiba Canvio Partner 4TB, USB 3.2, micro B port.
+
+The drive has two partitions:
+. Tosh_4TB: ext4 partition that contains all documents
+. Tosh_backup: crypted, btrfs partition that contains package´ settings, emails, .destkop files
+
+This repository contains batch files to maintain both partitions.
+
+== Workflow
+
+. Tosh_4TB
+Maintain Tosh_4TB with the following protocols
+- remove dupes on Tosh_4TB link:/home/perubu/Documents/Github/2.1.linux/4.Projects/del_duplicates_on_hd/dupes_all.sh[./dupes_all.sh]
+- remove dupes between machine HD and Tosh_4TB to prevent copying unecessary files
+
+. Tosh_backup
+Make regular backups of the following:
+- emails files (first clean files from large downloads as much as possible)
+- nvim
+- .desktop files
+
+== Technically
+All with bash scripts and packages readily available on Fedora / KDE Plasma 
+Remove dupes can be done with
+
+* fdupes
+
+fdupes creates a list of dupes that can be selected for deletion within the program, or create a file that can be later edited into a new batch file.
+
+* rdfind
+
+== Lessons learned: Technical issues or time over-consuming steps encountered during project & resolutions / mitigations 
+
