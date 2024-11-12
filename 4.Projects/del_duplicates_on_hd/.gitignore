@@ -1,3 +1,4 @@
-*.txt
 *.html
 *.ori
+*.txt
+!fdupes_timing_results.txt

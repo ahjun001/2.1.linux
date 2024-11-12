@@ -1,17 +1,31 @@
 #!/usr/bin/env bash
 # dupes_all.sh
 
+: 'Todo
+Deal with directories in the dupes list that have been moved to new location
+on Toshiba run with MINSIZE=1000   
+'
+
 set -euo pipefail
 
 MEGA='000000'
-MINSIZE=1"$MEGA"
+MINSIZE=1000"$MEGA" # 1MEGA hardcoded in test mode
 DUPES='dupes_list.txt'
+rm -f $DUPES
+TIMING='fdupes_time.txt'
+rm -f $TIMING
+CPU='AMD_R7' # hardcoded, to update on new machine, run sudo lshw -short  | grep ' processor '
 
 PGM=${0##*/}
+
+# Hardcoded flags, see Usage
+if [ "$#" -eq 0 ]; then set -- -p; fi
 
 Usage() {
     cat <<EOF
 Usage: $PGM [-t] [-p]
+  --        no flags will default to -t, so that edit & run is faster in VSCode
+  -h        Display this message & exit
   -t        Run in test mode (root directory: /tmp/fdupes_test)
   -p        Run in production mode (default: false, root directory: /run/media/perubu/Tosh_4TB)
 EOF
@@ -51,7 +65,12 @@ Fresh_can() {
 Create_dupes_list() {
     # Create dupes list
     echo -e "# $DUPES\n" >"$DUPES"
-    time fdupes --recurse --minsize="$MINSIZE" --size --order=name "$ROOT" >>"$DUPES"
+    rm -f "$TIMING"
+    time (fdupes --recurse --minsize="$MINSIZE" --size --order=name "$ROOT" >>"$DUPES") 2>$TIMING
+    REAL=$(grep "real" "$TIMING" | awk '{print $2}')
+    USER=$(grep "user" "$TIMING" | awk '{print $2}')
+    SYS=$(grep "sys" "$TIMING" | awk '{print $2}')
+    echo "$(date +%Y-%m-%d) $CPU $ROOT $MINSIZE $REAL $USER $SYS" >>fdupes_timing_results.txt
 }
 
 Process_lines_with_slash() {
@@ -69,16 +88,16 @@ Process_lines_with_slash() {
             fi
         done
         echo
-        read -rsn 1 -p "Press any key to continue...\n" </dev/tty
-        clear
+        read -rsn 1 -p $'Press any key to continue...\n' </dev/tty
+        # clear
         lines_with_slash=()
-        [[ $(pgrep dolphin) ]] && killall dolphin
+        if [[ $(pgrep dolphin) ]]; then killall dolphin; fi
     fi
 }
 
 Review_dupes_list() {
     # Close all opened Dolphin instances
-    [[ $(pgrep dolphin) ]] && killall dolphin
+    if [[ $(pgrep dolphin) ]]; then killall dolphin; fi
 
     # Array to store the lines starting with '/'
     local lines_with_slash=()
@@ -94,17 +113,17 @@ Review_dupes_list() {
 }
 
 # Main
-if [ "$#" -eq 0 ]; then set -- -t; fi
-while getopts 'tp' flag; do
+while getopts 'htp' flag; do
     case "${flag}" in
     t)
         ROOT='/tmp/fdupes_test'
+        MINSIZE=1"$MEGA"
         Fresh_can "$ROOT"
         ;;
     p)
         ROOT='/run/media/perubu/Tosh_4TB'
         ;;
-    *) Usage ;;
+    h*) Usage ;;
     esac
 done
 

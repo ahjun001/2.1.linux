@@ -1,0 +1,2 @@
+Date       CPU     Root                      MinSize    Real     User     Sys   
+2024-11-12 AMD_R7 /run/media/perubu/Tosh_4TB 1000000000 0m0.003s 0m0.000s 0m0.003s
