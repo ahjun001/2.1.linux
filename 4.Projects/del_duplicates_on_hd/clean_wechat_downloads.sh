@@ -10,9 +10,21 @@ refactor
 set -euo pipefail
 
 # Hardcoded flags, see Usage
-if [ "$#" -eq 0 ]; then set -- -pd; fi
+if [ "$#" -eq 0 ]; then set -- -p; fi
 
 DELETE_LIST=(
+    TheNewYorker
+    The_Economist
+    MIT_Sloan
+    NewScientist
+    Causette
+    Connaissance
+    Discover_Britain
+    Nature
+    So\ Foot
+    The_New_Yorker
+    WSJ
+    L.Essentiel.Du
     01net
     5China
     art_Press
@@ -100,10 +112,14 @@ DELETE_LIST=(
     valeurs Actuelles
     échos
     l_Obs
-    l’equipe
+    l\’equipe
     La_Sarthe
     Le_Parisien
     wirtschaftswoche
+    Le_Bouvet
+    Le_Chasseur_Fran
+    Magazine
+    Midi
 )
 
 Fresh_can() {
@@ -140,7 +156,7 @@ Usage() {
 }
 
 # setting root according to environment, possibly setting a testing environment
-MODE=''
+# MODE=''
 while getopts 'htpd' flag; do
     case "${flag}" in
     t)
@@ -148,11 +164,12 @@ while getopts 'htpd' flag; do
         Fresh_can "$ROOT"
         ;;
     p)
-        ROOT='/run/media/perubu/Tosh_4TB/Documents/WeChat Files/wxid_6761767617821/FileStorage/File/'
+        # ROOT='/run/media/perubu/Tosh_4TB/Documents/WeChat Files/wxid_6761767617821/FileStorage/File/'
+        ROOT='/run/media/perubu/Tosh_4TB/Documents/11.Se_distraire/voir et jeter/PDFs/'
         rm -rf '/run/media/perubu/Tosh_4TB/.Trash-1000/files/'
         ;;
     d)
-        MODE='-delete'
+        # MODE='-delete'
         echo -e 'Will delete files it had found ...\n'
         ;;
     h*) Usage ;;
@@ -170,12 +187,23 @@ read -rsn 1 -p $'Press any key to continue...\n\n' </dev/tty
 
 # Main
 for name in "${DELETE_LIST[@]}"; do
-    FIND_CMD="find \"$ROOT\" -iname \"$name*.pdf\" -print $MODE"
-    eval "$FIND_CMD"
+    # FIND_CMD="find \"$ROOT\" -iname \"$name*.pdf\" -print "
+    # eval "$FIND_CMD"
+    find "$ROOT" -iname "*$name*.pdf" -print
 done
+find "$ROOT" -name '*.gif' -print
 
-FIND_CMD="find \"$ROOT\" -name '*.gif' -print $MODE"
-eval "$FIND_CMD"
+read -rsn 1 -p $'\nPress any key to delete these files ...\n\n' </dev/tty
+
+for name in "${DELETE_LIST[@]}"; do
+    # FIND_CMD="find \"$ROOT\" -iname \"$name*.pdf\" -print -delete"
+    # eval "$FIND_CMD"
+    find "$ROOT" -iname "*$name*.pdf" -print -delete
+done
+find "$ROOT" -name '*.gif' -print -delete
+
+# FIND_CMD="find \"$ROOT\" -name '*.gif' -print $MODE"
+# eval "$FIND_CMD"
 
 df -h "$ROOT" >>"$FREESPACE"
 echo -e '\n'

@@ -15,7 +15,7 @@ on Toshiba run with MINSIZE=1000
 set -euo pipefail
 
 MEGA='000000'
-MINSIZE=70"$MEGA" # 1MEGA hardcoded in test mode
+MINSIZE=60"$MEGA" # 1MEGA hardcoded in test mode
 DUPES='dupes_list.txt'
 rm -f $DUPES
 TIMING='fdupes_time.txt'
