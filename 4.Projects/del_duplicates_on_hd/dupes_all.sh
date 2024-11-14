@@ -1,6 +1,12 @@
 #!/usr/bin/env bash
 # dupes_all.sh
 
+: 'Scope and purpose
+Remove dupes on Tosh_4T using fdupes
+later using rdfind
+later on any disk
+later dupes between two disks to prevent unecessary sync copying
+'
 : 'Todo
 Deal with directories in the dupes list that have been moved to new location
 on Toshiba run with MINSIZE=1000   
@@ -9,7 +15,7 @@ on Toshiba run with MINSIZE=1000
 set -euo pipefail
 
 MEGA='000000'
-MINSIZE=1000"$MEGA" # 1MEGA hardcoded in test mode
+MINSIZE=70"$MEGA" # 1MEGA hardcoded in test mode
 DUPES='dupes_list.txt'
 rm -f $DUPES
 TIMING='fdupes_time.txt'
@@ -122,6 +128,7 @@ while getopts 'htp' flag; do
         ;;
     p)
         ROOT='/run/media/perubu/Tosh_4TB'
+        rm -rf '/run/media/perubu/Tosh_4TB/.Trash-1000/files/'
         ;;
     h*) Usage ;;
     esac

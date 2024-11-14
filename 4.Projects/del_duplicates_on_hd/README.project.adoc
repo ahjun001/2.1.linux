@@ -29,8 +29,9 @@ This repository contains batch files to maintain both partitions.
 == Workflow
 
 . Tosh_4TB
-Maintain Tosh_4TB with the following protocols
-- remove dupes on Tosh_4TB link:/home/perubu/Documents/Github/2.1.linux/4.Projects/del_duplicates_on_hd/dupes_all.sh[./dupes_all.sh]
+Maintain Tosh_4TB with process & bash scripts, as follows:
+- remove dupes on Tosh_4TB  link:/home/perubu/Documents/Github/2.1.linux/4.Projects/del_duplicates_on_hd/dupes_all.sh[./dupes_all.sh]
+- remove all pdf files that might have been loaded by Wechat, or are no longer relevant 
 - remove dupes between machine HD and Tosh_4TB to prevent copying unecessary files
 
 . Tosh_backup
