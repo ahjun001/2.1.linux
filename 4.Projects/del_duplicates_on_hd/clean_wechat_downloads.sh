@@ -12,52 +12,62 @@ set -euo pipefail
 # Hardcoded flags, see Usage
 if [ "$#" -eq 0 ]; then set -- -p; fi
 
+# TARGET='/run/media/perubu/Tosh_3TB/Documents/WeChat Files/wxid_6761767617821/FileStorage/File/'
+# TARGET='/run/media/perubu/Tosh_3TB/Documents/11.Se_distraire/voir et jeter/PDFs/'
+TARGET='/run/media/perubu/Tosh_4TB/Documents/09.Lire/aa_lectures_en_vrac/journaux & livres/'
+
 DELETE_LIST=(
-    TheNewYorker
-    The_Economist
-    MIT_Sloan
-    NewScientist
-    Causette
-    Connaissance
-    Discover_Britain
-    Nature
-    So\ Foot
-    The_New_Yorker
-    WSJ
-    L.Essentiel.Du
+    france_football
+    humanite
     01net
     5China
+    Causette
+    Equipe
+    La_Sarthe
+    Le_Bouvet
+    Le_Chasseur_Fran
+    Le_Parisien
+    Magazine
+    Midi
     art_Press
     bBC
     bild
     bloomberg
     business\ Traveller
     c_est_Votre_Argent
+    canEnch
     canard
     cerveau
     challenges
     charlie
     closer
+    connaissance
     consumer\ Reports
     courrier_International
     cuisine
     d_tente_Jardin
+    discover_Britain
     elle
+    equ
     femina
     femme\ Actuelle
     figTV
+    financial\ times
     ici_Paris
     investir
     journal
-    l_Humanite
+    l.Essentiel.Du
     l\ Equipe
     l\'Equipe
     l\'Express
     l\'Obs
     l\'Opinion
-    l\’Opinion
     l\'Équipe
+    l\’Opinion
+    l\’equipe
     l_Express
+    l_Humanite
+    l_Obs
     l_Opinion
     l_equipe
     laCroix
@@ -84,6 +94,7 @@ DELETE_LIST=(
     lhumanite
     lib
     lmnd
+    mIT_Sloan
     mONACO\ MATIN
     madame
     maison
@@ -96,30 +107,29 @@ DELETE_LIST=(
     moustique
     nICE\ MATIN
     nat.Geo.
+    nature
+    newScientist
     ouest\ France
     parenth_se
     paris_Match
     so.Foot
+    so\ Foot
     society
     stereophile
     strat_gies
     tV
+    theNewYorker
+    the_Economist
+    the_New_Yorker
     tout.Comprendre
     true\ Detective
     télé\ Obs
     télérama
     vAR MATIN
     valeurs Actuelles
-    échos
-    l_Obs
-    l\’equipe
-    La_Sarthe
-    Le_Parisien
+    wSJ
     wirtschaftswoche
-    Le_Bouvet
-    Le_Chasseur_Fran
-    Magazine
-    Midi
+    échos
 )
 
 Fresh_can() {
@@ -164,8 +174,7 @@ while getopts 'htpd' flag; do
         Fresh_can "$ROOT"
         ;;
     p)
-        # ROOT='/run/media/perubu/Tosh_4TB/Documents/WeChat Files/wxid_6761767617821/FileStorage/File/'
-        ROOT='/run/media/perubu/Tosh_4TB/Documents/11.Se_distraire/voir et jeter/PDFs/'
+        ROOT=$TARGET
         rm -rf '/run/media/perubu/Tosh_4TB/.Trash-1000/files/'
         ;;
     d)
@@ -179,6 +188,7 @@ done
 # record space freed
 INI_WD=$(pwd)
 FREESPACE="$INI_WD/free_space.txt"
+
 df -h "$ROOT" >"$FREESPACE"
 
 # recording current directory
