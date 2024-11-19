@@ -1,6 +1,8 @@
 #!/usr/bin/env bash
 # clean_wechat_download.sh
 
+# shellcheck disable=SC1001
+
 : 'Scope and purpose
 remove files that wechat downloads automatically, mostly pdfs, located under a set directory
 '
@@ -17,25 +19,20 @@ if [ "$#" -eq 0 ]; then set -- -p; fi
 # TARGET='/run/media/perubu/Tosh_4TB/Documents/09.Lire/aa_lectures_en_vrac/journaux & livres/'
 # TARGET='/run/media/perubu/Tosh_4TB/Downloads/Downloads/'
 # TARGET='/run/media/perubu/Tosh_4TB/Misc/WeChat_Files/wxid_6761767617821/FileStorage/File/2022-09/'
-TARGET='/run/media/perubu/Tosh_4TB/Misc/WeChat_Files/wxid_6761767617821/FileStorage/File/'
+# TARGET='/run/media/perubu/Tosh_4TB/Misc/WeChat_Files/wxid_6761767617821/FileStorage/File/'
+# TARGET='/run/media/perubu/Tosh_4TB/Misc/all/'
+TARGET='/run/media/perubu/Tosh_4TB/Downloads/'
 # TARGET='
 
-DELETE_LIST=(
-    l'argus
-    mickey
-    magicmaman
-    macformat
-    le\ cycle
-    food\ \&\ home
-    cyclingWeekly
-    cosmopolitan
-    avantages-
-    australian\ hifi
-    60_millions_de_consommateurs
+START_WITH_LIST=(
+    vital_food
     01net
     5China
+    60_millions_de_consommateurs
     art_Press
+    australian\ hifi
     auto
+    avantages-
     bBC
     bild
     bloomberg
@@ -51,8 +48,10 @@ DELETE_LIST=(
     closer
     connaissance
     consumer\ Reports
+    cosmopolitan
     courrier_International
     cuisine
+    cyclingWeekly
     d_tente_Jardin
     discover_Britain
     elle
@@ -62,13 +61,18 @@ DELETE_LIST=(
     femme\ Actuelle
     figTV
     financial\ times
+    food\ \&\ home
     france_football
+    gourmand
+    grande\ galerie
     humanite
     ici_Paris
     investir
     journal
+    l\'argus
     l.Essentiel.Du
     l\ Equipe
+    l\'Argus
     l\'Equipe
     l\'Express
     l\'Obs
@@ -91,6 +95,7 @@ DELETE_LIST=(
     le\ Parisien
     le\ Point
     le\ Temps
+    le\ cycle
     le\ nouvel
     le_Bouvet
     le_Chasseur_Fran
@@ -112,13 +117,16 @@ DELETE_LIST=(
     lmnd
     mIT_Sloan
     mONACO\ MATIN
+    macformat
     madame
     magazine
+    magicmaman
     maison
     marianne
     marie_Claire
     mediapart
     mens\ Health
+    mickey
     midi
     midi\ Olympique
     mieux_Vivre_Votre_Argent
@@ -130,14 +138,21 @@ DELETE_LIST=(
     ouest\ France
     parenth_se
     paris_Match
+    pour\ la\ science
+    rugby_
+    santé_
+    santé_
     saveurs
+    science_illustrated
     so.Foot
     so\ Foot
     society
     stereophile
     strat_gies
+    système_D
     tV
     temps
+    tendances
     theNewYorker
     the_Economist
     the_New_Yorker
@@ -147,21 +162,24 @@ DELETE_LIST=(
     télérama
     vAR MATIN
     valeurs Actuelles
+    vogue
     voile
     wSJ
     wirtschaftswoche
     échos
-    vogue
-    santé_
-    tendances
-    science_illustrated
-    rugby_
-    pour\ la\ science
-    Sant\é_
-    syst\ème_D
-    grande\ galerie
-    l\'Argus
-    gourmand
+)
+
+CONTAINS_LIST=(
+    ielts
+    job
+    kid
+    libe
+    mickey
+    newyork
+    posting
+    spec
+    wallstreet
+    wsj
 )
 
 Fresh_can() {
@@ -225,20 +243,31 @@ df -h "$ROOT" >"$FREESPACE"
 
 # recording current directory
 dolphin --new-window "$ROOT" 2>/dev/null &
+
 read -rsn 1 -p $'Press any key to continue...\n\n' </dev/tty
 
 # Main
-for name in "${DELETE_LIST[@]}"; do
+for name in "${START_WITH_LIST[@]}"; do
     find "$ROOT" -iname "$name*.pdf" -print
 done
 find "$ROOT" -name '*.gif' -print
 
-read -rsn 1 -p $'\nPress any key to delete these files ...\n\n' </dev/tty
+read -rsn 1 -p $'\nPress any key to mark more files for deletion ...\n\n' </dev/tty
 
-for name in "${DELETE_LIST[@]}"; do
+for name in "${CONTAINS_LIST[@]}"; do
+    find "$ROOT" -iname "*$name*.pdf" -print
+done
+
+read -rsn 1 -p $'\nPress any key to delete listed files ...\n\n' </dev/tty
+
+for name in "${START_WITH_LIST[@]}"; do
     find "$ROOT" -iname "$name*.pdf" -print -delete
 done
 find "$ROOT" -name '*.gif' -print -delete
+
+for name in "${CONTAINS_LIST[@]}"; do
+    find "$ROOT" -iname "*$name*.pdf" -print -delete
+done
 
 df -h "$ROOT" >>"$FREESPACE"
 echo -e '\n'

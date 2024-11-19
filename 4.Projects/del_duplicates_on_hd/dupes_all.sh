@@ -15,8 +15,8 @@ on Toshiba run with MINSIZE=1000
 set -euo pipefail
 
 MEGA='000000'
-MINSIZE=50"$MEGA" # 1MEGA hardcoded in test mode
-DUPES='dupes_list.txt'
+MINSIZE=10"$MEGA" # 1MEGA hardcoded in test mode
+DUPES='dupes_list.sh'
 rm -f $DUPES
 TIMING='fdupes_time.txt'
 rm -f $TIMING
@@ -70,7 +70,11 @@ Fresh_can() {
 
 Create_dupes_list() {
     # Create dupes list
-    echo -e "# $DUPES\n" >"$DUPES"
+    # echo -e "# $DUPES\n" >"$DUPES"
+    cat <<. >"$DUPES"
+#!/usr/bin/env bash    
+# $DUPES
+.
     rm -f "$TIMING"
     time (fdupes --recurse --minsize="$MINSIZE" --size --order=name "$ROOT" >>"$DUPES") 2>$TIMING
     REAL=$(grep "real" "$TIMING" | awk '{print $2}')

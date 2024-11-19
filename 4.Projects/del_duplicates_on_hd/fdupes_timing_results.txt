@@ -20,3 +20,8 @@ Date       CPU     Root                      MinSize    Real     User     Sys
 2024-11-15 AMD_R7 /run/media/perubu/Tosh_4TB 60000000 0m26.701s 0m11.245s 0m3.801s
 2024-11-15 AMD_R7 /run/media/perubu/Tosh_4TB 60000000 0m13.548s 0m10.821s 0m2.651s
 2024-11-15 AMD_R7 /run/media/perubu/Tosh_4TB 50000000 0m28.716s 0m13.963s 0m3.742s
+2024-11-18 AMD_R7 /run/media/perubu/Tosh_4TB 40000000 1m54.672s 0m24.631s 0m9.407s
+2024-11-18 AMD_R7 /run/media/perubu/Tosh_4TB 40000000 0m28.679s 0m12.126s 0m3.744s
+2024-11-18 AMD_R7 /run/media/perubu/Tosh_4TB 40000000 0m14.479s 0m11.612s 0m2.799s
+2024-11-18 AMD_R7 /run/media/perubu/Tosh_4TB 10000000 1m54.750s 0m32.977s 0m9.884s
+2024-11-19 AMD_R7 /run/media/perubu/Tosh_4TB 10000000 3m18.907s 0m32.746s 0m13.256s
