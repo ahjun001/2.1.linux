@@ -14,17 +14,11 @@ set -euo pipefail
 # Hardcoded flags, see Usage
 if [ "$#" -eq 0 ]; then set -- -p; fi
 
-# TARGET='/run/media/perubu/Tosh_3TB/Documents/WeChat Files/wxid_6761767617821/FileStorage/File/'
-# TARGET='/run/media/perubu/Tosh_3TB/Documents/11.Se_distraire/voir et jeter/PDFs/'
-# TARGET='/run/media/perubu/Tosh_4TB/Documents/09.Lire/aa_lectures_en_vrac/journaux & livres/'
-# TARGET='/run/media/perubu/Tosh_4TB/Downloads/Downloads/'
-# TARGET='/run/media/perubu/Tosh_4TB/Misc/WeChat_Files/wxid_6761767617821/FileStorage/File/2022-09/'
-# TARGET='/run/media/perubu/Tosh_4TB/Misc/WeChat_Files/wxid_6761767617821/FileStorage/File/'
-# TARGET='/run/media/perubu/Tosh_4TB/Misc/all/'
-TARGET='/run/media/perubu/Tosh_4TB/Downloads/'
+TARGET='/run/media/perubu/Tosh_4TB/Documents/t0/t1/t/21. epub_n_pdf/pdf/'
 # TARGET='
 
 START_WITH_LIST=(
+    cyclisme
     vital_food
     01net
     5China
@@ -167,9 +161,14 @@ START_WITH_LIST=(
     wSJ
     wirtschaftswoche
     échos
+    fig
+    express
 )
 
 CONTAINS_LIST=(
+    toddler
+    corona
+    covid
     ielts
     job
     kid
@@ -250,7 +249,9 @@ read -rsn 1 -p $'Press any key to continue...\n\n' </dev/tty
 for name in "${START_WITH_LIST[@]}"; do
     find "$ROOT" -iname "$name*.pdf" -print
 done
-find "$ROOT" -name '*.gif' -print
+find "$ROOT" \
+    \( -name '*.gif' \
+    -o -name '*tmp' \) -print
 
 read -rsn 1 -p $'\nPress any key to mark more files for deletion ...\n\n' </dev/tty
 
@@ -264,6 +265,9 @@ for name in "${START_WITH_LIST[@]}"; do
     find "$ROOT" -iname "$name*.pdf" -print -delete
 done
 find "$ROOT" -name '*.gif' -print -delete
+find "$ROOT" \
+    \( -name '*.gif' \
+    -o -name '*tmp' \) -print -delete
 
 for name in "${CONTAINS_LIST[@]}"; do
     find "$ROOT" -iname "*$name*.pdf" -print -delete

@@ -3,13 +3,18 @@
 
 set -euo pipefail
 
+# Hardcoded flags, see Usage
+# if [ "$#" -eq 0 ]; then set -- home; fi
+
 Usage() {
     cat <<.
 
-    Usage: ${0##*/} mimi / safe
+    Usage: ${0##*/} mimi / safe / home
 
 .
 }
+
+FOLDERS=(Documents Downloads Music Pictures Videos Public Templates)
 
 Setup() {
     [[ $# == 1 ]] || {
@@ -25,20 +30,46 @@ Setup() {
         HD=/mnt/TPad_safe
         UD=/run/media/perubu/USB_safe
         ;;
+    'home')
+        HD=/home/perubu
+        UD=/run/media/perubu/USB_home
+        ;;
     *) Usage && exit ;;
     esac
 
-    mount | grep "on $HD type" >/dev/null || (echo -e $"$HD" $'cannot be reached\nExiting ...\n' && return 1)
-    mount | grep "on $UD type" >/dev/null || (echo -e $"$UD" $'cannot be reached\nExiting ...\n' && return 1)
+    # Check if HD exists for desktop case
+    if [[ "$1" == "home" ]]; then
+        for f in "${FOLDERS[@]}"; do
+            [[ -d "${HD}/${f}" ]] || { echo -e "${HD}/${f} cannot be reached\nExiting ...\n" && return 1; }
+            if mount | grep "on $UD type" >/dev/null; then
+                mkdir -p "$UD/$f"
+            else
+                echo -e "$UD cannot be reached\nExiting ...\n" && return 1
+            fi
+        done
+    else
+        mount | grep "on $HD type" >/dev/null || { echo -e "$HD cannot be reached\nExiting ...\n" && return 1; }
+        mount | grep "on $UD type" >/dev/null || { echo -e "$UD cannot be reached\nExiting ...\n" && return 1; }
+    fi
+
 }
 
 Diff() {
-    read -rp "Diff disks? [Yy] "
+    # read -rp "Diff disks? [Yy] "
+    local REPLY=y
     case $REPLY in
     y | Y)
-        set -x
-        diff -r "$HD"/ "$UD"/ || :
-        set +x
+        if [[ "$1" == 'home' ]]; then
+            for f in "${FOLDERS[@]}"; do
+                set -x
+                diff -r "${HD}/${f}"/ "$UD/$f"/ || :
+                set +x
+            done
+        else
+            set -x
+            diff -r "$HD"/ "$UD"/ || :
+            set +x
+        fi
         ;;
     *)
         echo 'bypassed'
@@ -50,18 +81,15 @@ Diff() {
 Meld() {
     read -rp "Meld disks? [Yy] "
     case $REPLY in
-    y | Y) meld "$HD"/ "$UD"/ ;;
-    *)
-        echo 'bypassed'
-        return
+    y | Y)
+        if [[ "$1" == 'home' ]]; then
+            for f in "${FOLDERS[@]}"; do
+                meld "${HD}/${f}"/ "$UD/$f"/
+            done
+        else
+            meld "$HD"/ "$UD"/
+        fi
         ;;
-    esac
-}
-
-Kompare() {
-    read -rp "Kompare disks? [Yy] "
-    case $REPLY in
-    y | Y) kompare "$HD"/ "$UD"/ ;;
     *)
         echo 'bypassed'
         return
@@ -73,10 +101,28 @@ Rsync() {
     read -rp "Rsync disks? [Yy] "
     case $REPLY in
     y | Y)
-        set -x
-        rsync -avu "$HD"/ "$UD"
-        rsync -avu "$UD"/ "$HD"
-        set +x
+        if [[ "$1" == 'home' ]]; then
+            for f in "${FOLDERS[@]}"; do
+                printf "\n\n"
+                set -x
+                ls "${HD}/${f}"/
+                set +x
+                printf "\n"
+                read -rp "Rsync ${f}? [Yy]"
+                case $REPLY in
+                y | Y)
+                    rsync -avvu "${HD}/${f}"/ "$UD/$f"
+                    rsync -avvu "${HD}/${f}"/ "$UD/$f"
+                    ;;
+                *)
+                    echo 'next folder'
+                    ;;
+                esac
+            done
+        else
+            rsync -avvu "$HD"/ "$UD"
+            rsync -avvu --exclude='.Trash-1000/' "$UD/" "$HD/"
+        fi
         ;;
     *)
         echo 'bypassed'
@@ -86,11 +132,10 @@ Rsync() {
 }
 
 Setup "$@"
-Diff
-Meld
-Kompare
-Rsync
-Diff
+Diff "$@"
+Meld "$@"
+Rsync "$@"
+Diff "$@"
 
 # make a soft link in /usr/local/sbin
 LINK=/usr/local/sbin/"${0##*/}"
