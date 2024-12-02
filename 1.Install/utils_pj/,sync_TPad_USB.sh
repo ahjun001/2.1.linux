@@ -111,8 +111,8 @@ Rsync() {
                 read -rp "Rsync ${f}? [Yy]"
                 case $REPLY in
                 y | Y)
-                    rsync -avvu "${HD}/${f}"/ "$UD/$f"
-                    rsync -avvu "${HD}/${f}"/ "$UD/$f"
+                    rsync -avu --progress "${HD}/${f}"/ "$UD/$f"
+                    rsync -avu --progress "${HD}/${f}"/ "$UD/$f"
                     ;;
                 *)
                     echo 'next folder'
@@ -120,8 +120,8 @@ Rsync() {
                 esac
             done
         else
-            rsync -avvu "$HD"/ "$UD"
-            rsync -avvu --exclude='.Trash-1000/' "$UD/" "$HD/"
+            rsync -avu --progress --exclude='.Trash-1000/' "$HD"/ "$UD"
+            rsync -avu --progress --exclude='.Trash-1000/' "$UD/" "$HD/"
         fi
         ;;
     *)
