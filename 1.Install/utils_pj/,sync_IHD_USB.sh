@@ -10,6 +10,7 @@ Usage() {
     cat <<.
 
     Usage: ${0##*/} mimi / safe / home
+    after invite for sync command Yy yes Dd dry run
 
 .
 }
@@ -98,7 +99,7 @@ Meld() {
 }
 
 Rsync() {
-    read -rp "Rsync disks? [Yy] "
+    read -rp "Rsync disks (home sync will be done 1 folder by 1 folder)? [Yy] "
     case $REPLY in
     y | Y)
         if [[ "$1" == 'home' ]]; then
@@ -108,20 +109,42 @@ Rsync() {
                 ls "${HD}/${f}"/
                 set +x
                 printf "\n"
-                read -rp "Rsync ${f}? [Yy]"
+                while true; do
+                    echo -e "\nfolder $f:"
+                    read -rp $'D dry run\nY rsync & next\nbreak & next? [DdYy]'
+                    case $REPLY in
+                    d | D)
+                        rsync -anvuP --exclude='WeChat Files' "${HD}/${f}"/ "$UD/$f"
+                        rsync -anvuP --exclude='WeChat Files' "${HD}/${f}"/ "$UD/$f"
+                        ;;
+                    y | Y)
+                        rsync -avuP --exclude='WeChat Files' "${HD}/${f}"/ "$UD/$f"
+                        rsync -avuP --exclude='WeChat Files' "${HD}/${f}"/ "$UD/$f"
+                        break
+                        ;;
+                    *)
+                        echo 'next folder'
+                        break
+                        ;;
+                    esac
+                done
+            done
+        else
+
+            while true; do
+                read -rp "Dry run or just rsync? [Dd]"
                 case $REPLY in
-                y | Y)
-                    rsync -avu --progress "${HD}/${f}"/ "$UD/$f"
-                    rsync -avu --progress "${HD}/${f}"/ "$UD/$f"
+                d | D)
+                    rsync -anvuP --exclude='.Trash-1000/' "$HD"/ "$UD"
+                    rsync -anvuP --exclude='.Trash-1000/' "$UD/" "$HD/"
                     ;;
                 *)
-                    echo 'next folder'
+                    rsync -avuP --exclude='.Trash-1000/' "$HD"/ "$UD"
+                    rsync -avuP --exclude='.Trash-1000/' "$UD/" "$HD/"
+                    break
                     ;;
                 esac
             done
-        else
-            rsync -avu --progress --exclude='.Trash-1000/' "$HD"/ "$UD"
-            rsync -avu --progress --exclude='.Trash-1000/' "$UD/" "$HD/"
         fi
         ;;
     *)
