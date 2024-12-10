@@ -1,5 +1,6 @@
 #!/usr/bin/env bash
 # ,sync_TPad_USB.sh
+# Todo: better meld & rsync for home directories see further todo
 
 set -euo pipefail
 
@@ -15,7 +16,7 @@ Usage() {
 .
 }
 
-FOLDERS=(Documents Downloads Music Pictures Videos Public Templates)
+FOLDERS=(Desktop Documents Downloads Music Pictures Videos Public Templates)
 
 Setup() {
     [[ $# == 1 ]] || {
@@ -56,7 +57,7 @@ Setup() {
 }
 
 Diff() {
-    # read -rp "Diff disks? [Yy] "
+    # read -rsn 1 -p $'Diff disks? [Yy] '
     local REPLY=y
     case $REPLY in
     y | Y)
@@ -80,7 +81,7 @@ Diff() {
 }
 
 Meld() {
-    read -rp "Meld disks? [Yy] "
+    read -rsn 1 -p $'\nMeld disks? [Yy] '
     case $REPLY in
     y | Y)
         if [[ "$1" == 'home' ]]; then
@@ -99,7 +100,7 @@ Meld() {
 }
 
 Rsync() {
-    read -rp "Rsync disks (home sync will be done 1 folder by 1 folder)? [Yy] "
+    read -rsn 1 -p $'\nRsync disks? [Yy] \n'
     case $REPLY in
     y | Y)
         if [[ "$1" == 'home' ]]; then
@@ -111,7 +112,8 @@ Rsync() {
                 printf "\n"
                 while true; do
                     echo -e "\nfolder $f:"
-                    read -rp $'D dry run\nY rsync & next\nbreak & next? [DdYy]'
+                    read -rsn 1 -p $'\nD dry run\nY rsync & next\nbreak & next? [DdYy]\n'
+                    set -x
                     case $REPLY in
                     d | D)
                         rsync -anvuP --exclude='WeChat Files' "${HD}/${f}"/ "$UD/$f"
@@ -127,12 +129,14 @@ Rsync() {
                         break
                         ;;
                     esac
+                    set +x
                 done
             done
         else
 
             while true; do
-                read -rp "Dry run or just rsync? [Dd]"
+                read -rsn 1 -p $'\nDry run or just rsync & exit? [Dd]\n'
+                set -x
                 case $REPLY in
                 d | D)
                     rsync -anvuP --exclude='.Trash-1000/' "$HD"/ "$UD"
@@ -144,6 +148,7 @@ Rsync() {
                     break
                     ;;
                 esac
+                set -x
             done
         fi
         ;;
@@ -153,6 +158,8 @@ Rsync() {
         ;;
     esac
 }
+
+# Todo: for homne loop here over Document directories
 
 Setup "$@"
 Diff "$@"
