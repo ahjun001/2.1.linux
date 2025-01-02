@@ -5,7 +5,7 @@
 set -euo pipefail
 
 # Hardcoded flags, see Usage
-# if [ "$#" -eq 0 ]; then set -- home; fi
+# if [ "$#" -eq 0 ]; then set -- safe; fi
 
 Usage() {
     cat <<.
@@ -25,11 +25,11 @@ Setup() {
 
     case $1 in
     'mimi')
-        HD=/mnt/TPad_mimi
+        HD=/mnt/BTRFS_HEAD/IHD_mimi
         UD=/run/media/perubu/USB_mimi
         ;;
     'safe')
-        HD=/mnt/TPad_safe
+        HD=/mnt/BTRFS_HEAD/IHD_safe
         UD=/run/media/perubu/USB_safe
         ;;
     'home')
@@ -50,10 +50,9 @@ Setup() {
             fi
         done
     else
-        mount | grep "on $HD type" >/dev/null || { echo -e "$HD cannot be reached\nExiting ...\n" && return 1; }
+        [[ -d "${HD}" ]] || { echo -e "${HD} cannot be reached\nExiting ...\n" && return 1; }
         mount | grep "on $UD type" >/dev/null || { echo -e "$UD cannot be reached\nExiting ...\n" && return 1; }
     fi
-
 }
 
 Diff() {
@@ -117,10 +116,12 @@ Rsync() {
                     case $REPLY in
                     d | D)
                         rsync -anvuP --exclude='WeChat Files' "${HD}/${f}"/ "$UD/$f"
+                        echo
                         rsync -anvuP --exclude='WeChat Files' "${HD}/${f}"/ "$UD/$f"
                         ;;
                     y | Y)
                         rsync -avuP --exclude='WeChat Files' "${HD}/${f}"/ "$UD/$f"
+                        echo
                         rsync -avuP --exclude='WeChat Files' "${HD}/${f}"/ "$UD/$f"
                         break
                         ;;
@@ -140,10 +141,12 @@ Rsync() {
                 case $REPLY in
                 d | D)
                     rsync -anvuP --exclude='.Trash-1000/' "$HD"/ "$UD"
+                    echo
                     rsync -anvuP --exclude='.Trash-1000/' "$UD/" "$HD/"
                     ;;
                 *)
                     rsync -avuP --exclude='.Trash-1000/' "$HD"/ "$UD"
+                    echo
                     rsync -avuP --exclude='.Trash-1000/' "$UD/" "$HD/"
                     break
                     ;;
