@@ -115,14 +115,14 @@ Rsync() {
                     set -x
                     case $REPLY in
                     d | D)
-                        rsync -anvuP --exclude='WeChat Files' "${HD}/${f}"/ "$UD/$f"
+                        rsync -anvuP --exclude='WeChat Files' "${HD}/${f}"/ "$UD/${f}"
                         echo
-                        rsync -anvuP --exclude='WeChat Files' "${HD}/${f}"/ "$UD/$f"
+                        rsync -anvuP --exclude='WeChat Files' "${UD}/${f}"/ "$HD/${f}"
                         ;;
                     y | Y)
-                        rsync -avuP --exclude='WeChat Files' "${HD}/${f}"/ "$UD/$f"
+                        rsync -avuP --exclude='WeChat Files' "${HD}/${f}"/ "$UD/${f}"
                         echo
-                        rsync -avuP --exclude='WeChat Files' "${HD}/${f}"/ "$UD/$f"
+                        rsync -avuP --exclude='WeChat Files' "${UD}/${f}"/ "$HD/${f}"
                         break
                         ;;
                     *)
