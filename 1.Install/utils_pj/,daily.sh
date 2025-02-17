@@ -14,19 +14,30 @@ cat <<.
 
 .
 
-# set environment: ID
-# shellcheck source=/dev/null
-[[ -n ${ID+foo} ]] || . /etc/os-release
+ansible-playbook <(
+    cat <<.
+---
+- name: Update all packages
+  hosts: localhost
+  tasks:
+    - name: Update all packages to the latest version
+      ansible.builtin.package:
+        name: "*"
+        state: latest
+      become: true
+  vars:
+    ansible_connection: local
+.
+) -K -i localhost,
 
-case $ID in
-fedora) sudo dnf -y update ;;
-linuxmint | ubuntu) sudo apt update -y && sudo apt upgrade -y ;;
-*) echo "Should not happen" && exit 1 ;;
-esac
+
 cat <<.
 
 
 .
+# set environment: ID
+# shellcheck source=/dev/null
+[[ -n ${ID+foo} ]] || . /etc/os-release
 case $ID in
 linuxmint | ubuntu) sudo yt-dlp -U ;;
 fedora) ;;
