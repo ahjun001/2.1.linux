@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# /usr/local/sbin/_mpv_launch.sh
+# /usr/local/bin/_mpv_launch.sh
 
 set -euo pipefail
 
@@ -91,7 +91,7 @@ main() {
 
 main "$@"
 
-# make a soft link in /usr/local/sbin
-LINK=/usr/local/sbin/"${0##*/}"
+# make a soft link in /usr/local/bin
+LINK=/usr/local/bin/"${0##*/}"
 FILE=$(realpath "$0")
 [[ -L $LINK ]] || sudo ln -fs "$FILE" "$LINK"

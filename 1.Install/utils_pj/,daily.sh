@@ -4,18 +4,18 @@ set -euo pipefail
 clear
 
 ping -q -c 1 -w 1 google.com || echo Ping google.com unsuccessful
-cat <<.
+cat <<'EOF'
 
 
-.
+EOF
 ,width_reduce.sh &
-cat <<.
+cat <<'EOF'
 
 
-.
+EOF
 
 ansible-playbook <(
-    cat <<.
+  cat <<'EOF'
 ---
 - name: Update all packages
   hosts: localhost
@@ -27,14 +27,13 @@ ansible-playbook <(
       become: true
   vars:
     ansible_connection: local
-.
+EOF
 ) -K -i localhost,
 
+cat <<'EOF'
 
-cat <<.
 
-
-.
+EOF
 # set environment: ID
 # shellcheck source=/dev/null
 [[ -n ${ID+foo} ]] || . /etc/os-release
@@ -44,7 +43,7 @@ fedora) ;;
 *) echo "Should not happen" && exit 1 ;;
 esac
 
-# make a soft link in /usr/local/sbin
-LINK=/usr/local/sbin/"${0##*/}"
+# make a soft link in /usr/local/bin
+LINK=/usr/local/bin/"${0##*/}"
 FILE=$(realpath "$0")
 [[ -L $LINK ]] || sudo ln -fs "$FILE" "$LINK"

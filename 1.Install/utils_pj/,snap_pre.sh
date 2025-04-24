@@ -56,13 +56,13 @@ export PJ_SNAP_ROOT_PRE=$PJ_SNAP_ROOT_PRE
 sudo snapper -c root list | grep "$PJ_SNAP_DESCRIPTION"
 sudo snapper -c home list | grep "$PJ_SNAP_DESCRIPTION"
 
-# make a encapsulation in /usr/local/sbin to use in $PATH
+# make a encapsulation in /usr/local/bin to use in $PATH
 
-FILE_IN_PATH=/usr/local/sbin/,snap_pre.sh
+FILE_IN_PATH=/usr/local/bin/,snap_pre.sh
 if [[ ! -f $FILE_IN_PATH ]]; then
     cat <<. | sudo tee "$FILE_IN_PATH" >/dev/null
 #!/usr/bin/env bash
-# /usr/local/sbin/,snap_pre.sh
+# /usr/local/bin/,snap_pre.sh
 
 # set -euo pipefail
 

@@ -64,13 +64,13 @@ ask_and_run_status "Do you want to run 'sudo snapper -c root status $PJ_SNAP_ROO
     "sudo snapper -c root status \"$PJ_SNAP_ROOT_PRE\"..\"$PJ_SNAP_ROOT_POST\"" \
     "$PJ_SNAP_ROOT_PRE..$PJ_SNAP_ROOT_POST"
 
-# make a encapsulation in /usr/local/sbin to use in $PATH
+# make a encapsulation in /usr/local/bin to use in $PATH
 
-FILE_IN_PATH=/usr/local/sbin/,snap_post.sh
+FILE_IN_PATH=/usr/local/bin/,snap_post.sh
 if [[ ! -f $FILE_IN_PATH ]]; then
     cat <<. | sudo tee "$FILE_IN_PATH" >/dev/null
 #!/usr/bin/env bash
-# /usr/local/sbin/,snap_post.sh
+# /usr/local/bin/,snap_post.sh
 
 # set -euo pipefail
 
