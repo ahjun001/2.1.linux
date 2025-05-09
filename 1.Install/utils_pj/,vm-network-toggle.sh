@@ -51,7 +51,7 @@ if [[ ! "$#" -eq 1 ]]; then
 fi
 
 # Check if USB NIC is physically present
-USB_NIC_PRESENT=$(lsusb | grep -i "LAN NIC" || ip link show enp4s0f4u1 2>/dev/null)
+USB_NIC_PRESENT=$(lsusb | grep -i "LAN NIC" || ip link show enp4s0f4u1 2>/dev/null) || :
 
 case "$1" in
 office)
