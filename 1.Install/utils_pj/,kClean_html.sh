@@ -27,10 +27,11 @@ fi
 cleaned_content=$(
     echo "$html_content" |
         sed 's/&nbsp;/ /g' |
+        sed 's/<\/div><div>/<br>\n/g' |
         sed 's/<br>/<br>\n/g' |
-        sed 's/<br>\n\n/<br>\n/g' |
-        sed 's/<div>//g' |
+        sed 's/<div>/<br>\n/g' |
         sed 's/<\/div>/<br>\n/g' |
+        sed 's/\r\r/\n/g' |
         sed 's/<h[1-3]>//g' |
         sed 's/<\/h[1-3]>//g' |
         sed 's/<ul>//g' |
@@ -39,7 +40,8 @@ cleaned_content=$(
         sed 's/<\/ol>//g' |
         sed 's/^[[:blank:]]*//g' |
         sed 's/<li>/    - /g' |
-        sed 's/<\/li>//g'
+        sed 's/<\/li>/<br>\n/g' |
+        sed ':a;N;$!ba;s/\n\+\n\+/\n/g'
 )
 
 # Copy the cleaned content back to the clipboard
