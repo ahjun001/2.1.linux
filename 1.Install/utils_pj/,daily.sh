@@ -8,11 +8,6 @@ cat <<'EOF'
 
 
 EOF
-,width_reduce.sh &
-cat <<'EOF'
-
-
-EOF
 
 ansible-playbook <(
   cat <<'EOF'
@@ -27,6 +22,7 @@ ansible-playbook <(
       become: true
   vars:
     ansible_connection: local
+    
 EOF
 ) -K -i localhost,
 
@@ -41,7 +37,12 @@ case $ID in
 linuxmint | ubuntu) sudo yt-dlp -U ;;
 fedora) ;;
 *) echo "Should not happen" && exit 1 ;;
-esac
+esac &&
+  cat <<'EOF'
+
+
+EOF
+,width_reduce.sh &
 
 # make a soft link in /usr/local/bin
 LINK=/usr/local/bin/"${0##*/}"

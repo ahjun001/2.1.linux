@@ -6,7 +6,7 @@ set -euo pipefail
 
 DBG=: # : or 'echo'
 
-cd /home/"$USER"/.local/share/Anki2/pj/collection.media || exit
+cd /home/"$USER"/.local/share/Anki2/User\ 1/collection.media || exit
 for file in *.jpg *.png *.gif *.jpeg *.webp; do
   $DBG "$file"
   # width=$(convert "$file[0]" -format '%w' info:)
