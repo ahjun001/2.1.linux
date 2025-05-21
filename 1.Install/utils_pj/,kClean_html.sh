@@ -31,18 +31,18 @@ cleaned_content=$(
         sed 's/<br>/<br>\n/g' |
         sed 's/<div>/<br>\n/g' |
         sed 's/<\/div>/<br>\n/g' |
-        sed 's/\r\r/\n/g' |
         sed 's/<h[1-3]>//g' |
         sed 's/<\/h[1-3]>//g' |
         sed 's/<em>/<i>/g' |
         sed 's/<\/em>/<\/i>/g' |
         sed 's/<strong>/<b>/g' |
         sed 's/<\/strong>/<\/b>/g' |
-        sed 's/<li>/- /g' |
-        sed 's/<\/li>/<br>\n/g' |
+        # sed 's/<li>/- /g' |
+        # sed 's/<\/li>/<br>\n/g' |
         sed 's/^[[:blank:]]*//g' |
-        sed ':a;N;$!ba;s/\n\+\n\+/\n/g' |
-        sed ':a;N;$!ba;s/-[[:blank:]]*<br>\n/- /g'
+        sed ':a;N;$!ba;s/-[[:blank:]]*<br>\n/- /g' |
+        sed ':a;N;$!ba;s/\r\n//g; s/\n//g'
+    # sed 's/\r\r/\n/g' |
 )
 
 # Copy the cleaned content back to the clipboard
