@@ -27,22 +27,25 @@ fi
 cleaned_content=$(
     echo "$html_content" |
         sed 's/&nbsp;/ /g' |
-        sed 's/<\/div><div>/<br>\n/g' |
-        sed 's/<br>/<br>\n/g' |
-        sed 's/<div>/<br>\n/g' |
-        sed 's/<\/div>/<br>\n/g' |
-        sed 's/<h[1-3]>//g' |
-        sed 's/<\/h[1-3]>//g' |
+        sed 's/<\/div><div>/<br>/g' |
+        sed 's/<div>/<br>/g' |
+        sed 's/<\/div>/<br>/g' |
+        sed 's/<br>/<br>/g' |
+        sed 's/<h[1-3]>/<b>/g' |
+        sed 's/<\/h[1-3]>/<\/b>/g' |
         sed 's/<em>/<i>/g' |
         sed 's/<\/em>/<\/i>/g' |
         sed 's/<strong>/<b>/g' |
         sed 's/<\/strong>/<\/b>/g' |
-        # sed 's/<li>/- /g' |
-        # sed 's/<\/li>/<br>\n/g' |
         sed 's/^[[:blank:]]*//g' |
-        sed ':a;N;$!ba;s/-[[:blank:]]*<br>\n/- /g' |
-        sed ':a;N;$!ba;s/\r\n//g; s/\n//g'
-    # sed 's/\r\r/\n/g' |
+        sed ':a;N;$!ba;s/-[[:blank:]]*<br>/- /g' |
+        sed ':a;N;$!ba;s/\r//g; s/\n//g' |
+        sed 's/\r\r//g' |
+        sed 's/<sup>//g' |
+        sed 's/<\/sup>//g' |
+        sed -E 's/\[[0-9]+\]//g' |
+        sed -E 's/<a [^>]*>([^<]*)<\/a>/\1/g' |
+        sed -E 's/(<br\s*\/?> *){2,}/<br>/g'
 )
 
 # Copy the cleaned content back to the clipboard
