@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 # ,kClean_html.sh
 # This script cleans up HTML content from the clipboard and formats it for better readability.
-set -euo pipefail
+set -xeuo pipefail
 
 # Check if xclip or wl-clipboard is installed for clipboard access
 if ! command -v wl-paste &>/dev/null; then
@@ -27,10 +27,6 @@ fi
 cleaned_content=$(
     echo "$html_content" |
         sed 's/&nbsp;/ /g' |
-        sed 's/<\/div><div>/<br>/g' |
-        sed 's/<div>/<br>/g' |
-        sed 's/<\/div>/<br>/g' |
-        sed 's/<br>/<br>/g' |
         sed 's/<h[1-3]>/<b>/g' |
         sed 's/<\/h[1-3]>/<\/b>/g' |
         sed 's/<em>/<i>/g' |
@@ -40,12 +36,16 @@ cleaned_content=$(
         sed 's/^[[:blank:]]*//g' |
         sed ':a;N;$!ba;s/-[[:blank:]]*<br>/- /g' |
         sed ':a;N;$!ba;s/\r//g; s/\n//g' |
-        sed 's/\r\r//g' |
         sed 's/<sup>//g' |
         sed 's/<\/sup>//g' |
         sed -E 's/\[[0-9]+\]//g' |
         sed -E 's/<a [^>]*>([^<]*)<\/a>/\1/g' |
-        sed -E 's/(<br\s*\/?> *){2,}/<br>/g'
+        sed -E 's/(<br\s*\/?> *){2,}/<br>/g' |
+        sed 's/\r\r//g' |
+        sed 's/<div>/<br>/g' |
+        sed 's/<\/div>/<br>/g' |
+        sed 's/\.\ /\.<br>/g' |
+        sed 's/\.$/\.<br>/g'
 )
 
 # Copy the cleaned content back to the clipboard
