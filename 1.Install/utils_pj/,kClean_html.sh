@@ -41,6 +41,7 @@ cleaned_content=$(
         sed -E 's/\[[0-9]+\]//g' |
         sed -E 's/<a [^>]*>([^<]*)<\/a>/\1/g' |
         sed -E 's/(<br\s*\/?> *){2,}/<br>/g' |
+        sed -E 's/<\/?span[^>]*>//g' |
         sed 's/\r\r//g' |
         sed 's/<div>/<br>/g' |
         sed 's/<\/div>/<br>/g' |
