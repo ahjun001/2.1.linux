@@ -46,7 +46,8 @@ cleaned_content=$(
         sed 's/<div>/<br>/g' |
         sed 's/<\/div>/<br>/g' |
         sed 's/\.\ /\.<br>/g' |
-        sed 's/\.$/\.<br>/g'
+        sed 's/\.$/\.<br>/g' |
+        sed 's/<li><br>/<br><li>/g'
 )
 
 # Copy the cleaned content back to the clipboard
