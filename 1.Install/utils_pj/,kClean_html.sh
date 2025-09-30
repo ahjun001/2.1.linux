@@ -3,7 +3,12 @@
 # This script cleans up HTML content from the clipboard and formats it for better readability.
 set -xeuo pipefail
 
-# Check if xclip or wl-clipboard is installed for clipboard access
+#!/usr/bin/env bash
+# ,kClean_html.sh
+# This script cleans up HTML content from the clipboard using html-minifier and copies it back to the clipboard
+set -xeuo pipefail
+
+# Check if required tools are installed
 if ! command -v wl-paste &>/dev/null; then
     echo "Error: wl-paste is not installed. Install wl-clipboard to use this script."
     exit 1
@@ -11,6 +16,11 @@ fi
 
 if ! command -v wl-copy &>/dev/null; then
     echo "Error: wl-copy is not installed. Install wl-clipboard to use this script."
+    exit 1
+fi
+
+if ! command -v html-minifier &>/dev/null; then
+    echo "Error: html-minifier is not installed. Install it using npm: npm install -g html-minifier"
     exit 1
 fi
 
@@ -23,31 +33,11 @@ if [ -z "$html_content" ]; then
     exit 1
 fi
 
-# Process the HTML content
+# Process the HTML content using html-minifier
 cleaned_content=$(
     echo "$html_content" |
         sed 's/&nbsp;/ /g' |
-        sed 's/<h[1-3]>/<b>/g' |
-        sed 's/<\/h[1-3]>/<\/b>/g' |
-        sed 's/<em>/<i>/g' |
-        sed 's/<\/em>/<\/i>/g' |
-        sed 's/<strong>/<b>/g' |
-        sed 's/<\/strong>/<\/b>/g' |
-        sed 's/^[[:blank:]]*//g' |
-        sed ':a;N;$!ba;s/-[[:blank:]]*<br>/- /g' |
-        sed ':a;N;$!ba;s/\r//g; s/\n//g' |
-        sed 's/<sup>//g' |
-        sed 's/<\/sup>//g' |
-        sed -E 's/\[[0-9]+\]//g' |
-        sed -E 's/<a [^>]*>([^<]*)<\/a>/\1/g' |
-        sed -E 's/(<br\s*\/?> *){2,}/<br>/g' |
-        sed -E 's/<\/?span[^>]*>//g' |
-        sed 's/\r\r//g' |
-        sed 's/<div>/<br>/g' |
-        sed 's/<\/div>/<br>/g' |
-        sed 's/\.\ /\.<br>/g' |
-        sed 's/\.$/\.<br>/g' |
-        sed 's/<li><br>/<br><li>/g'
+        html-minifier --collapse-whitespace
 )
 
 # Copy the cleaned content back to the clipboard
