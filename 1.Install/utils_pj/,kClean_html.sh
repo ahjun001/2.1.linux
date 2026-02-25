@@ -36,7 +36,19 @@ fi
 # Process the HTML content using html-minifier
 cleaned_content=$(
     echo "$html_content" |
-        sed 's/&nbsp;/ /g' |
+        sed -n '/^<body>/q; p' |
+        sed 's/ id=[^>]*>/>/g' |
+        sed 's/ class=[^>]*>/>/g' |
+        sed 's/ href=[^>]*>/>/g' |
+        sed 's/ role=[^>]*>/>/g' |
+        sed 's/ style=[^>]*>/>/g' |
+        sed 's/ src=[^>]*>/>/g' |
+        sed 's/strong>/g>/b' |
+        # sed 's/&nbsp;/ /g' |
+        sed 's/<div>\b.<\/div>//g' |
+        sed 's/<div>[[:space:]]*<\/div>//g' |
+        sed ':a; s/<a><sup[^>]*>[^<]*<\/sup><\/a>//g; ta' |
+        sed '/^[[:space:]]*$/d' |
         html-minifier --collapse-whitespace
 )
 
