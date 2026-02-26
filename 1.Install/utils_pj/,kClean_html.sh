@@ -43,8 +43,8 @@ cleaned_content=$(
         sed 's/ role=[^>]*>/>/g' |
         sed 's/ style=[^>]*>/>/g' |
         sed 's/ src=[^>]*>/>/g' |
-        sed 's/strong>/g>/b' |
-        # sed 's/&nbsp;/ /g' |
+        sed 's/strong>/b>/g' |
+        sed 's/em>/i>/g' |
         sed 's/<div>\b.<\/div>//g' |
         sed 's/<div>[[:space:]]*<\/div>//g' |
         sed ':a; s/<a><sup[^>]*>[^<]*<\/sup><\/a>//g; ta' |
