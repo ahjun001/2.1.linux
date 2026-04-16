@@ -1,10 +1,12 @@
 #!/usr/bin/env bash
 
-xclip -o |
-    sed '/\[sound:/s/ / ::/' |
-    sed '/\[sound:/s/^/{{c::/' |
-    sed -e '/\[sound:/{N;N;s/$/\}\}/}' |
-    xclip -selection clipboard
+wl-paste |
+    sed '/\[sound:/{
+    N
+    N
+    s/\(.*\)\[sound:\(.*\]\)\n\(.*\)\n\(.*\)/{{c::\1::[sound:\2\n\3\n\4}}/
+}' |
+    wl-copy
 
 # make a soft link in /usr/local/bin
 LINK=/usr/local/bin/"${0##*/}"
