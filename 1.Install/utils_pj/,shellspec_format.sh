@@ -49,8 +49,7 @@ while read -r line; do
 
     # done  # to be used with ShellSpec, then input is stdin, output is stdout
 done <<< \
-    "$(xclip -selection clipboard -o)" |
-    xclip -selection clipboard
+    "$(wl-paste)" | wl-copy
 
 # make a soft link in /usr/local/bin
 LINK=/usr/local/bin/"${0##*/}"

@@ -1,10 +1,10 @@
 #!/usr/bin/env bash
 
-xclip -o |
+wl-paste |
     sed 's/{{c.:://g' |
     sed 's/:://g' |
     sed 's/}}//g' |
-    xclip -i -selection clipboard
+    wl-copy
 
 # make a soft link in /usr/local/bin
 LINK=/usr/local/bin/"${0##*/}"
