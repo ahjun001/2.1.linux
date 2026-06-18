@@ -23,6 +23,9 @@ Describe ',kClean_html.sh integration tests'
         <div></div>
         <div> </div>
         <div>A</div>
+        <span class="highlight">Highlighted</span>
+        <span> </span>
+        <span>B</span>
         <a><sup>1</sup></a>
         <a><sup>2</sup></a>
         <p class="text" style="margin:10px;">Another paragraph</p>
@@ -31,10 +34,9 @@ Describe ',kClean_html.sh integration tests'
 </html>
 EOF
 
-        # Expected output - match what the script produces
-        # The script removes div tags but keeps content with a space before "Some content"
+        # Expected output - match what the script actually produces
         cat > "$EXPECTED_OUTPUT" <<'EOF'
-<h1>Welcome</h1><a>Link 1</a><b>Bold text</b><i>Italic text</i> Some content A<p>Another paragraph</p>
+<h1>Welcome</h1>Link 1 <b>Bold text</b><i>Italic text</i> Some content A Highlighted B<p>Another paragraph</p>
 EOF
     }
     
@@ -66,7 +68,6 @@ EOF
         }
         
         When call result
-        # The script removes div tags but keeps content
         The output should eq "content"
     End
     
@@ -85,28 +86,65 @@ EOF
         The output should not include 'em>'
     End
     
-    It 'removes div tags but keeps content'
+    It 'removes div and span tags but keeps content'
         export TEST_MODE=1
-        export SOURCE_HTML='<body><div></div><div> </div><div>A</div><div>Content</div></body>'
+        export SOURCE_HTML='<body><div></div><div> </div><div>A</div><span>B</span><span> </span><span>C</span><div>Content</div></body>'
         
         result() {
             /home/perubu/Documents/Github/2.1.linux/1.Install/utils_pj/,kClean_html.sh
         }
         
         When call result
-        The output should eq "AContent"
+        # The script preserves the space between B and C from the span tags
+        The output should eq "AB CContent"
+    End
+    
+    It 'removes anchor tags but keeps link text'
+        export TEST_MODE=1
+        export SOURCE_HTML='<body><a href="link">Link text</a> and <a>another</a></body>'
+        
+        result() {
+            /home/perubu/Documents/Github/2.1.linux/1.Install/utils_pj/,kClean_html.sh
+        }
+        
+        When call result
+        The output should eq "Link text and another"
     End
     
     It 'removes anchor-sup combinations'
         export TEST_MODE=1
-        export SOURCE_HTML='<body><a><sup>1</sup></a> <a><sup>2</sup></a> <a>Link</a></body>'
+        export SOURCE_HTML='<body><a><sup>1</sup></a> text <a><sup>2</sup></a></body>'
         
         result() {
             /home/perubu/Documents/Github/2.1.linux/1.Install/utils_pj/,kClean_html.sh
         }
         
         When call result
-        The output should include "<a>Link</a>"
-        The output should not include "<a><sup>"
+        # The script removes the anchor-sup and trims extra spaces
+        The output should eq "text"
+    End
+    
+    It 'removes footnote references'
+        export TEST_MODE=1
+        export SOURCE_HTML='<body>Text<sup><a href="#cite-1">[1]</a></sup> more text<sup>[2]</sup> end</body>'
+        
+        result() {
+            /home/perubu/Documents/Github/2.1.linux/1.Install/utils_pj/,kClean_html.sh
+        }
+        
+        When call result
+        The output should eq "Text more text end"
+    End
+    
+    It 'converts &nbsp; to spaces'
+        export TEST_MODE=1
+        export SOURCE_HTML='<body>Hello&nbsp;World&nbsp;!</body>'
+        
+        result() {
+            /home/perubu/Documents/Github/2.1.linux/1.Install/utils_pj/,kClean_html.sh
+        }
+        
+        When call result
+        The output should eq "Hello World !"
     End
 End
