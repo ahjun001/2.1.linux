@@ -20,7 +20,7 @@ PGM=${BASH_SOURCE[0]##*/}
 Usage() {
     cat <<.
 $PGM
-    usage: $PGM -d -m -- 
+    Usage: $PGM -d -m -- 
     m scanning both disk and master, automatically keeping file on master
     d scanning only disk, reviewing cases individually
 .

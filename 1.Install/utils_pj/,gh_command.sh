@@ -5,7 +5,7 @@ set -euo pipefail
 Usage_exit() {
     cat <<.
 
-usage: ${0##*/} fetch / pull / push / status -s
+Usage: ${0##*/} fetch / pull / push / status -s
 
 .
     exit

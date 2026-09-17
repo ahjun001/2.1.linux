@@ -15,7 +15,7 @@ $PGM assumes that the command launch directory has exactly one video file
 and two subtitle files ending in fr-FR.<suffix> en-US.<suffix> and zh-CN.<suffix>
 <suffix> being srt or vtt
 
-    usage: $PGM <primary-sid  secondary-sid>
+    Usage: $PGM <primary-sid  secondary-sid>
 
     examples: $PGM
               $PGM 2 3  # primary-sid=1 secondary-sid=2
