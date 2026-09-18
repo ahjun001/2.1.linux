@@ -5,6 +5,7 @@ Usage_exit() {
     cat <<EOF
 
 Usage: ${0##*/} {list | fix} {p0 | p1 | p2}
+                                       Start with p0 to avoid renaming leading blanks as '_'
 
 EOF
     exit 1
@@ -72,18 +73,30 @@ fix)
     for path in "${sel[@]}"; do
         dir="${path%/*}"
         base="${path##*/}"
-        newbase="${base//[^a-zA-Z0-9._-]/_}"
+        newbase="$base"
+
+        # P0: first drop leading blanks (space, tab, newline, CR, …) entirely,
+        # instead of letting them turn into underscores below
+        if [[ $prio == p0 ]]; then
+            newbase="${newbase#"${newbase%%[![:space:]]*}"}"
+            [[ -n $newbase ]] || newbase='_' # name was nothing but blanks
+        fi
+
+        # then sanitize whatever is left
+        newbase="${newbase//[^a-zA-Z0-9._-]/_}"
+
         # leading '-' is in the allowed set but still dangerous → prefix with _
         if [[ "$newbase" == -* ]]; then
             newbase="_${newbase#-}"
         fi
+
         if [[ "$newbase" != "$base" ]]; then
             if [[ -e "$dir/$newbase" ]]; then
                 echo "SKIP (exists): $path → $dir/$newbase" >&2
             else
                 mv -- "$path" "$dir/$newbase"
                 echo "RENAMED: $path → $dir/$newbase"
-                total=$((total + 1)) # not ((total++)) — set -e!
+                total=$((total + 1))
             fi
         fi
     done
