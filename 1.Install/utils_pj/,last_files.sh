@@ -1,10 +1,11 @@
 #!/usr/bin/env bash
 # /home/perubu/Documents/Github/2.1.linux/1.Install/utils_pj/,last_files.sh
+set -euo pipefail
 
 Usage_exit() {
     cat <<.
 
-Usage: ${0##*/} <adoc | txt | sh>
+Usage: ${0##*/} {adoc | txt | sh}
 
 .
     exit
