@@ -1,8 +1,7 @@
 #!/usr/bin/env shellcheck
-# /home/perubu/Documents/Github/2.1.linux/1.Install/utils_pj/spec/fix_dir_names_spec.sh
+# /home/perubu/Documents/Github/2.1.linux/1.Install/utils_pj/spec/,fix_dir_names_spec.sh
 # shellcheck shell=sh disable=
 
-# spec/fix_dir_names_spec.sh
 Describe 'fix_dir_names.sh'
   setup() {
     script="$SHELLSPEC_PROJECT_ROOT/,fix_dir_names.sh"
