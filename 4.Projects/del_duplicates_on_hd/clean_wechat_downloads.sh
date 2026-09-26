@@ -14,12 +14,11 @@ set -euo pipefail
 # Hardcoded flags, see Usage
 if [ "$#" -eq 0 ]; then set -- -p; fi
 
-TARGET='/run/media/perubu/Tosh_4TB/Documents/t0/t1/t/21. epub_n_pdf/pdf/'
-# TARGET='
+# TARGET='/run/media/perubu/Tosh_4TB/Documents/t0/t1/t/21. epub_n_pdf/pdf/'
+TARGET=$HOME/Documents/xwechat_files
+
 
 START_WITH_LIST=(
-    cyclisme
-    vital_food
     01net
     5China
     60_millions_de_consommateurs
@@ -46,13 +45,16 @@ START_WITH_LIST=(
     courrier_International
     cuisine
     cyclingWeekly
+    cyclisme
     d_tente_Jardin
     discover_Britain
     elle
     equ
     equipe
+    express
     femina
     femme\ Actuelle
+    fig
     figTV
     financial\ times
     food\ \&\ home
@@ -63,7 +65,6 @@ START_WITH_LIST=(
     ici_Paris
     investir
     journal
-    l\'argus
     l.Essentiel.Du
     l\ Equipe
     l\'Argus
@@ -71,6 +72,7 @@ START_WITH_LIST=(
     l\'Express
     l\'Obs
     l\'Opinion
+    l\'argus
     l\'Équipe
     l\’Opinion
     l\’equipe
@@ -156,17 +158,61 @@ START_WITH_LIST=(
     télérama
     vAR MATIN
     valeurs Actuelles
+    vital_food
     vogue
     voile
     wSJ
     wirtschaftswoche
     échos
-    fig
-    express
+    EQ
+    Aujourd
+    FT
+    Geek
+    hum
+    INDIAN
+    INFOSPORT
+    Infrarouge
+    La\ Provence
+    LA\ Times
+    La\ Tribune
+    Le\ Canard
+    Le\ JDNews
+    Le\ Matin
+    Le\ Particulier
+    Le\ Télégramme
+    LOpinion
+    MoneyWeek
+    Newsweek
+    NYT
+    Ouest-France
+    Que\ Choisir
+    Sud\ Ouest
+    Sud-Ouest
+    The\ Wall\ Street
+    The\ Week
+    USA\ Today
+    Version\ femina
+    The\ Washington
+    The\ Times
+    l\ Opinion
+    L\’Équipe
+    L\'Humanité
+    New\ Scientist
+    Opinion
+    TEcon
+    TH\ Delhi
+    The\ Daily
+    The\ Globe
+    THE\ HINDU
+    The\ Independent
+    The\ Japan
+    The\ New\ York
+    The\ Korea
+    The\ Times
 )
 
 CONTAINS_LIST=(
-    toddler
+    Canard
     corona
     covid
     ielts
@@ -177,8 +223,10 @@ CONTAINS_LIST=(
     newyork
     posting
     spec
+    toddler
     wallstreet
     wsj
+    \([0-9]\)
 )
 
 Fresh_can() {
@@ -208,7 +256,7 @@ Usage() {
       --        no flags will default to -t, so that edit & run is faster in VSCode
       -h        Display this message & exit
       -t        Run in test mode (root directory: /tmp/clean_wechat)
-      -p        Run in production mode (default: false, root directory: /run/media/perubu/Tosh_4TB)
+      -p        Run in production mode (default: false, root directory: $TARGET
       -d        Will delete files that it found
 .
     echo -e "Exiting ...\n" && exit 1
