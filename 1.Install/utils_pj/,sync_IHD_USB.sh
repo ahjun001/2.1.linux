@@ -1,100 +1,64 @@
 #!/usr/bin/env bash
-# ,sync_TPad_USB.sh
-# last version with $HOME/Documents/IHD_mimi $HOME/Documents/IHD_safe directories
+# /home/perubu/Documents/Github/2.1.linux/1.Install/utils_pj/,sync_IHD_USB.sh
+# This compare files in the HD ~/Documents/2bkup and either SanDisk_work_32G or SanDisk_home_32G
 set -euo pipefail
 
 # Skip normal execution if we're being sourced for tests
 [[ "${BASH_SOURCE[0]}" != "$0" ]] && return
 
 # Hardcoded flags, see Usage
-# if [ "$#" -eq 0 ]; then set -- home; fi
+if [ "$#" -eq 0 ]; then set -- work ; fi
 
 Usage() {
     cat <<EOF
-    Usage: ${0##*/} mimi / safe / home
+    Usage: ${0##*/} work / home
 EOF
 }
 
-FOLDERS=(Desktop Documents Downloads Music Pictures Videos Public Templates)
+HD=$HOME/Documents/2bkup
+UD=/run/media/$USER/SanDisk_"$1"_32G
 
-Setup() {
-    [[ $# == 1 ]] || {
-        Usage && return 1
-    }
-
-    case $1 in
-    'mimi')
-        HD=$HOME/Documents/IHD_mimi
-        UD=/run/media/$USER/USB_mimi
-        ;;
-    'safe')
-        HD=$HOME/Documents/IHD_safe
-        UD=/run/media/$USER/USB_safe
-        ;;
-    'home')
-        HD=$HOME
-        UD=/run/media/$USER/USB_home
-        ;;
-    *) Usage && return 1 ;;
-    esac
-
-    # Check if HD exists for desktop case
-    if [[ "$1" == "home" ]]; then
-        for f in "${FOLDERS[@]}"; do
-            [[ -d "${HD}/${f}" ]] || { echo -e "${HD}/${f} cannot be reached\nExiting ...\n" && return 1; }
-            mkdir -p "$UD/$f"
-        done
-    else
-        [[ -d "${HD}" ]] || { echo -e "${HD} cannot be reached\nExiting ...\n" && return 1; }
-        [[ -d "${UD}" ]] || { echo -e "${UD} cannot be reached\nExiting ...\n" && return 1; }
-    fi
+[[ $# == 1 ]] || {
+    Usage && return 1
 }
+
+[[ -d "${HD}" ]] || { echo -e "${HD} cannot be reached\nExiting ...\n" && return 1; }
+[[ -d "${UD}" ]] || { echo -e "${UD} cannot be reached\nExiting ...\n" && return 1; }
 
 Diff() {
+    echo
     set -x
-    diff -r "$HD"/ "$UD"/ || :
+    diff -r "$HD"/ "$UD"/ | tail || :
     set +x
-}
-
-Compare() {
-    if [[ "$1" == 'home' ]]; then
-        for f in "${FOLDERS[@]}"; do
-            dolphin --new-window --split --select "${UD}/${f}" "${HD}/${f}"
-        done
-    else
-        meld "$HD"/ "$UD"/
-    fi
+    echo
 }
 
 Rsync() {
     while true; do
         read -rsn 1 -p $'\nDry run or just rsync & exit? [Dd]\n'
-        set -x
+        # set -x
         case $REPLY in
         d | D)
-            rsync -anvuP --exclude='.Trash-1000/' "$HD"/ "$UD"
+            rsync -anvuP --exclude='.Trash-1000/' --exclude='lost+found' "$HD"/ "$UD"
             echo
-            rsync -anvuP --exclude='.Trash-1000/' "$UD/" "$HD/"
+            rsync -anvuP --exclude='.Trash-1000/' --exclude='lost+found' "$UD/" "$HD/"
             ;;
         *)
-            rsync -avuP --exclude='.Trash-1000/' "$HD"/ "$UD"
+            rsync -avuP --exclude='.Trash-1000/' --exclude='lost+found' "$HD"/ "$UD"
             echo
-            rsync -avuP --exclude='.Trash-1000/' "$UD/" "$HD/"
+            rsync -avuP --exclude='.Trash-1000/' --exclude='lost+found' "$UD/" "$HD/"
             break
             ;;
         esac
-        set -x
+        # set -x
     done
 }
 
 # Main
-Setup "$@"
-if [[ ! "$1" == 'home' ]]; then Diff "$@"; fi
-Compare "$@"
-if [[ ! "$1" == 'home' ]]; then
-    Rsync "$@"
-    Diff "$@"
-fi
+Diff
+meld "$HD"/ "$UD"/
+Rsync
+Diff
 
 # make a soft link in /usr/local/bin
 LINK=/usr/local/bin/"${0##*/}"
