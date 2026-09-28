@@ -1,5 +1,7 @@
+#!/usr/bin/env shellspec
 # spec/,kClean_html_integration_spec.sh
 # Integration tests for ,kClean_html.sh
+# shellcheck disable=SC2155
 
 Describe ',kClean_html.sh integration tests'
     setup() {

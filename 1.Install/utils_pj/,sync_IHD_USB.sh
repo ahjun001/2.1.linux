@@ -1,5 +1,6 @@
 #!/usr/bin/env bash
 # ,sync_TPad_USB.sh
+# last version with $HOME/Documents/IHD_mimi $HOME/Documents/IHD_safe directories
 set -euo pipefail
 
 # Skip normal execution if we're being sourced for tests
