@@ -39,14 +39,14 @@ Rsync() {
         # set -x
         case $REPLY in
         d | D)
-            rsync -anvuP --exclude='.Trash-1000/' --exclude='lost+found' "$HD"/ "$UD"
+            rsync -anuP --exclude='.Trash-1000/' --exclude='lost+found' "$HD"/ "$UD"
             echo
-            rsync -anvuP --exclude='.Trash-1000/' --exclude='lost+found' "$UD/" "$HD/"
+            rsync -anuP --exclude='.Trash-1000/' --exclude='lost+found' "$UD/" "$HD/"
             ;;
         *)
-            rsync -avuP --exclude='.Trash-1000/' --exclude='lost+found' "$HD"/ "$UD"
+            rsync -auP --exclude='.Trash-1000/' --exclude='lost+found' "$HD"/ "$UD"
             echo
-            rsync -avuP --exclude='.Trash-1000/' --exclude='lost+found' "$UD/" "$HD/"
+            rsync -auP --exclude='.Trash-1000/' --exclude='lost+found' "$UD/" "$HD/"
             break
             ;;
         esac
